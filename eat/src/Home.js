@@ -32,7 +32,7 @@ function Home() {
                           <div className="main-box clearfix">
                               {/*Logo*/}
                               <div className="logo-box">
-                                  <div className="logo"><a href="index.html" title="Restoria - Restaurants HTML Template"><img src="images/logo.png" alt="image" title="Restoria - Restaurants HTML Template" /></a></div>
+                                  <div className="logo"><a href="index.html" title="Restoria - Restaurants HTML Template"><img src="/assets/images/logo.png" alt="image" title="Restoria - Restaurants HTML Template" /></a></div>
                               </div>
                               <div className="nav-box clearfix">
                                   {/*Nav Outer*/}
@@ -56,19 +56,19 @@ function Home() {
                                                                   <div className="auto-container">
                                                                       <div className="row clearfix">
                                                                           <div className="menu-block col-lg-3 col-md-6 col-sm-6">
-                                                                              <div className="image"><a href="menu-list-1.html"><img src="images/resource/menu-1-thumb.jpg" alt="image" /></a></div>
+                                                                              <div className="image"><a href="menu-list-1.html"><img src="/assets/images/resource/menu-1-thumb.jpg" alt="image" /></a></div>
                                                                               <div className="title"><a href="menu-list-1.html">Menu list 1</a></div>
                                                                           </div>
                                                                           <div className="menu-block col-lg-3 col-md-6 col-sm-6">
-                                                                              <div className="image"><a href="menu-list-2.html"><img src="images/resource/menu-2-thumb.jpg" alt="image" /></a></div>
+                                                                              <div className="image"><a href="menu-list-2.html"><img src="/assets/images/resource/menu-2-thumb.jpg" alt="image" /></a></div>
                                                                               <div className="title"><a href="menu-list-2.html">Menu list 2</a></div>
                                                                           </div>
                                                                           <div className="menu-block col-lg-3 col-md-6 col-sm-6">
-                                                                              <div className="image"><a href="menu-list-3.html"><img src="images/resource/menu-3-thumb.jpg" alt="image" /></a></div>
+                                                                              <div className="image"><a href="menu-list-3.html"><img src="/assets/images/resource/menu-3-thumb.jpg" alt="image" /></a></div>
                                                                               <div className="title"><a href="menu-list-3.html">Menu list 3</a></div>
                                                                           </div>
                                                                           <div className="menu-block col-lg-3 col-md-6 col-sm-6">
-                                                                              <div className="image"><a href="menu-list-4.html"><img src="images/resource/menu-4-thumb.jpg" alt="image" /></a></div>
+                                                                              <div className="image"><a href="menu-list-4.html"><img src="/assets/images/resource/menu-4-thumb.jpg" alt="image" /></a></div>
                                                                               <div className="title"><a href="menu-list-4.html">Menu list 4</a></div>
                                                                           </div>
                                                                       </div>
@@ -147,7 +147,7 @@ function Home() {
                   {/* Hidden Bar Wrapper */}
                   <div className="inner-box">
                       <div className="cross-icon hidden-bar-closer"><span className="far fa-close" /></div>
-                      <div className="logo-box"><a href="index.html" title="Restoria - Restaurants HTML Template"><img src="images/resource/sidebar-logo.png" alt="image" title="Restoria - Restaurants HTML Template" /></a></div>
+                      <div className="logo-box"><a href="index.html" title="Restoria - Restaurants HTML Template"><img src="/assets/images/resource/sidebar-logo.png" alt="image" title="Restoria - Restaurants HTML Template" /></a></div>
                       {/* .Side-menu */}
                       <div className="side-menu">
                           <ul className="navigation clearfix">
@@ -202,7 +202,7 @@ function Home() {
                   <div className="inner-box">
                       <div className="cross-icon"><span className="far fa-close" /></div>
                       <div className="image-box"><img src="images/resource/sidebar-image.jpg" alt="image" title /></div>
-                      <div className="logo-box"><a href="index.html" title="Restoria - Restaurants HTML Template"><img src="images/resource/sidebar-logo.png" alt="image" title="Restoria - Restaurants HTML Template" /></a></div>
+                      <div className="logo-box"><a href="index.html" title="Restoria - Restaurants HTML Template"><img src="/assets/images/resource/sidebar-logo.png" alt="image" title="Restoria - Restaurants HTML Template" /></a></div>
                       <h5>Visit Us</h5>
                       <ul className="info">
                           <li>Restoria, Arrondissement, <br /> Paris 9578</li>
@@ -241,7 +241,7 @@ function Home() {
                           <div className="swiper-wrapper">
                               {/*Slide Item*/}
                               <div className="swiper-slide slide-item">
-                                  <div className="image-layer" style={{ backgroundImage: 'url(images/main-slider/slider-1.jpg)' }} />
+                                  <div className="image-layer" style={{ backgroundImage: 'url(/assets/images/main-slider/slider-1.jpg)' }} />
                                   <div className="auto-container">
                                       <div className="content-box">
                                           <div className="content">
@@ -260,7 +260,7 @@ function Home() {
                               </div>
                               {/*Slide Item*/}
                               <div className="swiper-slide slide-item">
-                                  <div className="image-layer" style={{ backgroundImage: 'url(images/main-slider/slider-2.jpg)' }} />
+                                  <div className="image-layer" style={{ backgroundImage: 'url(/assets/images/main-slider/slider-2.jpg)' }} />
                                   <div className="auto-container">
                                       <div className="content-box">
                                           <div className="content">
@@ -279,7 +279,7 @@ function Home() {
                               </div>
                               {/*Slide Item*/}
                               <div className="swiper-slide slide-item">
-                                  <div className="image-layer" style={{ backgroundImage: 'url(images/main-slider/slider-3.jpg)' }} />
+                                  <div className="image-layer" style={{ backgroundImage: 'url(/assets/images/main-slider/slider-3.jpg)' }} />
                                   <div className="auto-container">
                                       <div className="content-box">
                                           <div className="content">
@@ -302,7 +302,7 @@ function Home() {
                       </div>
                   </div>
                   <a href="book-table.html" className="explore-menu-btn">
-                      <span className="icon"> <img src="images/resource/menu-badge-arrow.png" alt="image" title="image" /> </span>
+                      <span className="icon"> <img src="/assets/images/resource/menu-badge-arrow.png" alt="image" title="image" /> </span>
                   </a>
                   {/* Curve at bottom */}
                   {/* Default (desktop) curve */}
@@ -326,12 +326,12 @@ function Home() {
                           <div className="menucat-list menubg1 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
                               {/*image*/}
                               <div className="image-box">
-                                  <img src="images/resource/menu-cat1.png" alt="image" />
+                                  <img src="/assets/images/resource/menu-cat1.png" alt="image" />
                               </div>
                               {/*data*/}
                               <div className="data-colom">
                                   <div className="title-box"> <h3>Appetizers</h3> </div>
-                                  <span className="star"> <img src="images/icons/star-element.svg" alt="image" /> </span>
+                                  <span className="star"> <img src="/assets/images/icons/star-element.svg" alt="image" /> </span>
                                   <div className="arrow-btn"> <a href="menu-list-1.html"> <i className="fa-light fa-arrow-right" /> </a> </div>
                               </div>
                           </div>
@@ -339,12 +339,12 @@ function Home() {
                           <div className="menucat-list menubg2 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
                               {/*image*/}
                               <div className="image-box">
-                                  <img src="images/resource/menu-cat2.png" alt="image" />
+                                  <img src="/assets/images/resource/menu-cat2.png" alt="image" />
                               </div>
                               {/*data*/}
                               <div className="data-colom">
                                   <div className="title-box"> <h3>Main Dishes</h3> </div>
-                                  <span className="star"> <img src="images/icons/star-element.svg" alt="image" /> </span>
+                                  <span className="star"> <img src="/assets/images/icons/star-element.svg" alt="image" /> </span>
                                   <div className="arrow-btn"> <a href="menu-list-2.html"> <i className="fa-light fa-arrow-right" /> </a> </div>
                               </div>
                           </div>
@@ -352,12 +352,12 @@ function Home() {
                           <div className="menucat-list menubg3 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
                               {/*image*/}
                               <div className="image-box">
-                                  <img src="images/resource/menu-cat3.png" alt="image" />
+                                  <img src="/assets/images/resource/menu-cat3.png" alt="image" />
                               </div>
                               {/*data*/}
                               <div className="data-colom">
                                   <div className="title-box"> <h3>Desserts</h3> </div>
-                                  <span className="star"> <img src="images/icons/star-element.svg" alt="image" /> </span>
+                                  <span className="star"> <img src="/assets/images/icons/star-element.svg" alt="image" /> </span>
                                   <div className="arrow-btn"> <a href="menu-list-3.html"> <i className="fa-light fa-arrow-right" /> </a> </div>
                               </div>
                           </div>
@@ -365,12 +365,12 @@ function Home() {
                           <div className="menucat-list menubg4 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
                               {/*image*/}
                               <div className="image-box">
-                                  <img src="images/resource/menu-cat4.png" alt="image" />
+                                  <img src="/assets/images/resource/menu-cat4.png" alt="image" />
                               </div>
                               {/*data*/}
                               <div className="data-colom">
                                   <div className="title-box"> <h3>Drinks</h3> </div>
-                                  <span className="star"> <img src="images/icons/star-element.svg" alt="image" /> </span>
+                                  <span className="star"> <img src="/assets/images/icons/star-element.svg" alt="image" /> </span>
                                   <div className="arrow-btn"> <a href="menu-list-4.html"> <i className="fa-light fa-arrow-right" /> </a> </div>
                               </div>
                           </div>
@@ -384,8 +384,8 @@ function Home() {
                           {/*Col*/}
                           <div className="image-col col-xl-6 col-lg-6 col-md-12 col-sm-12">
                               <div className="inner wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="0ms">
-                                  <div className="image-layer" style={{ backgroundImage: 'url(images/background/image-6.jpg)' }} />
-                                  <div className="image"><img src="images/background/image-6.jpg" alt="image" /></div>
+                                  <div className="image-layer" style={{ backgroundImage: 'url(/assets/images/background/image-6.jpg)' }} />
+                                  <div className="image"><img src="/assets/images/background/image-6.jpg" alt="image" /></div>
                               </div>
                           </div>
                           {/*Col*/}
@@ -408,7 +408,7 @@ function Home() {
                                           {/*Slide Item*/}
                                           <div className="offer-block-two">
                                               <div className="inner-box">
-                                                  <div className="image"><a href="index.html#"><img src="images/resource/special1.jpg" alt="image" /></a></div>
+                                                  <div className="image"><a href="index.html#"><img src="/assets/images/resource/special1.jpg" alt="image" /></a></div>
                                                   <div className="cat-name">main dish</div>
                                                   <h5><a href="menu-list-1.html">Greek Salad</a></h5>
                                                   <div className="text desc">flavorful, filled with panko bread crumbs, pine nuts, parsley, sun-dried tomatoes.</div>
@@ -418,7 +418,7 @@ function Home() {
                                           {/*Slide Item*/}
                                           <div className="offer-block-two margin-top">
                                               <div className="inner-box">
-                                                  <div className="image"><a href="index.html#"><img src="images/resource/special2.jpg" alt="image" /></a></div>
+                                                  <div className="image"><a href="index.html#"><img src="/assets/images/resource/special2.jpg" alt="image" /></a></div>
                                                   <div className="cat-name">desserts</div>
                                                   <h5><a href="menu-list-2.html">Tokusen Wagyu</a></h5>
                                                   <div className="text desc">Tomatoes, green bell pepper, sliced cucumber onion, olives, avocados with crab meat.</div>
@@ -428,7 +428,7 @@ function Home() {
                                           {/*Slide Item*/}
                                           <div className="offer-block-two">
                                               <div className="inner-box">
-                                                  <div className="image"><a href="index.html#"><img src="images/resource/special3.jpg" alt="image" /></a></div>
+                                                  <div className="image"><a href="index.html#"><img src="/assets/images/resource/special3.jpg" alt="image" /></a></div>
                                                   <div className="cat-name">Appetizer</div>
                                                   <h5><a href="menu-list-3.html">Butternut Pumpkin</a></h5>
                                                   <div className="text desc">Avocados with crab meat, red onion, crab salad stuffed bell pepper, Vegetables.</div>
@@ -438,7 +438,7 @@ function Home() {
                                           {/*Slide Item*/}
                                           <div className="offer-block-two margin-top">
                                               <div className="inner-box">
-                                                  <div className="image"><a href="index.html#"><img src="images/resource/special4.jpg" alt="image" /></a></div>
+                                                  <div className="image"><a href="index.html#"><img src="/assets/images/resource/special4.jpg" alt="image" /></a></div>
                                                   <div className="cat-name">main dish</div>
                                                   <h5><a href="menu-list-4.html">Opu Fish</a></h5>
                                                   <div className="text desc">Vegetables, cheeses, ground meats, tomato sauce, Small bites, big flavors.</div>
@@ -459,15 +459,15 @@ function Home() {
                           {/*Col*/}
                           <div className="image-col col-xl-6 col-lg-6 col-md-12 col-sm-12">
                               <div className="inner wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="0ms">
-                                  <div className="image-layer" style={{ backgroundImage: 'url(images/background/image-5.jpg)' }} />
-                                  <div className="image"><img src="images/background/image-5.jpg" alt="image" /></div>
+                                  <div className="image-layer" style={{ backgroundImage: 'url(/assets/images/background/image-5.jpg)' }} />
+                                  <div className="image"><img src="/assets/images/background/image-5.jpg" alt="image" /></div>
                               </div>
                           </div>
                           {/*Col*/}
                           <div className="content-col col-xl-6 col-lg-6 col-md-12 col-sm-12">
                               <div className="inner clearfix wow fadeInRight" data-wow-duration="1500ms" data-wow-delay="0ms">
                                   <div className="content-box">
-                                      <div className="chef-thumb"><img src="images/resource/chef-thumb.jpg" alt="image" /></div>
+                                      <div className="chef-thumb"><img src="/assets/images/resource/chef-thumb.jpg" alt="image" /></div>
                                       <div className="title-box centered">
                                           <div className="subtitle"><span>our chef</span></div>
                                           <h2>Chef  Lorenzo</h2>
@@ -491,7 +491,7 @@ function Home() {
               <section className="menu-section section-kt">
                   <div className="auto-container">
                       <div className="title-box centered">
-                          <div className="title-badge"> <img src="images/resource/menu-title-badge.svg" alt="image" title="image" /> </div>
+                          <div className="title-badge"> <img src="/assets/images/resource/menu-title-badge.svg" alt="image" title="image" /> </div>
                           <h2>Delicious Menu</h2>
                       </div>
                       <div className="tabs-box menu-tabs">
@@ -512,7 +512,7 @@ function Home() {
                                               {/*Block*/}
                                               <div className="dish-block">
                                                   <div className="inner-box">
-                                                      <div className="dish-image"><a href="index.html#"><img src="images/resource/menu-image-1.png" alt="image" /></a></div>
+                                                      <div className="dish-image"><a href="index.html#"><img src="/assets/images/resource/menu-image-1.png" alt="image" /></a></div>
                                                       <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Stuffed Mushrooms</a></h6></div> <span className="menu-list-line"> </span> <div className="price"><span>$25.50</span></div></div>
                                                       <div className="text desc"><a href="index.html#">flavorful, filled with panko bread crumbs, pine nuts, parsley, sun-dried tomatoes, and cheese.</a></div>
                                                   </div>
@@ -520,7 +520,7 @@ function Home() {
                                               {/*Block*/}
                                               <div className="dish-block">
                                                   <div className="inner-box">
-                                                      <div className="dish-image"><a href="index.html#"><img src="images/resource/menu-image-2.png" alt="image" /></a></div>
+                                                      <div className="dish-image"><a href="index.html#"><img src="/assets/images/resource/menu-image-2.png" alt="image" /></a></div>
                                                       <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Jalapeno Poppers <span className="s-info">New</span></a></h6></div> <span className="menu-list-line"> </span> <div className="price"><span>$40.00</span></div></div>
                                                       <div className="text desc"><a href="index.html#">Greek yogurt filling instead of a traditional cream cheese one.</a></div>
                                                   </div>
@@ -528,7 +528,7 @@ function Home() {
                                               {/*Block*/}
                                               <div className="dish-block">
                                                   <div className="inner-box">
-                                                      <div className="dish-image"><a href="index.html#"><img src="images/resource/menu-image-3.png" alt="image" /></a></div>
+                                                      <div className="dish-image"><a href="index.html#"><img src="/assets/images/resource/menu-image-3.png" alt="image" /></a></div>
                                                       <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Caprese Skewers</a></h6></div> <span className="menu-list-line"> </span> <div className="price"><span>$10.00</span></div></div>
                                                       <div className="text desc"><a href="index.html#">Drizzle these colorful skewers with an easy balsamic for a pop of sweet flavor.</a></div>
                                                   </div>
@@ -536,7 +536,7 @@ function Home() {
                                               {/*Block*/}
                                               <div className="dish-block">
                                                   <div className="inner-box">
-                                                      <div className="dish-image"><a href="index.html#"><img src="images/resource/menu-image-4.png" alt="image" /></a></div>
+                                                      <div className="dish-image"><a href="index.html#"><img src="/assets/images/resource/menu-image-4.png" alt="image" /></a></div>
                                                       <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Greek Salad</a></h6></div> <span className="menu-list-line"> </span> <div className="price"><span>$10.00</span></div></div>
                                                       <div className="text desc"><a href="index.html#">Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.</a></div>
                                                   </div>
@@ -545,7 +545,7 @@ function Home() {
                                       </div>
                                       <div className="menu-col img-col col-lg-6 col-md-12 col-sm-12">
                                           <div className="inner">
-                                              <div className="image"><img src="images/resource/menus-1.jpg" alt="image" /></div>
+                                              <div className="image"><img src="/assets/images/resource/menus-1.jpg" alt="image" /></div>
                                           </div>
                                       </div>
                                   </div>
@@ -558,7 +558,7 @@ function Home() {
                                               {/*Block*/}
                                               <div className="dish-block">
                                                   <div className="inner-box">
-                                                      <div className="dish-image"><a href="index.html#"><img src="images/resource/menu-image-5.png" alt="image" /></a></div>
+                                                      <div className="dish-image"><a href="index.html#"><img src="/assets/images/resource/menu-image-5.png" alt="image" /></a></div>
                                                       <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Greek Salad</a></h6></div> <span className="menu-list-line"> </span> <div className="price"><span>$25.50</span></div></div>
                                                       <div className="text desc"><a href="index.html#">Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.</a></div>
                                                   </div>
@@ -566,7 +566,7 @@ function Home() {
                                               {/*Block*/}
                                               <div className="dish-block">
                                                   <div className="inner-box">
-                                                      <div className="dish-image"><a href="index.html#"><img src="images/resource/menu-image-6.png" alt="image" /></a></div>
+                                                      <div className="dish-image"><a href="index.html#"><img src="/assets/images/resource/menu-image-6.png" alt="image" /></a></div>
                                                       <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Lasagne <span className="s-info">SEASONAL</span></a></h6></div> <span className="menu-list-line"> </span> <div className="price"><span>$40.00</span></div></div>
                                                       <div className="text desc"><a href="index.html#">Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices</a></div>
                                                   </div>
@@ -574,7 +574,7 @@ function Home() {
                                               {/*Block*/}
                                               <div className="dish-block">
                                                   <div className="inner-box">
-                                                      <div className="dish-image"><a href="index.html#"><img src="images/resource/menu-image-7.png" alt="image" /></a></div>
+                                                      <div className="dish-image"><a href="index.html#"><img src="/assets/images/resource/menu-image-7.png" alt="image" /></a></div>
                                                       <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Butternut Pumpkin</a></h6></div> <span className="menu-list-line"> </span>  <div className="price"><span>$10.00</span></div></div>
                                                       <div className="text desc"><a href="index.html#">Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.</a></div>
                                                   </div>
@@ -582,7 +582,7 @@ function Home() {
                                               {/*Block*/}
                                               <div className="dish-block">
                                                   <div className="inner-box">
-                                                      <div className="dish-image"><a href="index.html#"><img src="images/resource/menu-image-8.png" alt="image" /></a></div>
+                                                      <div className="dish-image"><a href="index.html#"><img src="/assets/images/resource/menu-image-8.png" alt="image" /></a></div>
                                                       <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Butternut Pumpkin</a></h6></div> <span className="menu-list-line"> </span>  <div className="price"><span>$10.00</span></div></div>
                                                       <div className="text desc"><a href="index.html#">Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.</a></div>
                                                   </div>
@@ -591,7 +591,7 @@ function Home() {
                                       </div>
                                       <div className="menu-col img-col col-lg-6 col-md-12 col-sm-12">
                                           <div className="inner">
-                                              <div className="image"><img src="images/resource/menus-2.jpg" alt="image" /></div>
+                                              <div className="image"><img src="/assets/images/resource/menus-2.jpg" alt="image" /></div>
                                           </div>
                                       </div>
                                   </div>
@@ -604,7 +604,7 @@ function Home() {
                                               {/*Block*/}
                                               <div className="dish-block">
                                                   <div className="inner-box">
-                                                      <div className="dish-image"><a href="index.html#"><img src="images/resource/menu-image-9.png" alt="image" /></a></div>
+                                                      <div className="dish-image"><a href="index.html#"><img src="/assets/images/resource/menu-image-9.png" alt="image" /></a></div>
                                                       <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Chocolate mousse</a></h6></div> <span className="menu-list-line"> </span>  <div className="price"><span>$25.50</span></div></div>
                                                       <div className="text desc"><a href="index.html#">Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.</a></div>
                                                   </div>
@@ -612,7 +612,7 @@ function Home() {
                                               {/*Block*/}
                                               <div className="dish-block">
                                                   <div className="inner-box">
-                                                      <div className="dish-image"><a href="index.html#"><img src="images/resource/menu-image-10.png" alt="image" /></a></div>
+                                                      <div className="dish-image"><a href="index.html#"><img src="/assets/images/resource/menu-image-10.png" alt="image" /></a></div>
                                                       <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Pavlova <span className="s-info">new</span></a></h6></div> <span className="menu-list-line"> </span>  <div className="price"><span>$40.00</span></div></div>
                                                       <div className="text desc"><a href="index.html#">Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices</a></div>
                                                   </div>
@@ -620,7 +620,7 @@ function Home() {
                                               {/*Block*/}
                                               <div className="dish-block">
                                                   <div className="inner-box">
-                                                      <div className="dish-image"><a href="index.html#"><img src="images/resource/menu-image-11.png" alt="image" /></a></div>
+                                                      <div className="dish-image"><a href="index.html#"><img src="/assets/images/resource/menu-image-11.png" alt="image" /></a></div>
                                                       <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Apple crumble</a></h6></div> <span className="menu-list-line"> </span>  <div className="price"><span>$10.00</span></div></div>
                                                       <div className="text desc"><a href="index.html#">Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.</a></div>
                                                   </div>
@@ -628,7 +628,7 @@ function Home() {
                                               {/*Block*/}
                                               <div className="dish-block">
                                                   <div className="inner-box">
-                                                      <div className="dish-image"><a href="index.html#"><img src="images/resource/menu-image-12.png" alt="image" /></a></div>
+                                                      <div className="dish-image"><a href="index.html#"><img src="/assets/images/resource/menu-image-12.png" alt="image" /></a></div>
                                                       <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Crème BrUlEe</a></h6></div> <span className="menu-list-line"> </span>  <div className="price"><span>$10.00</span></div></div>
                                                       <div className="text desc"><a href="index.html#">Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.</a></div>
                                                   </div>
@@ -637,7 +637,7 @@ function Home() {
                                       </div>
                                       <div className="menu-col img-col col-lg-6 col-md-12 col-sm-12">
                                           <div className="inner">
-                                              <div className="image"><img src="images/resource/menus-desert.jpg" alt="image" /></div>
+                                              <div className="image"><img src="/assets/images/resource/menus-desert.jpg" alt="image" /></div>
                                           </div>
                                       </div>
                                   </div>
@@ -650,7 +650,7 @@ function Home() {
                                               {/*Block*/}
                                               <div className="dish-block">
                                                   <div className="inner-box">
-                                                      <div className="dish-image"><a href="index.html#"><img src="images/resource/drink-1.png" alt="image" /></a></div>
+                                                      <div className="dish-image"><a href="index.html#"><img src="/assets/images/resource/drink-1.png" alt="image" /></a></div>
                                                       <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Black Wine</a></h6></div> <span className="menu-list-line"> </span>  <div className="price"><span>$25.50</span></div></div>
                                                       <div className="text desc"><a href="index.html#">Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.</a></div>
                                                   </div>
@@ -658,7 +658,7 @@ function Home() {
                                               {/*Block*/}
                                               <div className="dish-block">
                                                   <div className="inner-box">
-                                                      <div className="dish-image"><a href="index.html#"><img src="images/resource/drink-2.png" alt="image" /></a></div>
+                                                      <div className="dish-image"><a href="index.html#"><img src="/assets/images/resource/drink-2.png" alt="image" /></a></div>
                                                       <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">La Marca <span className="s-info">SEASONAL</span></a></h6></div> <span className="menu-list-line"> </span>  <div className="price"><span>$40.00</span></div></div>
                                                       <div className="text desc"><a href="index.html#">Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices</a></div>
                                                   </div>
@@ -666,7 +666,7 @@ function Home() {
                                               {/*Block*/}
                                               <div className="dish-block">
                                                   <div className="inner-box">
-                                                      <div className="dish-image"><a href="index.html#"><img src="images/resource/drink-3.png" alt="image" /></a></div>
+                                                      <div className="dish-image"><a href="index.html#"><img src="/assets/images/resource/drink-3.png" alt="image" /></a></div>
                                                       <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Crawford Sauvignon</a></h6></div> <span className="menu-list-line"> </span>  <div className="price"><span>$10.00</span></div></div>
                                                       <div className="text desc"><a href="index.html#">Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.</a></div>
                                                   </div>
@@ -674,7 +674,7 @@ function Home() {
                                               {/*Block*/}
                                               <div className="dish-block">
                                                   <div className="inner-box">
-                                                      <div className="dish-image"><a href="index.html#"><img src="images/resource/drink-4.png" alt="image" /></a></div>
+                                                      <div className="dish-image"><a href="index.html#"><img src="/assets/images/resource/drink-4.png" alt="image" /></a></div>
                                                       <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Vineyard Cabernet</a></h6></div> <span className="menu-list-line"> </span>  <div className="price"><span>$10.00</span></div></div>
                                                       <div className="text desc"><a href="index.html#">Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.</a></div>
                                                   </div>
@@ -683,7 +683,7 @@ function Home() {
                                       </div>
                                       <div className="menu-col img-col col-lg-6 col-md-12 col-sm-12">
                                           <div className="inner">
-                                              <div className="image"><img src="images/resource/menus-wine.jpg" alt="image" /></div>
+                                              <div className="image"><img src="/assets/images/resource/menus-wine.jpg" alt="image" /></div>
                                           </div>
                                       </div>
                                   </div>
@@ -714,7 +714,7 @@ function Home() {
                           {/*Block*/}
                           <div className="why-block-two col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12">
                               <div className="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
-                                  <div className="image-box"><img src="images/resource/why1.jpg" alt /></div>
+                                  <div className="image-box"><img src="/assets/images/resource/why1.jpg" alt /></div>
                                   <div className="over-box">
                                       <h6>skilled chef</h6>
                                   </div>
@@ -723,7 +723,7 @@ function Home() {
                           {/*Block*/}
                           <div className="why-block-two col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12">
                               <div className="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="300ms">
-                                  <div className="image-box"><img src="images/resource/why2.jpg" alt /></div>
+                                  <div className="image-box"><img src="/assets/images/resource/why2.jpg" alt /></div>
                                   <div className="over-box">
                                       <h6>hygienic food</h6>
                                   </div>
@@ -732,7 +732,7 @@ function Home() {
                           {/*Block*/}
                           <div className="why-block-two col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12">
                               <div className="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="600ms">
-                                  <div className="image-box"><img src="images/resource/why3.jpg" alt /></div>
+                                  <div className="image-box"><img src="/assets/images/resource/why3.jpg" alt /></div>
                                   <div className="over-box">
                                       <h6>Fresh ambience</h6>
                                   </div>
@@ -741,7 +741,7 @@ function Home() {
                           {/*Block*/}
                           <div className="why-block-two col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12">
                               <div className="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="900ms">
-                                  <div className="image-box"><img src="images/resource/why4.jpg" alt /></div>
+                                  <div className="image-box"><img src="/assets/images/resource/why4.jpg" alt /></div>
                                   <div className="over-box">
                                       <h6>secreat recipe</h6>
                                   </div>
@@ -797,7 +797,7 @@ function Home() {
                                       <div className="rating"><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /></div>
                                       <div className="text">A perfect blend of mouthwatering dishes, warm atmosphere, and outstanding service. Every meal feels like a special occasion worth savoring!</div>
                                       <div className="auth-info">
-                                          <div className="image"><img src="images/resource/author-thumb-4.jpg" alt="image" /></div>
+                                          <div className="image"><img src="/assets/images/resource/author-thumb-4.jpg" alt="image" /></div>
                                           <div className="auth-title">willium joe -<span className="location">New York</span> </div>
                                       </div>
                                   </div>
@@ -808,7 +808,7 @@ function Home() {
                                       <div className="rating"><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /></div>
                                       <div className="text">Every visit is a flavorful journey! Delicious food, elegant ambiance, and welcoming staff make this restaurant a true dining destination.</div>
                                       <div className="auth-info">
-                                          <div className="image"><img src="images/resource/author-thumb-5.jpg" alt="image" /></div>
+                                          <div className="image"><img src="/assets/images/resource/author-thumb-5.jpg" alt="image" /></div>
                                           <div className="auth-title">Theresa Tin -<span className="location"> Chicago</span> </div>
                                       </div>
                                   </div>
@@ -819,7 +819,7 @@ function Home() {
                                       <div className="rating"><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /></div>
                                       <div className="text">From appetizers to desserts, every bite bursts with perfection. A cozy atmosphere and exceptional service make each visit unforgettable.</div>
                                       <div className="auth-info">
-                                          <div className="image"><img src="images/resource/author-thumb-6.jpg" alt="image" /></div>
+                                          <div className="image"><img src="/assets/images/resource/author-thumb-6.jpg" alt="image" /></div>
                                           <div className="auth-title">Michel Byrd -<span className="location"> New York</span> </div>
                                       </div>
                                   </div>
@@ -830,7 +830,7 @@ function Home() {
                                       <div className="rating"><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /></div>
                                       <div className="text">The taste of food was really amazing, Wow ! outstanding dinner made by Mater chef John Rute, I never forget this delicious food experience.</div>
                                       <div className="auth-info">
-                                          <div className="image"><img src="images/resource/author-thumb-4.jpg" alt="image" /></div>
+                                          <div className="image"><img src="/assets/images/resource/author-thumb-4.jpg" alt="image" /></div>
                                           <div className="auth-title">willium joe -<span className="location"> New York</span></div>
                                       </div>
                                   </div>
@@ -841,7 +841,7 @@ function Home() {
                                       <div className="rating"><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /></div>
                                       <div className="text">Hygienic food &amp; fresh enviroment, everyone had a wonderful delite experience. It was FABULOUS! great experience at The Italian gourmet.</div>
                                       <div className="auth-info">
-                                          <div className="image"><img src="images/resource/author-thumb-5.jpg" alt="image" /></div>
+                                          <div className="image"><img src="/assets/images/resource/author-thumb-5.jpg" alt="image" /></div>
                                           <div className="auth-title">Theresa Tin -<span className="location"> Chicago</span></div>
                                       </div>
                                   </div>
@@ -852,7 +852,7 @@ function Home() {
                                       <div className="rating"><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /></div>
                                       <div className="text">Special treat to dine, It was wow experience food was really delicious! outstanding dinner made by Mater chef, food experience was unfogetable!</div>
                                       <div className="auth-info">
-                                          <div className="image"><img src="images/resource/author-thumb-6.jpg" alt="image" /></div>
+                                          <div className="image"><img src="/assets/images/resource/author-thumb-6.jpg" alt="image" /></div>
                                           <div className="auth-title">Michel Byrd -<span className="location"> Denmark</span></div>
                                       </div>
                                   </div>
@@ -953,8 +953,8 @@ function Home() {
                               </div>
                               <div className="graphic-col col-lg-6 col-md-12 col-sm-12">
                                   <div className="inner">
-                                      <div className="graphic-layer" style={{ backgroundImage: 'url(images/background/reservation-bg.jpg)' }} />
-                                      <div className="image"><img src="images/background/reservation-bg.jpg" alt="image" /></div>
+                                      <div className="graphic-layer" style={{ backgroundImage: 'url(/assets/images/background/reservation-bg.jpg)' }} />
+                                      <div className="image"><img src="/assets/images/background/reservation-bg.jpg" alt="image" /></div>
                                   </div>
                               </div>
                           </div>
@@ -973,7 +973,7 @@ function Home() {
                           <div className="news-block col-lg-4 col-md-6 col-sm-12">
                               <div className="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
                                   <div className="image-box">
-                                      <div className="image rounded"><a href="blog-single-post.html"><img src="images/resource/news-2.jpg" alt="image" /></a></div>
+                                      <div className="image rounded"><a href="blog-single-post.html"><img src="/assets/images/resource/news-2.jpg" alt="image" /></a></div>
                                       <div className="over-content">
                                           <div className="date">30 <span>May | 2025</span></div>
                                           <div className="cat">Food, flavour</div>
@@ -986,7 +986,7 @@ function Home() {
                           <div className="news-block col-lg-4 col-md-6 col-sm-12">
                               <div className="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="300ms">
                                   <div className="image-box">
-                                      <div className="image"><a href="blog-single-post.html"><img src="images/resource/news-1.jpg" alt="image" /></a></div>
+                                      <div className="image"><a href="blog-single-post.html"><img src="/assets/images/resource/news-1.jpg" alt="image" /></a></div>
                                       <div className="over-content">
                                           <div className="date">25 <span>May | 2025</span></div>
                                           <div className="cat">healthy food</div>
@@ -999,7 +999,7 @@ function Home() {
                           <div className="news-block col-lg-4 col-md-6 col-sm-12">
                               <div className="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="600ms">
                                   <div className="image-box">
-                                      <div className="image rounded"><a href="blog-single-post.html"><img src="images/resource/news-3.jpg" alt="image" /></a></div>
+                                      <div className="image rounded"><a href="blog-single-post.html"><img src="/assets/images/resource/news-3.jpg" alt="image" /></a></div>
                                       <div className="over-content">
                                           <div className="date">18 <span>May | 2025</span></div>
                                           <div className="cat">recipie</div>
@@ -1030,25 +1030,25 @@ function Home() {
                           {/*Block*/}
                           <div className="ig-post-block col-lg-3 col-md-6 col-sm-6 col-xs-12">
                               <div className="ig-post-image wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
-                                  <a href="index.html#"><img src="images/resource/insta1.jpg" alt="image" /></a>
+                                  <a href="index.html#"><img src="/assets/images/resource/insta1.jpg" alt="image" /></a>
                               </div>
                           </div>
                           {/*Block*/}
                           <div className="ig-post-block col-lg-3 col-md-6 col-sm-6 col-xs-12">
                               <div className="ig-post-image wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
-                                  <a href="index.html#"><img src="images/resource/insta2.jpg" alt="image" /></a>
+                                  <a href="index.html#"><img src="/assets/images/resource/insta2.jpg" alt="image" /></a>
                               </div>
                           </div>
                           {/*Block*/}
                           <div className="ig-post-block col-lg-3 col-md-6 col-sm-6 col-xs-12">
                               <div className="ig-post-image wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
-                                  <a href="index.html#"><img src="images/resource/insta3.jpg" alt="image" /></a>
+                                  <a href="index.html#"><img src="/assets/images/resource/insta3.jpg" alt="image" /></a>
                               </div>
                           </div>
                           {/*Block*/}
                           <div className="ig-post-block col-lg-3 col-md-6 col-sm-6 col-xs-12">
                               <div className="ig-post-image wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
-                                  <a href="index.html#"><img src="images/resource/insta4.jpg" alt="image" /></a>
+                                  <a href="index.html#"><img src="/assets/images/resource/insta4.jpg" alt="image" /></a>
                               </div>
                           </div>
                       </div>
@@ -1070,9 +1070,9 @@ function Home() {
                                   <div className="inner wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                       <div className="content">
                                           <div className="footer-image">
-                                              <img src="images/resource/footer-img-1.jpg" alt="image" />
+                                              <img src="/assets/images/resource/footer-img-1.jpg" alt="image" />
                                           </div>
-                                          <div className="logo"><a href="index.html" title="Restoria - Restaurants HTML Template"><img src="images/logo.png" alt="image" title="Restoria - Restaurants HTML Template" /></a></div>
+                                          <div className="logo"><a href="index.html" title="Restoria - Restaurants HTML Template"><img src="/assets/images/logo.png" alt="image" title="Restoria - Restaurants HTML Template" /></a></div>
                                           <div className="info">
                                               <h6>visit us </h6>
                                               <ul>
