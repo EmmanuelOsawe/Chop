@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
 
 function Home() {
   return (
@@ -236,72 +238,74 @@ function Home() {
                       </ul>
                       <span className="line" />
                   </div>
-                  <div className="banner-container">
-                      <div className="banner-slider">
-                          <div className="swiper-wrapper">
-                              {/*Slide Item*/}
-                              <div className="swiper-slide slide-item">
-                                  <div className="image-layer" style={{ backgroundImage: 'url(/assets/images/main-slider/slider-1.jpg)' }} />
-                                  <div className="auto-container">
-                                      <div className="content-box">
-                                          <div className="content">
-                                              <div className="clearfix">
-                                                  <div className="inner">
-                                                      <div className="subtitle"><span>Serving Since 1995</span></div>
-                                                      <h1>Delightful Experience</h1>
-                                                      <div className="text">A taste of perfection in every dish - fine dining with a modern twist.</div>
-                                                      <div className="links-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                                      </div>
-                                                  </div>
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                              {/*Slide Item*/}
-                              <div className="swiper-slide slide-item">
-                                  <div className="image-layer" style={{ backgroundImage: 'url(/assets/images/main-slider/slider-2.jpg)' }} />
-                                  <div className="auto-container">
-                                      <div className="content-box">
-                                          <div className="content">
-                                              <div className="clearfix">
-                                                  <div className="inner">
-                                                      <div className="subtitle"><span>Delicious Taste in City</span></div>
-                                                      <h1>Taste the Tradition</h1>
-                                                      <div className="text">A taste of perfection in every dish - fine dining with a modern twist.</div>
-                                                      <div className="links-box clearfix">
-                                                      </div>
-                                                  </div>
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                              {/*Slide Item*/}
-                              <div className="swiper-slide slide-item">
-                                  <div className="image-layer" style={{ backgroundImage: 'url(/assets/images/main-slider/slider-3.jpg)' }} />
-                                  <div className="auto-container">
-                                      <div className="content-box">
-                                          <div className="content">
-                                              <div className="clearfix">
-                                                  <div className="inner">
-                                                      <div className="subtitle"><span>Tradational Taste</span></div>
-                                                      <h1>Savor Every Bite</h1>
-                                                      <div className="text">A taste of perfection in every dish - fine dining with a modern twist.</div>
-                                                      <div className="links-box clearfix">
-                                                      </div>
-                                                  </div>
+                  <Swiper spaceBetween={0} slidesPerView={1} loop={true}>
+                      {/* Slide 1 */}
+                      <SwiperSlide>
+                          <div
+                              className="slide-item image-layer"
+                              style={{ backgroundImage: "url(/assets/images/main-slider/slider-1.jpg)" }}
+                          >
+                              <div className="auto-container">
+                                  <div className="content-box">
+                                      <div className="content">
+                                          <div className="inner">
+                                              <div className="subtitle"><span>Serving Since 1995</span></div>
+                                              <h1>Delightful Experience</h1>
+                                              <div className="text">
+                                                  A taste of perfection in every dish - fine dining with a modern twist.
                                               </div>
                                           </div>
                                       </div>
                                   </div>
                               </div>
                           </div>
-                          <div className="swiper-button-prev"><span className="fal fa-angle-left" /></div>
-                          <div className="swiper-button-next"><span className="fal fa-angle-right" /></div>
-                      </div>
-                  </div>
-                  <a href="book-table.html" className="explore-menu-btn">
+                      </SwiperSlide>
+
+                      {/* Slide 2 */}
+                      <SwiperSlide>
+                          <div
+                              className="slide-item image-layer"
+                              style={{ backgroundImage: "url(/assets/images/main-slider/slider-2.jpg)" }}
+                          >
+                              <div className="auto-container">
+                                  <div className="content-box">
+                                      <div className="content">
+                                          <div className="inner">
+                                              <div className="subtitle"><span>Delicious Taste in City</span></div>
+                                              <h1>Taste the Tradition</h1>
+                                              <div className="text">
+                                                  A taste of perfection in every dish - fine dining with a modern twist.
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </SwiperSlide>
+
+                      {/* Slide 3 */}
+                      <SwiperSlide>
+                          <div
+                              className="slide-item image-layer"
+                              style={{ backgroundImage: "url(/assets/images/main-slider/slider-3.jpg)" }}
+                          >
+                              <div className="auto-container">
+                                  <div className="content-box">
+                                      <div className="content">
+                                          <div className="inner">
+                                              <div className="subtitle"><span>Traditional Taste</span></div>
+                                              <h1>Savor Every Bite</h1>
+                                              <div className="text">
+                                                  A taste of perfection in every dish - fine dining with a modern twist.
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </SwiperSlide>
+                  </Swiper>                  
+                   <a href="book-table.html" className="explore-menu-btn">
                       <span className="icon"> <img src="/assets/images/resource/menu-badge-arrow.png" alt="image" title="image" /> </span>
                   </a>
                   {/* Curve at bottom */}
@@ -354,7 +358,7 @@ function Home() {
                               <div className="image-box">
                                   <img src="/assets/images/resource/menu-cat3.png" alt="image" />
                               </div>
-                              {/*data*/}
+                              {/*data*/}    
                               <div className="data-colom">
                                   <div className="title-box"> <h3>Desserts</h3> </div>
                                   <span className="star"> <img src="/assets/images/icons/star-element.svg" alt="image" /> </span>
