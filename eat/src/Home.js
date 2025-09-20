@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
+import "swiper/css/pagination";
 
 function Home() {
   return (
@@ -786,85 +788,202 @@ function Home() {
                       </div>
                   </div>
               </section>
+
               {/*Testimonials Section*/}
               <section className="testimonials-two section-kt">
                   <div className="auto-container">
+
                       <div className="title-box centered">
                           <div className="subtitle"><span>testimonials</span></div>
                           <h2>What People Are Saying</h2>
                       </div>
-                      <div className="carousel-box">
-                          <div className="testimonial-slider owl-theme owl-carousel">
-                              {/*Slide Item*/}
-                              <div className="testi-block">
+                      <Swiper
+                          modules={[Pagination, Autoplay]}
+                          spaceBetween={20} // margin between slides
+                          slidesPerView={1}
+                          pagination={{ clickable: true }}
+                          loop={true}
+                          autoplay={{
+                              delay: 3000, // 3 seconds before sliding
+                              disableOnInteraction: false,
+                          }}
+                          style={{ maxWidth: "600px", margin: "0 auto" }} // center the whole slider
+                      >
+                          {/* Slide 1 */}
+                          <SwiperSlide>
+                              <div className="testi-block" style={{ padding: "20px" }}>
                                   <div className="inner-box">
-                                      <div className="rating"><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /></div>
-                                      <div className="text">A perfect blend of mouthwatering dishes, warm atmosphere, and outstanding service. Every meal feels like a special occasion worth savoring!</div>
+                                      <div className="rating">
+                                          <span className="fa fa-star" /><span className="fa fa-star" />
+                                          <span className="fa fa-star" /><span className="fa fa-star" />
+                                          <span className="fa fa-star" />
+                                      </div>
+                                      <div className="text">
+                                          A perfect blend of mouthwatering dishes, warm atmosphere, and
+                                          outstanding service. Every meal feels like a special occasion
+                                          worth savoring!
+                                      </div>
                                       <div className="auth-info">
-                                          <div className="image"><img src="/assets/images/resource/author-thumb-4.jpg" alt="image" /></div>
-                                          <div className="auth-title">willium joe -<span className="location">New York</span> </div>
+                                          <div className="image">
+                                              <img
+                                                  src="/assets/images/resource/author-thumb-4.jpg"
+                                                  alt="author"
+                                                  style={{ width: "60px", borderRadius: "50%" }}
+                                              />
+                                          </div>
+                                          <div className="auth-title">
+                                              Willium Joe - <span className="location">New York</span>
+                                          </div>
                                       </div>
                                   </div>
                               </div>
-                              {/*Slide Item*/}
-                              <div className="testi-block">
+                          </SwiperSlide>
+
+                          {/* Slide 2 */}
+                          <SwiperSlide>
+                              <div className="testi-block" style={{ padding: "20px" }}>
                                   <div className="inner-box">
-                                      <div className="rating"><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /></div>
-                                      <div className="text">Every visit is a flavorful journey! Delicious food, elegant ambiance, and welcoming staff make this restaurant a true dining destination.</div>
+                                      <div className="rating">
+                                          <span className="fa fa-star" /><span className="fa fa-star" />
+                                          <span className="fa fa-star" /><span className="fa fa-star" />
+                                          <span className="fa fa-star" />
+                                      </div>
+                                      <div className="text">
+                                          Every visit is a flavorful journey! Delicious food, elegant
+                                          ambiance, and welcoming staff make this restaurant a true dining
+                                          destination.
+                                      </div>
                                       <div className="auth-info">
-                                          <div className="image"><img src="/assets/images/resource/author-thumb-5.jpg" alt="image" /></div>
-                                          <div className="auth-title">Theresa Tin -<span className="location"> Chicago</span> </div>
+                                          <div className="image">
+                                              <img
+                                                  src="/assets/images/resource/author-thumb-5.jpg"
+                                                  alt="author"
+                                                  style={{ width: "60px", borderRadius: "50%" }}
+                                              />
+                                          </div>
+                                          <div className="auth-title">
+                                              Theresa Tin - <span className="location">Chicago</span>
+                                          </div>
                                       </div>
                                   </div>
                               </div>
-                              {/*Slide Item*/}
-                              <div className="testi-block">
+                          </SwiperSlide>
+
+                           {/* Slide 3 */}
+                          <SwiperSlide>
+                              <div className="testi-block" style={{ padding: "20px" }}>
                                   <div className="inner-box">
-                                      <div className="rating"><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /></div>
-                                      <div className="text">From appetizers to desserts, every bite bursts with perfection. A cozy atmosphere and exceptional service make each visit unforgettable.</div>
+                                      <div className="rating">
+                                          <span className="fa fa-star" /><span className="fa fa-star" />
+                                          <span className="fa fa-star" /><span className="fa fa-star" />
+                                          <span className="fa fa-star" />
+                                      </div>
+                                      <div className="text">
+From appetizers to desserts, every bite bursts with perfection. A cozy atmosphere and exceptional service make each visit unforgettable.                                      </div>
                                       <div className="auth-info">
-                                          <div className="image"><img src="/assets/images/resource/author-thumb-6.jpg" alt="image" /></div>
-                                          <div className="auth-title">Michel Byrd -<span className="location"> New York</span> </div>
+                                          <div className="image">
+                                              <img
+                                                  src="/assets/images/resource/author-thumb-6.jpg"
+                                                  alt="author"
+                                                  style={{ width: "60px", borderRadius: "50%" }}
+                                              />
+                                          </div>
+                                          <div className="auth-title">
+                                              Michel Byrd - <span className="location">New York</span>
+                                          </div>
                                       </div>
                                   </div>
                               </div>
-                              {/*Slide Item*/}
-                              <div className="testi-block">
+                          </SwiperSlide>
+
+                          {/* Slide 4 */}
+                          <SwiperSlide>
+                              <div className="testi-block" style={{ padding: "20px" }}>
                                   <div className="inner-box">
-                                      <div className="rating"><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /></div>
-                                      <div className="text">The taste of food was really amazing, Wow ! outstanding dinner made by Mater chef John Rute, I never forget this delicious food experience.</div>
+                                      <div className="rating">
+                                          <span className="fa fa-star" /><span className="fa fa-star" />
+                                          <span className="fa fa-star" /><span className="fa fa-star" />
+                                          <span className="fa fa-star" />
+                                      </div>
+                                      <div className="text">
+The taste of food was really amazing, Wow ! outstanding dinner made by Mater chef John Rute, I never forget this delicious food experience.                                      </div>
                                       <div className="auth-info">
-                                          <div className="image"><img src="/assets/images/resource/author-thumb-4.jpg" alt="image" /></div>
-                                          <div className="auth-title">willium joe -<span className="location"> New York</span></div>
+                                          <div className="image">
+                                              <img
+                                                  src="/assets/images/resource/author-thumb-4.jpg"
+                                                  alt="author"
+                                                  style={{ width: "60px", borderRadius: "50%" }}
+                                              />
+                                          </div>
+                                          <div className="auth-title">
+                                              willium joe - <span className="location">New York</span>
+                                          </div>
                                       </div>
                                   </div>
                               </div>
-                              {/*Slide Item*/}
-                              <div className="testi-block">
+                          </SwiperSlide>
+                          {/* Slide 5 */}
+                          <SwiperSlide>
+                              <div className="testi-block" style={{ padding: "20px" }}>
                                   <div className="inner-box">
-                                      <div className="rating"><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /></div>
-                                      <div className="text">Hygienic food &amp; fresh enviroment, everyone had a wonderful delite experience. It was FABULOUS! great experience at The Italian gourmet.</div>
+                                      <div className="rating">
+                                          <span className="fa fa-star" /><span className="fa fa-star" />
+                                          <span className="fa fa-star" /><span className="fa fa-star" />
+                                          <span className="fa fa-star" />
+                                      </div>
+                                      <div className="text">
+Hygienic food & fresh enviroment, everyone had a wonderful delite experience. It was FABULOUS! great experience at The Italian gourmet.                                      </div>
                                       <div className="auth-info">
-                                          <div className="image"><img src="/assets/images/resource/author-thumb-5.jpg" alt="image" /></div>
-                                          <div className="auth-title">Theresa Tin -<span className="location"> Chicago</span></div>
+                                          <div className="image">
+                                              <img
+                                                  src="/assets/images/resource/author-thumb-5.jpg"
+                                                  alt="author"
+                                                  style={{ width: "60px", borderRadius: "50%" }}
+                                              />
+                                          </div>
+                                          <div className="auth-title">
+                                              Theresa Tin - <span className="location">Chicago</span>
+                                          </div>
                                       </div>
                                   </div>
                               </div>
-                              {/*Slide Item*/}
-                              <div className="testi-block">
+                          </SwiperSlide>
+
+                          {/* Slide 6 */}
+                          <SwiperSlide>
+                              <div className="testi-block" style={{ padding: "20px" }}>
                                   <div className="inner-box">
-                                      <div className="rating"><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /></div>
-                                      <div className="text">Special treat to dine, It was wow experience food was really delicious! outstanding dinner made by Mater chef, food experience was unfogetable!</div>
+                                      <div className="rating">
+                                          <span className="fa fa-star" /><span className="fa fa-star" />
+                                          <span className="fa fa-star" /><span className="fa fa-star" />
+                                          <span className="fa fa-star" />
+                                      </div>
+                                      <div className="text">
+Special treat to dine, It was wow experience food was really delicious! outstanding dinner made by Mater chef, food experience was unfogetable!                                      </div>
                                       <div className="auth-info">
-                                          <div className="image"><img src="/assets/images/resource/author-thumb-6.jpg" alt="image" /></div>
-                                          <div className="auth-title">Michel Byrd -<span className="location"> Denmark</span></div>
+                                          <div className="image">
+                                              <img
+                                                  src="/assets/images/resource/author-thumb-6.jpg"
+                                                  alt="author"
+                                                  style={{ width: "60px", borderRadius: "50%" }}
+                                              />
+                                          </div>
+                                          <div className="auth-title">
+                                              Michel Byrd - <span className="location">Denmark</span>
+                                          </div>
                                       </div>
                                   </div>
                               </div>
-                          </div>
-                      </div>
-                  </div>
+                          </SwiperSlide>
+
+
+                          {/* Add more slides here in the same format */}
+                      </Swiper>   
+                    
+                    </div>
               </section>
+
+
               {/*Reservation Section*/}
               <section className="fluid-section reserve-section splitscreen">
                   <div className="outer-container">
