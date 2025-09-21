@@ -221,7 +221,7 @@ function Home() {
               </section>
               {/*End Hidden Bar */}
               {/* Banner Section */}
-              <section className="banner-section">
+              <section className="banner-section" >
                   {/* social link */}
                   <div className="banner-social-list">
                       <span className="line" />
@@ -240,7 +240,7 @@ function Home() {
                       </ul>
                       <span className="line" />
                   </div>
-                  <Swiper spaceBetween={0} slidesPerView={1} loop={true}>
+                  <Swiper spaceBetween={0} slidesPerView={1} loop={true}> 
                       {/* Slide 1 */}
                       <SwiperSlide>
                           <div
@@ -1239,7 +1239,8 @@ Special treat to dine, It was wow experience food was really delicious! outstand
               </footer>
               {/*End pagewrapper*/}
               {/*Scroll to top*/}
-              <div className="scroll-to-top scroll-to-target" data-target="html"><span className="icon fa fa-angle-up" /></div>
+
+              <div className="scroll-to-top scroll-to-target"  data-target="html" ><span className="icon fa fa-angle-up" /></div>
               {/*[if lt IE 9]><![endif]*/}
           </div>
 
