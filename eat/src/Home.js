@@ -4,12 +4,28 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
+import Particles from './Particles';
 
 function Home() {
   return (
+
       <div>
-          <div>
-              {/* Main Header*/}
+        
+        <div style={{ width: '100vw', height: '100vh', position: 'absolute', top: 0, left: 0, zIndex: 0 }}>
+           <Particles    
+                  particleColors={['#ffffff', '#ffffff']}
+                  particleCount={200}
+                  particleSpread={10}
+                  speed={0.1}
+                  particleBaseSize={100}
+                  moveParticlesOnHover={true}
+                  alphaParticles={false}
+                  disableRotation={false}
+            />
+        </div>  
+
+        <div style={{ position: 'relative', zIndex: 1, width: '100%' }}>
+            {/* Main Header*/}
               <header className="main-header header-down">
                   <div className="header-top">
                       <div className="auto-container">
@@ -1240,9 +1256,11 @@ function Home() {
 
               <div className="scroll-to-top scroll-to-target"  data-target="html" ><span className="icon fa fa-angle-up" /></div>
               {/*[if lt IE 9]><![endif]*/}
-          </div>
 
-      </div>
+        </div>
+        
+
+     </div>
   );
 }
 
