@@ -199,7 +199,7 @@
   /*background: #202020;
   border-bottom-color: rgba(0,0,0,0.15);*/
   backdrop-filter: blur(9px);
-    background-color: #152c29b4;
+  background-color: #000000;
 }
 
 .header-two.fixed-header .header-upper{
@@ -1664,7 +1664,7 @@ body.visible-sidebar{
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(../images/resource/menu-badge.png) no-repeat center center;
+  /*background: url(../images/resource/menu-badge.png) no-repeat center center; */
   background-size: contain;
   text-decoration: none; /* remove underline if any */
 }
