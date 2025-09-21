@@ -1664,7 +1664,7 @@ body.visible-sidebar{
   display: flex;
   align-items: center;
   justify-content: center;
-  /*background: url(../images/resource/menu-badge.png) no-repeat center center; */
+  background: url(../images/resource/menu-badge.png) no-repeat center center; 
   background-size: contain;
   text-decoration: none; /* remove underline if any */
 }

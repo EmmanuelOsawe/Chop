@@ -313,11 +313,9 @@ function Home() {
                   {/* Curve at bottom */}
                   {/* Default (desktop) curve */}
                   <svg className="bottom-curve curve-desktop" viewBox="0 0 1440 65" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
-                      <path fill="var(--color-two)" d="M0,65 C360,0 1080,0 1440,65 L1440,65 L0,65 Z" />
                   </svg>
                   {/* Less curved version for tablets/mobile */}
                   <svg className="bottom-curve curve-mobile" viewBox="0 0 1440 65" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
-                      <path fill="var(--color-two)" d="M0,65 C480,20 960,20 1440,65 L1440,65 L0,65 Z" />
                   </svg>
               </section>
               {/*End Banner Section */}
@@ -879,7 +877,7 @@ function Home() {
                                           <span className="fa fa-star" />
                                       </div>
                                       <div className="text">
-From appetizers to desserts, every bite bursts with perfection. A cozy atmosphere and exceptional service make each visit unforgettable.                                      </div>
+                                          From appetizers to desserts, every bite bursts with perfection. A cozy atmosphere and exceptional service make each visit unforgettable.                                      </div>
                                       <div className="auth-info">
                                           <div className="image">
                                               <img
@@ -906,7 +904,7 @@ From appetizers to desserts, every bite bursts with perfection. A cozy atmospher
                                           <span className="fa fa-star" />
                                       </div>
                                       <div className="text">
-The taste of food was really amazing, Wow ! outstanding dinner made by Mater chef John Rute, I never forget this delicious food experience.                                      </div>
+                                          The taste of food was really amazing, Wow ! outstanding dinner made by Mater chef John Rute, I never forget this delicious food experience.                                      </div>
                                       <div className="auth-info">
                                           <div className="image">
                                               <img
@@ -932,7 +930,7 @@ The taste of food was really amazing, Wow ! outstanding dinner made by Mater che
                                           <span className="fa fa-star" />
                                       </div>
                                       <div className="text">
-Hygienic food & fresh enviroment, everyone had a wonderful delite experience. It was FABULOUS! great experience at The Italian gourmet.                                      </div>
+                                          Hygienic food & fresh enviroment, everyone had a wonderful delite experience. It was FABULOUS! great experience at The Italian gourmet.                                      </div>
                                       <div className="auth-info">
                                           <div className="image">
                                               <img
@@ -959,7 +957,7 @@ Hygienic food & fresh enviroment, everyone had a wonderful delite experience. It
                                           <span className="fa fa-star" />
                                       </div>
                                       <div className="text">
-Special treat to dine, It was wow experience food was really delicious! outstanding dinner made by Mater chef, food experience was unfogetable!                                      </div>
+                                          Special treat to dine, It was wow experience food was really delicious! outstanding dinner made by Mater chef, food experience was unfogetable!                                      </div>
                                       <div className="auth-info">
                                           <div className="image">
                                               <img
