@@ -11,10 +11,10 @@ function Home() {
 
       <div>
         
-        <div style={{ width: '100vw', height: '100vh', position: 'absolute', top: 0, left: 0, zIndex: 0 }}>
+        <div style={{ width:'100vw', height: '100vh', position: 'fixed', top: 0, left: 0, zIndex: 999, pointerEvents:'none', }}>
            <Particles    
                   particleColors={['#ffffff', '#ffffff']}
-                  particleCount={200}
+                  particleCount={1000}
                   particleSpread={10}
                   speed={0.1}
                   particleBaseSize={100}
@@ -22,9 +22,10 @@ function Home() {
                   alphaParticles={false}
                   disableRotation={false}
             />
-        </div>  
-
-        <div style={{ position: 'relative', zIndex: 1, width: '100%' }}>
+          
+        </div>
+        
+        <div style={{ position: 'relative', zIndex: 2, width: '100%' }}>
             {/* Main Header*/}
               <header className="main-header header-down">
                   <div className="header-top">
@@ -1258,6 +1259,7 @@ function Home() {
               {/*[if lt IE 9]><![endif]*/}
 
         </div>
+       
         
 
      </div>
