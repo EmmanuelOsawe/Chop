@@ -389,7 +389,7 @@ function Home() {
                               </div>
                           </div>
 
-                          <div className="menucat-list menubg4 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
+                          <div className="menucat-list menubg5 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
                               {/*image*/}
                               <div className="image-box">
                                   <img src="/assets/images/rooms/Super-King.jpg" alt="image" />
@@ -402,7 +402,7 @@ function Home() {
                               </div>
                           </div>
 
-                          <div className="menucat-list menubg4 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
+                          <div className="menucat-list menubg6 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
                               {/*image*/}
                               <div className="image-box">
                                   <img src="/assets/images/rooms/Prem-Suite.jpg" alt="image" />
@@ -415,7 +415,7 @@ function Home() {
                               </div>
                           </div>
 
-                          <div className="menucat-list menubg4 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
+                          <div className="menucat-list menubg7 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
                               {/*image*/}
                               <div className="image-box">
                                   <img src="/assets/images/rooms/Executive-Suite.jpg" alt="image" />

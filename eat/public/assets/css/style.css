@@ -5021,20 +5021,45 @@ footer .bottom_footer .social_media li a:hover {
 }
 
 .menu-cat .menucat-list.menubg1:hover {
-  background:url(../images/background/menu1.jpg) no-repeat;
+  background:url(/assets/images/rooms/Prem-jun.jpg) no-repeat;
+  min-height: 800px;
 }
 
 .menu-cat .menucat-list.menubg2:hover {
-  background:url(../images/background/menu2.jpg) no-repeat;
+  background:url(/assets/images/rooms/Prem-Suite.jpg) no-repeat;
+    min-height: 800px;
 }
 
 .menu-cat .menucat-list.menubg3:hover {
-  background:url(../images/background/menu3.jpg) no-repeat;
+  background:url(/assets/images/rooms/Diplomatic.jpg) no-repeat;
+    min-height: 800px;
+
 }
 
 .menu-cat .menucat-list.menubg4:hover {
-  background:url(../images/background/menu4.jpg) no-repeat;
+  background:url(/assets/images/rooms/Presidential.jpg) no-repeat;
+    min-height: 800px;
+
 }
+
+.menu-cat .menucat-list.menubg5:hover {
+  background:url(/assets/images/rooms/Super-King.jpg) no-repeat;
+    min-height: 800px;
+
+}
+
+.menu-cat .menucat-list.menubg6:hover {
+  background:url(/assets/images/rooms/Prem-Suite.jpg) no-repeat;
+    min-height: 800px;
+
+}
+
+.menu-cat .menucat-list.menubg7:hover {
+  background:url(/assets/images/rooms/Executive-Suite.jpg) no-repeat;
+    min-height: 800px;
+
+}
+
 
 .menu-cat .menucat-list .image-box img {
   border-radius: 300px;
