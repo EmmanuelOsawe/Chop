@@ -262,7 +262,7 @@ function Home() {
                                       <div className="content">
                                           <div className="inner">
                                               <div className="subtitle"><span>Serving Since 1995</span></div>
-                                              <h1>Delightful Experience</h1>
+                                              <h1>The Signature of African Hospitality</h1>
                                               <div className="text">
                                                   A taste of perfection in every dish - fine dining with a modern twist.
                                               </div>
@@ -340,12 +340,12 @@ function Home() {
                           <div className="menucat-list menubg1 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
                               {/*image*/}
                               <div className="image-box">
-                                  <img src="/assets/images/resource/menu-cat1.png" alt="image" />
+                                  <img src="/assets/images/rooms/Prem-jun.jpg" alt="image" />
                               </div>
                               {/*data*/}
                               <div className="data-colom">
-                                  <div className="title-box"> <h3>Appetizers</h3> </div>
-                                  <span className="star"> <img src="/assets/images/icons/star-element.svg" alt="image" /> </span>
+                                  <div className="title-box"> <h3>Premium Junior Suite</h3> </div>
+                                  <span className="star"> <img src="/assets/images/rooms/Prem-jun.jpg" alt="image" /> </span>
                                   <div className="arrow-btn"> <a href="menu-list-1.html"> <i className="fa-light fa-arrow-right" /> </a> </div>
                               </div>
                           </div>
@@ -353,12 +353,12 @@ function Home() {
                           <div className="menucat-list menubg2 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
                               {/*image*/}
                               <div className="image-box">
-                                  <img src="/assets/images/resource/menu-cat2.png" alt="image" />
+                                  <img src="/assets/images/rooms/Prem-Exe.jpg" alt="image" />
                               </div>
                               {/*data*/}
                               <div className="data-colom">
-                                  <div className="title-box"> <h3>Main Dishes</h3> </div>
-                                  <span className="star"> <img src="/assets/images/icons/star-element.svg" alt="image" /> </span>
+                                  <div className="title-box"> <h3>Premium Executive Suite</h3> </div>
+                                  <span className="star"> <img src="/assets/images/rooms/Prem-Exe.jpg" alt="image" /> </span>
                                   <div className="arrow-btn"> <a href="menu-list-2.html"> <i className="fa-light fa-arrow-right" /> </a> </div>
                               </div>
                           </div>
@@ -366,12 +366,12 @@ function Home() {
                           <div className="menucat-list menubg3 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
                               {/*image*/}
                               <div className="image-box">
-                                  <img src="/assets/images/resource/menu-cat3.png" alt="image" />
+                                  <img src="/assets/images/rooms/Diplomatic.jpg" alt="image" />
                               </div>
                               {/*data*/}    
                               <div className="data-colom">
-                                  <div className="title-box"> <h3>Desserts</h3> </div>
-                                  <span className="star"> <img src="/assets/images/icons/star-element.svg" alt="image" /> </span>
+                                  <div className="title-box"> <h3>Diplomatic Suite</h3> </div>
+                                  <span className="star"> <img src="/assets/images/rooms/Diplomatic.jpg" alt="image" /> </span>
                                   <div className="arrow-btn"> <a href="menu-list-3.html"> <i className="fa-light fa-arrow-right" /> </a> </div>
                               </div>
                           </div>
@@ -379,15 +379,57 @@ function Home() {
                           <div className="menucat-list menubg4 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
                               {/*image*/}
                               <div className="image-box">
+                                  <img src="/assets/images/rooms/Presidential.jpg" alt="image" />
+                              </div>
+                              {/*data*/}
+                              <div className="data-colom">
+                                  <div className="title-box"> <h3>Presidential Suite</h3> </div>
+                                  <span className="star"> <img src="/assets/images/rooms/Presidential.jpg" alt="image" /> </span>
+                                  <div className="arrow-btn"> <a href="menu-list-4.html"> <i className="fa-light fa-arrow-right" /> </a> </div>
+                              </div>
+                          </div>
+
+                          <div className="menucat-list menubg4 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
+                              {/*image*/}
+                              <div className="image-box">
                                   <img src="/assets/images/resource/menu-cat4.png" alt="image" />
                               </div>
                               {/*data*/}
                               <div className="data-colom">
-                                  <div className="title-box"> <h3>Drinks</h3> </div>
+                                  <div className="title-box"> <h3>Superior King Suite</h3> </div>
                                   <span className="star"> <img src="/assets/images/icons/star-element.svg" alt="image" /> </span>
                                   <div className="arrow-btn"> <a href="menu-list-4.html"> <i className="fa-light fa-arrow-right" /> </a> </div>
                               </div>
                           </div>
+
+                                                    <div className="menucat-list menubg4 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
+                              {/*image*/}
+                              <div className="image-box">
+                                  <img src="/assets/images/resource/menu-cat4.png" alt="image" />
+                              </div>
+                              {/*data*/}
+                              <div className="data-colom">
+                                  <div className="title-box"> <h3>Premium Room</h3> </div>
+                                  <span className="star"> <img src="/assets/images/icons/star-element.svg" alt="image" /> </span>
+                                  <div className="arrow-btn"> <a href="menu-list-4.html"> <i className="fa-light fa-arrow-right" /> </a> </div>
+                              </div>
+                          </div>
+
+                                                    <div className="menucat-list menubg4 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
+                              {/*image*/}
+                              <div className="image-box">
+                                  <img src="/assets/images/resource/menu-cat4.png" alt="image" />
+                              </div>
+                              {/*data*/}
+                              <div className="data-colom">
+                                  <div className="title-box"> <h3>Executive Suite</h3> </div>
+                                  <span className="star"> <img src="/assets/images/icons/star-element.svg" alt="image" /> </span>
+                                  <div className="arrow-btn"> <a href="menu-list-4.html"> <i className="fa-light fa-arrow-right" /> </a> </div>
+                              </div>
+                          </div>
+
+
+
                       </div>
                   </div>
               </section>
