@@ -596,28 +596,24 @@ function Home() {
                           <div className="row clearfix">
                               <div className="fact-block col-lg-3 col-md-6 col-sm-6 col-xs-12">
                                   <div className="inner clearfix">
-                                      <div className="fact-count"><div className="count-box"><span className="count-text" data-stop={60} data-speed={2000}>0</span><i>+</i></div></div>
                                       <div className="fact-title">monthly visitors</div>
                                       <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry has been. </p>
                                   </div>
                               </div>
                               <div className="fact-block col-lg-3 col-md-6 col-sm-6 col-xs-12">
                                   <div className="inner clearfix">
-                                      <div className="fact-count"><div className="count-box"><span className="count-text" data-stop={22} data-speed={1500}>0</span><i>+</i></div></div>
                                       <div className="fact-title">positive reviews</div>
                                       <p> Simply dummy text of the printing and typesetting industry lorem Ipsum has been. </p>
                                   </div>
                               </div>
                               <div className="fact-block col-lg-3 col-md-6 col-sm-6 col-xs-12">
                                   <div className="inner clearfix">
-                                      <div className="fact-count"><div className="count-box"><span className="count-text" data-stop={135} data-speed={1000}>0</span><i>+</i></div></div>
                                       <div className="fact-title">secreat recipe</div>
                                       <p> Simply dummy text of the printing and typesetting lorem Ipsum has been industry. </p>
                                   </div>
                               </div>
                               <div className="fact-block col-lg-3 col-md-6 col-sm-6 col-xs-12">
                                   <div className="inner clearfix">
-                                      <div className="fact-count"><div className="count-box"><span className="count-text" data-stop={10} data-speed={1000}>0</span><i>+</i></div></div>
                                       <div className="fact-title">award &amp; honnors</div>
                                       <p> Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum. </p>
                                   </div>
