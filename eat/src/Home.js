@@ -5,6 +5,7 @@ import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import Particles from './Particles';
+import MenuSection from './selecter';
 
 function Home() {
   return (
@@ -453,7 +454,7 @@ function Home() {
                                   {/* vertical title */}
                                   <div className="title-wrapper">
                                       <div className="title-box special-title">
-                                          <h2>Special Dishes </h2>
+                                          <h2>Special Occasions </h2>
                                       </div>
                                   </div>
                                   {/*Special Offer Slider Section*/}
@@ -513,24 +514,26 @@ function Home() {
                           {/*Col*/}
                           <div className="image-col col-xl-6 col-lg-6 col-md-12 col-sm-12">
                               <div className="inner wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="0ms">
-                                  <div className="image-layer" style={{ backgroundImage: 'url(/assets/images/background/image-5.jpg)' }} />
-                                  <div className="image"><img src="/assets/images/background/image-5.jpg" alt="image" /></div>
+                                  <div className="image-layer" style={{ backgroundImage: 'url(/assets/images/gallery/events.jpg)' }} />
+                                  <div className="image"><img src="/assets/images/gallery/events.jpg" alt="image" /></div>
                               </div>
                           </div>
                           {/*Col*/}
                           <div className="content-col col-xl-6 col-lg-6 col-md-12 col-sm-12">
                               <div className="inner clearfix wow fadeInRight" data-wow-duration="1500ms" data-wow-delay="0ms">
                                   <div className="content-box">
-                                      <div className="chef-thumb"><img src="/assets/images/resource/chef-thumb.jpg" alt="image" /></div>
+                                      <div className="chef-thumb"><img src="/assets/images/gallery/gym.jpg" alt="image" /></div>
                                       <div className="title-box centered">
-                                          <div className="subtitle"><span>our chef</span></div>
-                                          <h2>Chef  Lorenzo</h2>
-                                          <div className="text">A fine dine master chef crafts exquisite cuisine with precision, passion, creativity, and elegance, delivering unforgettable culinary experiences and refined flavors.</div>
+                                          <h2>Activities</h2>
+                                          <div className="text">
+                                            Our gym provides top-class equipment and unique facilities, including Nigeria’s first hotel padel and pickleball courts, ensuring a complete fitness experience in Abuja. With five diverse dining outlets—from local flavors to international cuisine at Papillon, Obudu Grill, Soho, Pool Bar, and Lobby Bar—we cater to every taste. We also offer versatile spaces perfect for hosting memorable occasions and events.
+
+                                          </div>
                                       </div>
                                       <div className="link-box">
                                           <a href="our-chef.html" className="theme-btn btn-style-two clearfix">
                                               <span className="btn-wrap">
-                                                  <span className="text-one">meet our team</span>
+                                                  <span className="text-one">check us</span>
                                                   <span className="text-two">meet our team</span>
                                               </span>
                                           </a>
@@ -541,222 +544,9 @@ function Home() {
                       </div>
                   </div>
               </section>
-              {/*Menu Tab Section*/}
-              <section className="menu-section section-kt">
-                  <div className="auto-container">
-                      <div className="title-box centered">
-                          <div className="title-badge"> <img src="/assets/images/resource/menu-title-badge.svg" alt="image" title="image" /> </div>
-                          <h2>Delicious Menu</h2>
-                      </div>
-                      <div className="tabs-box menu-tabs">
-                          <div className="buttons">
-                              <ul className="tab-buttons clearfix">
-                                  <li className="tab-btn active-btn" data-tab="#tab-1"><span>Starter</span></li>
-                                  <li className="tab-btn" data-tab="#tab-2"><span>Main Dishes</span></li>
-                                  <li className="tab-btn" data-tab="#tab-3"><span>Desserts</span></li>
-                                  <li className="tab-btn" data-tab="#tab-4"><span>WINES</span></li>
-                              </ul>
-                          </div>
-                          <div className="tabs-content">
-                              {/*Tab*/}
-                              <div className="tab active-tab" id="tab-1">
-                                  <div className="row clearfix">
-                                      <div className="menu-col col-lg-6 col-md-12 col-sm-12">
-                                          <div className="inner">
-                                              {/*Block*/}
-                                              <div className="dish-block">
-                                                  <div className="inner-box">
-                                                      <div className="dish-image"><a href="index.html#"><img src="/assets/images/resource/menu-image-1.png" alt="image" /></a></div>
-                                                      <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Stuffed Mushrooms</a></h6></div> <span className="menu-list-line"> </span> <div className="price"><span>$25.50</span></div></div>
-                                                      <div className="text desc"><a href="index.html#">flavorful, filled with panko bread crumbs, pine nuts, parsley, sun-dried tomatoes, and cheese.</a></div>
-                                                  </div>
-                                              </div>
-                                              {/*Block*/}
-                                              <div className="dish-block">
-                                                  <div className="inner-box">
-                                                      <div className="dish-image"><a href="index.html#"><img src="/assets/images/resource/menu-image-2.png" alt="image" /></a></div>
-                                                      <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Jalapeno Poppers <span className="s-info">New</span></a></h6></div> <span className="menu-list-line"> </span> <div className="price"><span>$40.00</span></div></div>
-                                                      <div className="text desc"><a href="index.html#">Greek yogurt filling instead of a traditional cream cheese one.</a></div>
-                                                  </div>
-                                              </div>
-                                              {/*Block*/}
-                                              <div className="dish-block">
-                                                  <div className="inner-box">
-                                                      <div className="dish-image"><a href="index.html#"><img src="/assets/images/resource/menu-image-3.png" alt="image" /></a></div>
-                                                      <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Caprese Skewers</a></h6></div> <span className="menu-list-line"> </span> <div className="price"><span>$10.00</span></div></div>
-                                                      <div className="text desc"><a href="index.html#">Drizzle these colorful skewers with an easy balsamic for a pop of sweet flavor.</a></div>
-                                                  </div>
-                                              </div>
-                                              {/*Block*/}
-                                              <div className="dish-block">
-                                                  <div className="inner-box">
-                                                      <div className="dish-image"><a href="index.html#"><img src="/assets/images/resource/menu-image-4.png" alt="image" /></a></div>
-                                                      <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Greek Salad</a></h6></div> <span className="menu-list-line"> </span> <div className="price"><span>$10.00</span></div></div>
-                                                      <div className="text desc"><a href="index.html#">Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.</a></div>
-                                                  </div>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <div className="menu-col img-col col-lg-6 col-md-12 col-sm-12">
-                                          <div className="inner">
-                                              <div className="image"><img src="/assets/images/resource/menus-1.jpg" alt="image" /></div>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                              {/*Tab*/}
-                              <div className="tab" id="tab-2">
-                                  <div className="row clearfix">
-                                      <div className="menu-col col-lg-6 col-md-12 col-sm-12">
-                                          <div className="inner">
-                                              {/*Block*/}
-                                              <div className="dish-block">
-                                                  <div className="inner-box">
-                                                      <div className="dish-image"><a href="index.html#"><img src="/assets/images/resource/menu-image-5.png" alt="image" /></a></div>
-                                                      <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Greek Salad</a></h6></div> <span className="menu-list-line"> </span> <div className="price"><span>$25.50</span></div></div>
-                                                      <div className="text desc"><a href="index.html#">Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.</a></div>
-                                                  </div>
-                                              </div>
-                                              {/*Block*/}
-                                              <div className="dish-block">
-                                                  <div className="inner-box">
-                                                      <div className="dish-image"><a href="index.html#"><img src="/assets/images/resource/menu-image-6.png" alt="image" /></a></div>
-                                                      <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Lasagne <span className="s-info">SEASONAL</span></a></h6></div> <span className="menu-list-line"> </span> <div className="price"><span>$40.00</span></div></div>
-                                                      <div className="text desc"><a href="index.html#">Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices</a></div>
-                                                  </div>
-                                              </div>
-                                              {/*Block*/}
-                                              <div className="dish-block">
-                                                  <div className="inner-box">
-                                                      <div className="dish-image"><a href="index.html#"><img src="/assets/images/resource/menu-image-7.png" alt="image" /></a></div>
-                                                      <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Butternut Pumpkin</a></h6></div> <span className="menu-list-line"> </span>  <div className="price"><span>$10.00</span></div></div>
-                                                      <div className="text desc"><a href="index.html#">Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.</a></div>
-                                                  </div>
-                                              </div>
-                                              {/*Block*/}
-                                              <div className="dish-block">
-                                                  <div className="inner-box">
-                                                      <div className="dish-image"><a href="index.html#"><img src="/assets/images/resource/menu-image-8.png" alt="image" /></a></div>
-                                                      <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Butternut Pumpkin</a></h6></div> <span className="menu-list-line"> </span>  <div className="price"><span>$10.00</span></div></div>
-                                                      <div className="text desc"><a href="index.html#">Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.</a></div>
-                                                  </div>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <div className="menu-col img-col col-lg-6 col-md-12 col-sm-12">
-                                          <div className="inner">
-                                              <div className="image"><img src="/assets/images/resource/menus-2.jpg" alt="image" /></div>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                              {/*Tab*/}
-                              <div className="tab" id="tab-3">
-                                  <div className="row clearfix">
-                                      <div className="menu-col col-lg-6 col-md-12 col-sm-12">
-                                          <div className="inner">
-                                              {/*Block*/}
-                                              <div className="dish-block">
-                                                  <div className="inner-box">
-                                                      <div className="dish-image"><a href="index.html#"><img src="/assets/images/resource/menu-image-9.png" alt="image" /></a></div>
-                                                      <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Chocolate mousse</a></h6></div> <span className="menu-list-line"> </span>  <div className="price"><span>$25.50</span></div></div>
-                                                      <div className="text desc"><a href="index.html#">Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.</a></div>
-                                                  </div>
-                                              </div>
-                                              {/*Block*/}
-                                              <div className="dish-block">
-                                                  <div className="inner-box">
-                                                      <div className="dish-image"><a href="index.html#"><img src="/assets/images/resource/menu-image-10.png" alt="image" /></a></div>
-                                                      <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Pavlova <span className="s-info">new</span></a></h6></div> <span className="menu-list-line"> </span>  <div className="price"><span>$40.00</span></div></div>
-                                                      <div className="text desc"><a href="index.html#">Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices</a></div>
-                                                  </div>
-                                              </div>
-                                              {/*Block*/}
-                                              <div className="dish-block">
-                                                  <div className="inner-box">
-                                                      <div className="dish-image"><a href="index.html#"><img src="/assets/images/resource/menu-image-11.png" alt="image" /></a></div>
-                                                      <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Apple crumble</a></h6></div> <span className="menu-list-line"> </span>  <div className="price"><span>$10.00</span></div></div>
-                                                      <div className="text desc"><a href="index.html#">Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.</a></div>
-                                                  </div>
-                                              </div>
-                                              {/*Block*/}
-                                              <div className="dish-block">
-                                                  <div className="inner-box">
-                                                      <div className="dish-image"><a href="index.html#"><img src="/assets/images/resource/menu-image-12.png" alt="image" /></a></div>
-                                                      <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Crème BrUlEe</a></h6></div> <span className="menu-list-line"> </span>  <div className="price"><span>$10.00</span></div></div>
-                                                      <div className="text desc"><a href="index.html#">Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.</a></div>
-                                                  </div>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <div className="menu-col img-col col-lg-6 col-md-12 col-sm-12">
-                                          <div className="inner">
-                                              <div className="image"><img src="/assets/images/resource/menus-desert.jpg" alt="image" /></div>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                              {/*Tab*/}
-                              <div className="tab" id="tab-4">
-                                  <div className="row clearfix">
-                                      <div className="menu-col col-lg-6 col-md-12 col-sm-12">
-                                          <div className="inner">
-                                              {/*Block*/}
-                                              <div className="dish-block">
-                                                  <div className="inner-box">
-                                                      <div className="dish-image"><a href="index.html#"><img src="/assets/images/resource/drink-1.png" alt="image" /></a></div>
-                                                      <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Black Wine</a></h6></div> <span className="menu-list-line"> </span>  <div className="price"><span>$25.50</span></div></div>
-                                                      <div className="text desc"><a href="index.html#">Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.</a></div>
-                                                  </div>
-                                              </div>
-                                              {/*Block*/}
-                                              <div className="dish-block">
-                                                  <div className="inner-box">
-                                                      <div className="dish-image"><a href="index.html#"><img src="/assets/images/resource/drink-2.png" alt="image" /></a></div>
-                                                      <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">La Marca <span className="s-info">SEASONAL</span></a></h6></div> <span className="menu-list-line"> </span>  <div className="price"><span>$40.00</span></div></div>
-                                                      <div className="text desc"><a href="index.html#">Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices</a></div>
-                                                  </div>
-                                              </div>
-                                              {/*Block*/}
-                                              <div className="dish-block">
-                                                  <div className="inner-box">
-                                                      <div className="dish-image"><a href="index.html#"><img src="/assets/images/resource/drink-3.png" alt="image" /></a></div>
-                                                      <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Crawford Sauvignon</a></h6></div> <span className="menu-list-line"> </span>  <div className="price"><span>$10.00</span></div></div>
-                                                      <div className="text desc"><a href="index.html#">Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.</a></div>
-                                                  </div>
-                                              </div>
-                                              {/*Block*/}
-                                              <div className="dish-block">
-                                                  <div className="inner-box">
-                                                      <div className="dish-image"><a href="index.html#"><img src="/assets/images/resource/drink-4.png" alt="image" /></a></div>
-                                                      <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Vineyard Cabernet</a></h6></div> <span className="menu-list-line"> </span>  <div className="price"><span>$10.00</span></div></div>
-                                                      <div className="text desc"><a href="index.html#">Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.</a></div>
-                                                  </div>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <div className="menu-col img-col col-lg-6 col-md-12 col-sm-12">
-                                          <div className="inner">
-                                              <div className="image"><img src="/assets/images/resource/menus-wine.jpg" alt="image" /></div>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                      <div className="open-timing">
-                          <div className="hours">During winter daily from <span className="theme_color">7:00 pm</span> to <span className="theme_color">9:00 pm</span></div>
-                          <div className="link-box">
-                              <a href="menu-list-1.html" className="theme-btn btn-style-two clearfix">
-                                  <span className="btn-wrap">
-                                      <span className="text-one">view all menu</span>
-                                      <span className="text-two">view all menu</span>
-                                  </span>
-                              </a>
-                          </div>
-                      </div>
-                  </div>
-              </section>
+
+              <MenuSection />
+
               {/*Why Us Section*/}
               <section className="why-us-two section-kt">
                   <div className="auto-container">
