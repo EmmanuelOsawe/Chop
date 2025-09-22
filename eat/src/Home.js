@@ -353,12 +353,12 @@ function Home() {
                           <div className="menucat-list menubg2 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
                               {/*image*/}
                               <div className="image-box">
-                                  <img src="/assets/images/rooms/Prem-Exe.jpg" alt="image" />
+                                  <img src="/assets/images/rooms/Prem-Suite.jpg" alt="image" />
                               </div>
                               {/*data*/}
                               <div className="data-colom">
                                   <div className="title-box"> <h3>Premium Executive Suite</h3> </div>
-                                  <span className="star"> <img src="/assets/images/rooms/Prem-Exe.jpg" alt="image" /> </span>
+                                  <span className="star"> <img src="/assets/images/rooms/Prem-Suite.jpg" alt="image" /> </span>
                                   <div className="arrow-btn"> <a href="menu-list-2.html"> <i className="fa-light fa-arrow-right" /> </a> </div>
                               </div>
                           </div>
@@ -392,38 +392,38 @@ function Home() {
                           <div className="menucat-list menubg4 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
                               {/*image*/}
                               <div className="image-box">
-                                  <img src="/assets/images/resource/menu-cat4.png" alt="image" />
+                                  <img src="/assets/images/rooms/Super-King.jpg" alt="image" />
                               </div>
                               {/*data*/}
                               <div className="data-colom">
                                   <div className="title-box"> <h3>Superior King Suite</h3> </div>
-                                  <span className="star"> <img src="/assets/images/icons/star-element.svg" alt="image" /> </span>
+                                  <span className="star"> <img src="/assets/images/rooms/Super-King.jpg" alt="image" /> </span>
                                   <div className="arrow-btn"> <a href="menu-list-4.html"> <i className="fa-light fa-arrow-right" /> </a> </div>
                               </div>
                           </div>
 
-                                                    <div className="menucat-list menubg4 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
+                          <div className="menucat-list menubg4 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
                               {/*image*/}
                               <div className="image-box">
-                                  <img src="/assets/images/resource/menu-cat4.png" alt="image" />
+                                  <img src="/assets/images/rooms/Prem-Suite.jpg" alt="image" />
                               </div>
                               {/*data*/}
                               <div className="data-colom">
                                   <div className="title-box"> <h3>Premium Room</h3> </div>
-                                  <span className="star"> <img src="/assets/images/icons/star-element.svg" alt="image" /> </span>
+                                  <span className="star"> <img src="/assets/images/rooms/Prem-Suite.jpg" alt="image" /> </span>
                                   <div className="arrow-btn"> <a href="menu-list-4.html"> <i className="fa-light fa-arrow-right" /> </a> </div>
                               </div>
                           </div>
 
-                                                    <div className="menucat-list menubg4 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
+                          <div className="menucat-list menubg4 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
                               {/*image*/}
                               <div className="image-box">
-                                  <img src="/assets/images/resource/menu-cat4.png" alt="image" />
+                                  <img src="/assets/images/rooms/Executive-Suite.jpg" alt="image" />
                               </div>
                               {/*data*/}
                               <div className="data-colom">
                                   <div className="title-box"> <h3>Executive Suite</h3> </div>
-                                  <span className="star"> <img src="/assets/images/icons/star-element.svg" alt="image" /> </span>
+                                  <span className="star"> <img src="/assets/images/rooms/Executive-Suite.jpg" alt="image" /> </span>
                                   <div className="arrow-btn"> <a href="menu-list-4.html"> <i className="fa-light fa-arrow-right" /> </a> </div>
                               </div>
                           </div>
