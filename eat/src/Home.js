@@ -63,7 +63,7 @@ function Home() {
                                           <ul className="navigation clearfix">
                                               <li><a href="index.html#">Home</a>
                                               </li>
-                                              <li className="has-mega-menu"><a href="menu2.jpg">Rooms & Suites</a>
+                                              <li className="has-mega-menu"><a href="rooms.js">Rooms & Suites</a>
                                               </li>
                                               <li><a href="about.html">Resturant & Lounges</a></li>
                                               <li><a href="our-chef.html">Special Offers</a></li>
@@ -147,7 +147,7 @@ function Home() {
                                       <li><a href="../Restoria-5-Rollingimages-Hero-Center-Header/index.html">Home 5 - Rolling Images</a></li>
                                   </ul>
                               </li>
-                              <li className="dropdown"><a href="">Rooms & Suites</a>
+                              <li className="dropdown"><a href="rooms.js">Rooms & Suites</a>
                               </li>
                               <li><a href="about.html">Resturant & Lounges</a></li>
                               <li><a href="our-chef.html">Special Offers</a></li>
