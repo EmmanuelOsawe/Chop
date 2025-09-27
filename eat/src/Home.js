@@ -558,7 +558,7 @@ function Home() {
                           {/*Block*/}
                           <div className="why-block-two col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12">
                               <div className="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
-                                  <div className="image-box"><img src="/assets/images/resource/why1.jpg" alt /></div>
+                                  <div className="image-box"><img src="/assets/images/events/centeral.jpg" alt /></div>
                                   <div className="over-box">
                                       <h6>Games and Fun</h6>
                                   </div>
@@ -567,7 +567,7 @@ function Home() {
                           {/*Block*/}
                           <div className="why-block-two col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12">
                               <div className="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="300ms">
-                                  <div className="image-box"><img src="/assets/images/resource/why2.jpg" alt /></div>
+                                  <div className="image-box"><img src="/assets/images/events/lugis.jpg" alt /></div>
                                   <div className="over-box">
                                       <h6>Food</h6>
                                   </div>
@@ -576,7 +576,7 @@ function Home() {
                           {/*Block*/}
                           <div className="why-block-two col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12">
                               <div className="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="600ms">
-                                  <div className="image-box"><img src="/assets/images/resource/why3.jpg" alt /></div>
+                                  <div className="image-box"><img src="/assets/images/events/gym.jpg" alt /></div>
                                   <div className="over-box">
                                       <h6>Physical Activities</h6>
                                   </div>
@@ -585,7 +585,7 @@ function Home() {
                           {/*Block*/}
                           <div className="why-block-two col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12">
                               <div className="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="900ms">
-                                  <div className="image-box"><img src="/assets/images/resource/why4.jpg" alt /></div>
+                                  <div className="image-box"><img src="/assets/images/events/lobby.jpg" alt /></div>
                                   <div className="over-box">
                                       <h6>Lobby</h6>
                                   </div>
