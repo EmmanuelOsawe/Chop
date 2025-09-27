@@ -552,7 +552,7 @@ function Home() {
                   <div className="auto-container">
                       <div className="title-box centered">
                           <div className="subtitle"><span>why choose us</span></div>
-                          <h2>Why Dine With Us</h2>
+                          <h2>Why Book With Us</h2>
                       </div>
                       <div className="row clearfix">
                           {/*Block*/}
@@ -560,7 +560,7 @@ function Home() {
                               <div className="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
                                   <div className="image-box"><img src="/assets/images/resource/why1.jpg" alt /></div>
                                   <div className="over-box">
-                                      <h6>skilled chef</h6>
+                                      <h6>Games and Fun</h6>
                                   </div>
                               </div>
                           </div>
@@ -569,7 +569,7 @@ function Home() {
                               <div className="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="300ms">
                                   <div className="image-box"><img src="/assets/images/resource/why2.jpg" alt /></div>
                                   <div className="over-box">
-                                      <h6>hygienic food</h6>
+                                      <h6>Food</h6>
                                   </div>
                               </div>
                           </div>
@@ -578,7 +578,7 @@ function Home() {
                               <div className="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="600ms">
                                   <div className="image-box"><img src="/assets/images/resource/why3.jpg" alt /></div>
                                   <div className="over-box">
-                                      <h6>Fresh ambience</h6>
+                                      <h6>Physical Activities</h6>
                                   </div>
                               </div>
                           </div>
@@ -587,7 +587,7 @@ function Home() {
                               <div className="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="900ms">
                                   <div className="image-box"><img src="/assets/images/resource/why4.jpg" alt /></div>
                                   <div className="over-box">
-                                      <h6>secreat recipe</h6>
+                                      <h6>Lobby</h6>
                                   </div>
                               </div>
                           </div>
@@ -596,26 +596,26 @@ function Home() {
                           <div className="row clearfix">
                               <div className="fact-block col-lg-3 col-md-6 col-sm-6 col-xs-12">
                                   <div className="inner clearfix">
-                                      <div className="fact-title">monthly visitors</div>
-                                      <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry has been. </p>
+                                      <div className="fact-title">Games</div>
+                                      <p className='text-light'> Modern 5-star hotels offer gaming lounges, sports courts, and indoor entertainment to keep guests engaged and relaxed. Some even include exclusive activities like bowling, VR games, or unique sports such as padel and pickleball. </p>
                                   </div>
                               </div>
                               <div className="fact-block col-lg-3 col-md-6 col-sm-6 col-xs-12">
                                   <div className="inner clearfix">
-                                      <div className="fact-title">positive reviews</div>
-                                      <p> Simply dummy text of the printing and typesetting industry lorem Ipsum has been. </p>
+                                      <div className="fact-title">Our Food</div>
+                                      <p className='text-light'> Dining is a highlight, with multiple restaurants and bars serving both local and international cuisines. Guests enjoy fine dining, buffets, and specialty outlets that cater to different tastes, ensuring a memorable culinary journey. </p>
                                   </div>
                               </div>
                               <div className="fact-block col-lg-3 col-md-6 col-sm-6 col-xs-12">
                                   <div className="inner clearfix">
-                                      <div className="fact-title">secreat recipe</div>
-                                      <p> Simply dummy text of the printing and typesetting lorem Ipsum has been industry. </p>
+                                      <div className="fact-title">Gym</div>
+                                      <p className='text-light'> Equipped with state-of-the-art fitness machines, wellness programs, personal trainers, and sometimes even spa or yoga sessions, the gym in a 5-star hotel helps guests maintain a healthy lifestyle while traveling. </p>
                                   </div>
                               </div>
                               <div className="fact-block col-lg-3 col-md-6 col-sm-6 col-xs-12">
                                   <div className="inner clearfix">
-                                      <div className="fact-title">award &amp; honnors</div>
-                                      <p> Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum. </p>
+                                      <div className="fact-title">Lobby</div>
+                                      <p className='text-light'> The lobby is grand and elegant, often with stylish décor, comfortable seating, and attentive staff. It sets the tone for the entire stay, reflecting the luxury and prestige of the hotel. </p>
                                   </div>
                               </div>
                           </div>
