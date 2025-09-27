@@ -31,7 +31,7 @@ function Rooms() {
                           <div className="inner clearfix">
                               <div className="top-left clearfix">
                                   <ul className="top-info clearfix">
-                                      <li><i className="icon far fa-map-marker-alt" /> Restoria, Arrondissement, Paris 9578</li>
+                                      <li><i className="icon far fa-map-marker-alt" /> Abuja Intercontiental, Wuze Zone 4</li>
                                       <li><i className="icon far fa-clock" /> Daily : 8.00 am to 10.00 pm</li>
                                   </ul>
                               </div>
@@ -224,13 +224,13 @@ function Rooms() {
                       <div className="logo-box"><a href="index.html" title="Restoria - Restaurants HTML Template"><img src="images/resource/sidebar-logo.png" alt="image" title="Restoria - Restaurants HTML Template" /></a></div>
                       <h5>Visit Us</h5>
                       <ul className="info">
-                          <li>Restoria, Arrondissement, <br /> Paris 9578</li>
+                          <li>Abuja Intercontiental, <br /> Wuze Zone 4</li>
                           <li> <span className="ib-ttl"> Lunch Time </span>- 10.00 am – 3:30 pm </li>
                           <li><span className="ib-ttl"> Dinner Time</span> - 08.00 pm – 10:30 pm</li>
                           <li><a href="mailto:booking@domainame.com">booking@domainame.com</a></li>
                       </ul>
                       <div className="booking-info">
-                          <div className="bk-no"><a href="tel:+88-123-123456">Booking: +88-123-123456</a></div>
+                          <div className="bk-no"><a href="tel:+234 (0) 2094612000 / 08070602727">Booking: +234 (0) 2094612000 / 08070602727</a></div>
                       </div>
                   </div>
               </section>
@@ -452,7 +452,7 @@ function Rooms() {
                                       <div className="title-box centered">
                                           <div className="subtitle"><span>Online reservation</span></div>
                                           <h2>Book A Table</h2>
-                                          <div className="request-info">Booking request <a href="menu-list-2.html#">+88-123-123456</a> or fill out the order form</div>
+                                          <div className="request-info">Booking request <a href="menu-list-2.html#">+234 (0) 2094612000 / 08070602727</a> or fill out the order form</div>
                                       </div>
                                       <div className="default-form reservation-form">
                                           <form method="post" action="index.html">
@@ -558,10 +558,10 @@ function Rooms() {
                                           <div className="info">
                                               <h6>visit us </h6>
                                               <ul>
-                                                  <li>Restoria, Arrondissement, Paris 9578</li>
+                                                  <li>Abuja Intercontiental 1, Ladi Kwali Street, Wuse Zone 4,</li>
                                                   <li>Daily - 8.00 am to 10.00 pm</li>
-                                                  <li><a href="mailto:booking@domainname.com">booking@gmail.com</a></li>
-                                                  <li><a href="tel:+88-123-123456">Booking Request : +88-123-123456</a></li>
+                                                  <li><a href="mailto:booking@domainname.com">info@abujacontinental.com</a></li>
+                                                  <li><a href="tel:+234 (0) 2094612000 / 08070602727">Booking Request : +234 (0) 2094612000 / 08070602727</a></li>
                                               </ul>
                                           </div>
                                       </div>
