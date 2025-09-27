@@ -56,9 +56,11 @@ export default function MenuSection() {
                                 <h3>Salsa Night</h3>
 
                                 <br></br>
-                                
+
                                 <img src="/assets/images/events/salsa.jpg" alt="Salsa Night" />
-                                <br></br>
+
+                                <br></br> <br></br>
+
                                 <p>
                                     Join us every Friday night for an unforgettable Salsa Night at Abuja Continental Hotel! Whether you're a seasoned dancer or a complete beginner, our lively salsa sessions are perfect for everyone. Enjoy the vibrant rhythms of Latin music, sip on our signature cocktails, and dance the night away in a fun and welcoming atmosphere. Don't miss out on this exciting weekly event that promises great music, delicious drinks, and fantastic company. See you on the dance floor!.
                                     Thursday Thursday 6PM Happy Hour 7PM - 8PM:  Buy One, Get One Free Pool Bar, Abuja Continental.
@@ -67,54 +69,17 @@ export default function MenuSection() {
                         )}
                         {activeTab === "tab-2" && (
                             <div className="tab active-tab" id="tab-2">
-                                <h3>Main Dishes</h3>
-                                {/*Tab*/}
-                                <div className="tab active-tab" id="tab-1">
-                                    <div className="row clearfix">
-                                        <div className="menu-col col-lg-6 col-md-12 col-sm-12">
-                                            <div className="inner">
-                                                {/*Block*/}
-                                                <div className="dish-block">
-                                                    <div className="inner-box">
-                                                        <div className="dish-image"><a href="index.html#"><img src="images/resource/menu-image-1.png" alt="image" /></a></div>
-                                                        <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Stuffed Mushrooms</a></h6></div> <span className="menu-list-line"> </span> <div className="price"><span>$25.50</span></div></div>
-                                                        <div className="text desc"><a href="index.html#">flavorful, filled with panko bread crumbs, pine nuts, parsley, sun-dried tomatoes, and cheese.</a></div>
-                                                    </div>
-                                                </div>
-                                                {/*Block*/}
-                                                <div className="dish-block">
-                                                    <div className="inner-box">
-                                                        <div className="dish-image"><a href="index.html#"><img src="images/resource/menu-image-2.png" alt="image" /></a></div>
-                                                        <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Jalapeno Poppers <span className="s-info">New</span></a></h6></div> <span className="menu-list-line"> </span> <div className="price"><span>$40.00</span></div></div>
-                                                        <div className="text desc"><a href="index.html#">Greek yogurt filling instead of a traditional cream cheese one.</a></div>
-                                                    </div>
-                                                </div>
-                                                {/*Block*/}
-                                                <div className="dish-block">
-                                                    <div className="inner-box">
-                                                        <div className="dish-image"><a href="index.html#"><img src="images/resource/menu-image-3.png" alt="image" /></a></div>
-                                                        <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Caprese Skewers</a></h6></div> <span className="menu-list-line"> </span> <div className="price"><span>$10.00</span></div></div>
-                                                        <div className="text desc"><a href="index.html#">Drizzle these colorful skewers with an easy balsamic for a pop of sweet flavor.</a></div>
-                                                    </div>
-                                                </div>
-                                                {/*Block*/}
-                                                <div className="dish-block">
-                                                    <div className="inner-box">
-                                                        <div className="dish-image"><a href="index.html#"><img src="images/resource/menu-image-4.png" alt="image" /></a></div>
-                                                        <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Greek Salad</a></h6></div> <span className="menu-list-line"> </span> <div className="price"><span>$10.00</span></div></div>
-                                                        <div className="text desc"><a href="index.html#">Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.</a></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="menu-col img-col col-lg-6 col-md-12 col-sm-12">
-                                            <div className="inner">
-                                                <div className="image"><img src="images/resource/menus-1.jpg" alt="image" /></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/*Tab*/}
+                                <h3>Chunky Fingers</h3>
+
+                                <br></br>
+
+                                <img src="/assets/images/events/chunky.jpg" alt="Salsa Night" />
+
+                                <br></br> <br></br>
+                                
+                                <p>
+                                    Indulge in the ultimate comfort food experience with our Chunky Fingers special at Abuja Continental Hotel! Our crispy, golden-brown chicken fingers are made from the finest cuts of chicken, seasoned to perfection, and served with a variety of delicious dipping sauces. Whether you're craving a quick snack or a hearty meal, our Chunky Fingers are sure to satisfy your taste buds. Perfect for sharing with friends or enjoying on your own, this dish is a must-try for all food lovers. Visit us today and treat yourself to this irresistible delight!
+                                </p>
                             </div>
                         )}
                         {activeTab === "tab-3" && (
