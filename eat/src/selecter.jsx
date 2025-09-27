@@ -14,7 +14,8 @@ export default function MenuSection() {
                             title="image"
                         />
                     </div>
-                    <h2>Delicious Menu</h2>
+                    <h2>Exclusive Special Offers at Abuja Continental Hotel</h2>
+                    <h3>Unlock Unforgettable Experiences & Savings in Abuja</h3>
                 </div>
 
                 <div className="tabs-box menu-tabs">
