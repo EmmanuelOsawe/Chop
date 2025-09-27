@@ -544,7 +544,7 @@ function Rooms() {
                               {/*Footer Col*/}
                               <div className="footer-col footer-map-col col-lg-6 col-md-12 col-sm-12 px-0">
                                   <div className="footer-map">
-                                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d81392.11276571127!2d-74.03116502768826!3d40.70144849986174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1667928043843!5m2!1sen!2sin" width="100%" height={500} style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.998661644971!2d7.481666175010819!3d9.063885088441936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0b5fcf7624d5%3A0x2b03f1d1ef382d7f!2sAbuja%20Continental%20Hotel!5e0!3m2!1sen!2sng!4v1758959024881!5m2!1sen!2sng" width="100%" height={500} style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
                                   </div>
                               </div>
                               {/*Footer Col*/}
@@ -552,9 +552,9 @@ function Rooms() {
                                   <div className="inner wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                       <div className="content">
                                           <div className="footer-image">
-                                              <img src="images/resource/footer-img-1.jpg" alt="image" />
+                                              <img src="/assets/images/resource/footer-img-1.jpg" alt="image" />
                                           </div>
-                                          <div className="logo"><a href="index.html" title="Restoria - Restaurants HTML Template"><img src="images/logo.png" alt="image" title="Restoria - Restaurants HTML Template" /></a></div>
+                                          <div className="logo"><a href="index.html" title="Restoria - Restaurants HTML Template"><img src="/assets/images/logo.png" alt="image" title="Restoria - Restaurants HTML Template" /></a></div>
                                           <div className="info">
                                               <h6>visit us </h6>
                                               <ul>
