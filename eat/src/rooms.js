@@ -275,10 +275,10 @@ function Rooms() {
                           {/*Item*/}
                           <div className="offer-block-three col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
                               <div className="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="400ms">
-                                  <div className="image"><a href="menu-list-2.html#"><img src="images/resource/dish2.png" alt="image" /></a></div>
-                                  <h5><a href="menu-list-1.html">Butternut Pumpkin</a></h5>
-                                  <div className="text desc text-light">Avocados with crab meat, red onion, tomato sauce,crab salad stuffed pepper.</div>
-                                  <div className="price">$15.00</div>
+                                   <br /> <br />
+                                  <div className="image"><a href="menu-list-2.html#"><img src="/assets/images/rooms/Super-King.jpg" alt="image" /></a></div>
+                                  <h5><a href="menu-list-1.html">Superior King Suite</a></h5>
+                                  <div className="text desc text-light">Unwind in the refined comfort of our Superior King Room.</div>
                               </div>
                           </div>
                           {/*Item*/}
