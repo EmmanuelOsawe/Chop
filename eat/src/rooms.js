@@ -251,25 +251,25 @@ function Rooms() {
                   <div className="auto-container">
                       <div className="title-box centered">
                           <div className="subtitle"><span>starter</span></div>
-                          <h2>Appetizers</h2>
+                          <h2>Exclusive Rooms</h2>
                       </div>
                       <div className="row clearfix">
                           {/*Item*/}
                           <div className="offer-block-three col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
                               <div className="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
-                                  <div className="image"><a href="menu-list-2.html#"><img src="images/resource/dish1.png" alt="image" /></a></div>
-                                  <h5><a href="menu-list-1.html">Greek Salad</a></h5>
-                                  <div className="text desc">flavorful, filled with panko bread crumbs, pine nuts, parsley, sun-dried tomatoes.</div>
-                                  <div className="price">$39.00</div>
+                                  <br /> <br />
+                                  <div className="image"><a href="menu-list-2.html#"><img src="assets/images/rooms/Diplomatic.jpg" alt="image" /></a></div>
+                                  <h5><a href="menu-list-1.html">Diplomatic Suite</a></h5>
+                                  <div className="text desc text-light">Experience an unparalleled luxury and pleasure within the confines of our prestigious Diplomatic Suite. Designed for discerning guests who require the utmost comfort, space, and privacy in the heart of the city.</div>
                               </div>
                           </div>
                           {/*Item*/}
                           <div className="offer-block-three col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
                               <div className="inner-box special-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
-                                  <div className="image"><a href="menu-list-2.html#"><img src="images/resource/dish1-special.png" alt="image" /></a> <span className="special-tag">Popular</span> </div>
-                                  <h5><a href="menu-list-1.html">Tokusen Wagyu</a></h5>
-                                  <div className="text desc">Tomatoes, green bell pepper, pine nuts, parsley, sliced cucumber onion, olives.</div>
-                                  <div className="price">$45.00</div>
+                                  <br /> <br />
+                                  <div className="image"><a href="menu-list-2.html#"><img src="assets/images/rooms/Presidential.jpg" alt="image" /></a> <span className="special-tag">Popular</span> </div>
+                                  <h5><a href="menu-list-1.html">Presidential Suite</a></h5>
+                                  <div className="text desc text-light">Experience unparalleled Luxury in Our Presidential Suite - Where Every Detail Reflects Your Elite Status and Every Moment Exudes Prestige.</div>
                               </div>
                           </div>
                           {/*Item*/}
@@ -277,7 +277,7 @@ function Rooms() {
                               <div className="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="400ms">
                                   <div className="image"><a href="menu-list-2.html#"><img src="images/resource/dish2.png" alt="image" /></a></div>
                                   <h5><a href="menu-list-1.html">Butternut Pumpkin</a></h5>
-                                  <div className="text desc">Avocados with crab meat, red onion, tomato sauce,crab salad stuffed pepper.</div>
+                                  <div className="text desc text-light">Avocados with crab meat, red onion, tomato sauce,crab salad stuffed pepper.</div>
                                   <div className="price">$15.00</div>
                               </div>
                           </div>
@@ -286,7 +286,7 @@ function Rooms() {
                               <div className="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="600ms">
                                   <div className="image"><a href="menu-list-2.html#"><img src="images/resource/dish3.png" alt="image" /></a></div>
                                   <h5><a href="menu-list-1.html">Opu Fish</a></h5>
-                                  <div className="text desc">Vegetables, cheeses, ground meats, tomato sauce, red onion, crab.</div>
+                                  <div className="text desc text-light">Vegetables, cheeses, ground meats, tomato sauce, red onion, crab.</div>
                                   <div className="price">$12.00</div>
                               </div>
                           </div>
@@ -295,7 +295,7 @@ function Rooms() {
                               <div className="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
                                   <div className="image"><a href="menu-list-2.html#"><img src="images/resource/dish4.png" alt="image" /></a></div>
                                   <h5><a href="menu-list-1.html">Greek Salad</a></h5>
-                                  <div className="text desc">Avocados with crab meat, red onion, crab salad red bell pepper...</div>
+                                  <div className="text desc text-light">Avocados with crab meat, red onion, crab salad red bell pepper...</div>
                                   <div className="price">$39.00</div>
                               </div>
                           </div>
@@ -304,71 +304,7 @@ function Rooms() {
                               <div className="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
                                   <div className="image"><a href="menu-list-2.html#"><img src="images/resource/dish5.png" alt="image" /></a></div>
                                   <h5><a href="menu-list-1.html">Tokusen Wagyu</a></h5>
-                                  <div className="text desc">Tomatoes, green bell pepper, red bell pepper, sliced cucumber onion, olives.</div>
-                                  <div className="price">$45.00</div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </section>
-              {/*Special Offer Section*/}
-              <section className="special-offer-two main-dish section-kt">
-                  <div className="auto-container">
-                      <div className="title-box centered">
-                          <div className="subtitle"><span>lunch-dinner</span></div>
-                          <h2>Main Dishes</h2>
-                      </div>
-                      <div className="row clearfix">
-                          {/*Item*/}
-                          <div className="offer-block-three col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                              <div className="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
-                                  <div className="image"><a href="menu-list-2.html#"><img src="images/resource/maindish1.png" alt="image" /></a></div>
-                                  <h5><a href="menu-list-1.html">Roasted Salmon</a></h5>
-                                  <div className="text desc">flavorful, filled with panko bread crumbs, pine nuts, parsley, sun-dried tomatoes.</div>
-                                  <div className="price">$39.00</div>
-                              </div>
-                          </div>
-                          {/*Item*/}
-                          <div className="offer-block-three col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                              <div className="inner-box special-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
-                                  <div className="image"><a href="menu-list-2.html#"><img src="images/resource/maindish1-special.png" alt="image" /></a> <span className="special-tag">Popular</span> </div>
-                                  <h5><a href="menu-list-1.html">Premium Junior Suite</a></h5>
-                                  <div className="text desc text-light">Discover Unparalleled Comfort in Our Premium Junior Suites – Elevate Your Stay to a New Level of Luxury.</div>
-                              </div>
-                          </div>
-                          {/*Item*/}
-                          <div className="offer-block-three col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                              <div className="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="400ms">
-                                  <div className="image"><a href="menu-list-2.html#"><img src="images/resource/maindish2.png" alt="image" /></a></div>
-                                  <h5><a href="menu-list-1.html">Steamed Crab Legs</a></h5>
-                                  <div className="text desc">Avocados with crab meat, red onion, tomato sauce,crab salad stuffed pepper.</div>
-                                  <div className="price">$15.00</div>
-                              </div>
-                          </div>
-                          {/*Item*/}
-                          <div className="offer-block-three col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                              <div className="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="600ms">
-                                  <div className="image"><a href="menu-list-2.html#"><img src="images/resource/maindish3.png" alt="image" /></a></div>
-                                  <h5><a href="menu-list-1.html">Roasted Salmon</a></h5>
-                                  <div className="text desc">Vegetables, cheeses, ground meats, tomato sauce, red onion, crab.</div>
-                                  <div className="price">$12.00</div>
-                              </div>
-                          </div>
-                          {/*Item*/}
-                          <div className="offer-block-three col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                              <div className="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
-                                  <div className="image"><a href="menu-list-2.html#"><img src="images/resource/maindish4.png" alt="image" /></a></div>
-                                  <h5><a href="menu-list-1.html">Tokusen Wagyu</a></h5>
-                                  <div className="text desc">Avocados with crab meat, red onion, crab salad red bell pepper...</div>
-                                  <div className="price">$39.00</div>
-                              </div>
-                          </div>
-                          {/*Item*/}
-                          <div className="offer-block-three col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                              <div className="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
-                                  <div className="image"><a href="menu-list-2.html#"><img src="images/resource/maindish5.png" alt="image" /></a></div>
-                                  <h5><a href="menu-list-1.html">Olivas Rellenas</a></h5>
-                                  <div className="text desc">Tomatoes, green bell pepper, red bell pepper, sliced cucumber onion, olives.</div>
+                                  <div className="text desc text-light">Tomatoes, green bell pepper, red bell pepper, sliced cucumber onion, olives.</div>
                                   <div className="price">$45.00</div>
                               </div>
                           </div>
@@ -389,7 +325,7 @@ function Rooms() {
                                   <br /> <br /> 
                                   <div className="image"><a href="menu-list-2.html#"><img  src="assets/images/rooms/Prem-Exe.jpg" alt="image" /></a></div>
                                   <h5><a href="menu-list-1.html">Premium Suites</a></h5>
-                                  <div className="text desc text-light">Step into our Premium Executive Suite, where luxury embraces you. From the plush furnishings to the panoramic city views, every moment is a masterpiece of indulgence.</div>
+                                  <div className="text desc text-light text-light">Step into our Premium Executive Suite, where luxury embraces you. From the plush furnishings to the panoramic city views, every moment is a masterpiece of indulgence.</div>
                               </div>
                           </div>
                           {/*Item*/}
@@ -398,7 +334,7 @@ function Rooms() {
                                   <br /> <br /> 
                                   <div className="image"><a href="menu-list-2.html#"><img src="/assets/images/rooms/Prem-Jun.jpg" alt="image" /></a> <span className="special-tag">Popular</span> </div>
                                   <h5><a href="menu-list-1.html">Premium Junior</a></h5>
-                                  <div className="text desc text-light">Discover Unparalleled Comfort in Our Premium Junior Suites – Elevate Your Stay to a New Level of Luxury.</div>
+                                  <div className="text desc text-light text-light">Discover Unparalleled Comfort in Our Premium Junior Suites – Elevate Your Stay to a New Level of Luxury.</div>
                               </div>
                           </div>
                           {/*Item*/}
@@ -407,7 +343,7 @@ function Rooms() {
                                     <br /> <br />
                                   <div className="image"><a href="menu-list-2.html#"><img src="/assets/images/rooms/Prem-Jun.jpg" alt="image" /></a></div>  
                                   <h5><a href="menu-list-1.html text-light">Premium Executive Suite</a></h5>
-                                  <div className="text desc text-light">Step into our Premium Executive Suite, where luxury embraces you. From the plush furnishings to the panoramic city views, every moment is a masterpiece of indulgence.</div>
+                                  <div className="text desc text-light text-light">Step into our Premium Executive Suite, where luxury embraces you. From the plush furnishings to the panoramic city views, every moment is a masterpiece of indulgence.</div>
                               </div>
                           </div>
                       </div>
