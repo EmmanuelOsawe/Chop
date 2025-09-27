@@ -99,54 +99,17 @@ export default function MenuSection() {
                         )}
                         {activeTab === "tab-4" && (
                             <div className="tab active-tab" id="tab-4">
-                                <h3>Wines</h3>
-                                {/*Tab*/}
-                                <div className="tab active-tab" id="tab-1">
-                                    <div className="row clearfix">
-                                        <div className="menu-col col-lg-6 col-md-12 col-sm-12">
-                                            <div className="inner">
-                                                {/*Block*/}
-                                                <div className="dish-block">
-                                                    <div className="inner-box">
-                                                        <div className="dish-image"><a href="index.html#"><img src="images/resource/menu-image-1.png" alt="image" /></a></div>
-                                                        <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Stuffed Mushrooms</a></h6></div> <span className="menu-list-line"> </span> <div className="price"><span>$25.50</span></div></div>
-                                                        <div className="text desc"><a href="index.html#">flavorful, filled with panko bread crumbs, pine nuts, parsley, sun-dried tomatoes, and cheese.</a></div>
-                                                    </div>
-                                                </div>
-                                                {/*Block*/}
-                                                <div className="dish-block">
-                                                    <div className="inner-box">
-                                                        <div className="dish-image"><a href="index.html#"><img src="images/resource/menu-image-2.png" alt="image" /></a></div>
-                                                        <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Jalapeno Poppers <span className="s-info">New</span></a></h6></div> <span className="menu-list-line"> </span> <div className="price"><span>$40.00</span></div></div>
-                                                        <div className="text desc"><a href="index.html#">Greek yogurt filling instead of a traditional cream cheese one.</a></div>
-                                                    </div>
-                                                </div>
-                                                {/*Block*/}
-                                                <div className="dish-block">
-                                                    <div className="inner-box">
-                                                        <div className="dish-image"><a href="index.html#"><img src="images/resource/menu-image-3.png" alt="image" /></a></div>
-                                                        <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Caprese Skewers</a></h6></div> <span className="menu-list-line"> </span> <div className="price"><span>$10.00</span></div></div>
-                                                        <div className="text desc"><a href="index.html#">Drizzle these colorful skewers with an easy balsamic for a pop of sweet flavor.</a></div>
-                                                    </div>
-                                                </div>
-                                                {/*Block*/}
-                                                <div className="dish-block">
-                                                    <div className="inner-box">
-                                                        <div className="dish-image"><a href="index.html#"><img src="images/resource/menu-image-4.png" alt="image" /></a></div>
-                                                        <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Greek Salad</a></h6></div> <span className="menu-list-line"> </span> <div className="price"><span>$10.00</span></div></div>
-                                                        <div className="text desc"><a href="index.html#">Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.</a></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="menu-col img-col col-lg-6 col-md-12 col-sm-12">
-                                            <div className="inner">
-                                                <div className="image"><img src="images/resource/menus-1.jpg" alt="image" /></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/*Tab*/}
+                                <h3>Weddings</h3>
+
+                                <br></br>
+
+                                <img src="/assets/images/events/wedding.jpg" alt="Salsa Night" />
+
+                                <br></br> <br></br>
+                                
+                                <p> 
+                                    Celebrate your special day in style at Abuja Continental Hotel, the perfect venue for unforgettable weddings. Our elegant event spaces, exquisite catering options, and dedicated wedding planning team ensure that every detail of your big day is flawlessly executed. From intimate ceremonies to grand receptions, we offer a range of customizable packages to suit your needs and preferences. Let us help you create cherished memories with your loved ones in a beautiful setting that reflects your unique love story. Contact us today to start planning the wedding of your dreams!
+                                </p>
                             </div>
                         )}
                     </div>
