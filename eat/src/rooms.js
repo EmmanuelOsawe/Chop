@@ -450,7 +450,7 @@ function Rooms() {
                               <div className="reserv-col col-lg-8 col-md-12 col-sm-12 mx-auto">
                                   <div className="inner">
                                       <div className="title-box centered">
-                                          <div className="subtitle"><span>Online reservation</span></div>
+                                          <div className="subtitle"><span> reservation</span></div>
                                           <h2>Book A Table</h2>
                                           <div className="request-info">Booking request <a href="menu-list-2.html#">+234 (0) 2094612000 / 08070602727</a> or fill out the order form</div>
                                       </div>
@@ -458,14 +458,12 @@ function Rooms() {
                                           <form method="post" action="index.html">
                                               <div className="row clearfix">
                                                   <div className="form-group col-lg-6 col-md-6 col-sm-12">
-                                                      <div className="field-inner">
-                                                          <input type="text" name="fieldname" defaultValue placeholder="Your Name" required />
-                                                      </div>
+                                                      <div className="field-inner"><input type="text" name="fieldname" defaultValue="" placeholder="Your Name" required />                                                      </div>
                                                   </div>
                                                   <div className="form-group col-lg-6 col-md-6 col-sm-12">
                                                       <div className="field-inner">
-                                                          <input type="text" name="fieldname" defaultValue placeholder="Phone Number" required />
-                                                      </div>
+                                                          <input type="number" name="fieldname" defaultValue="" placeholder="Phone Number" required />                                                      
+                                                        </div>
                                                   </div>
                                                   <div className="form-group col-lg-4 col-md-6 col-sm-12">
                                                       <div className="field-inner">
@@ -485,8 +483,15 @@ function Rooms() {
                                                   <div className="form-group col-lg-4 col-md-6 col-sm-12">
                                                       <div className="field-inner">
                                                           <span className="alt-icon far fa-calendar" />
-                                                          <input className="l-icon datepicker" type="text" name="fieldname" defaultValue placeholder="DD-MM-YYYY" required readOnly />
-                                                          <span className="arrow-icon far fa-angle-down" />
+                                                              <input
+                                                                  className="l-icon datepicker"
+                                                                  type="date"
+                                                                  name="fieldname"
+                                                                  defaultValue=""
+                                                                  placeholder="DD-MM-YYYY"
+                                                                  required
+                                                              />
+                                                          <span className="arrow-icon" />
                                                       </div>
                                                   </div>
                                                   <div className="form-group col-lg-4 col-md-12 col-sm-12">
