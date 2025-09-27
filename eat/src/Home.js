@@ -63,27 +63,11 @@ function Home() {
                                           <ul className="navigation clearfix">
                                               <li><a href="index.html#">Home</a>
                                               </li>
-                                              <li className="dropdown has-mega-menu"><a href="https://kalanidhithemes.com/live-preview/landing-page/restoria/all-demo/Restoria-2-Standard-Hero/menu-list.html">Menus</a>
-                                                  <ul>
-                                                      <li>
-                                                          <div className="mega-menu">
-                                                              <div className="menu-inner">
-                                                                  <div className="auto-container">
-                                                                      <div className="row clearfix">
-                                                                          <div className="menu-block col-lg-3 col-md-6 col-sm-6">
-                                                                              <div className="image"><a href="menu-list-2.html"><img src="/assets/images/resource/menu-2-thumb.jpg" alt="image" /></a></div>
-                                                                              <div className="title"><a href="menu-list-2.html">Menu list 2</a></div>
-                                                                          </div>
-                                                                      </div>
-                                                                  </div>
-                                                              </div>
-                                                          </div>
-                                                      </li>
-                                                  </ul>
+                                              <li className="has-mega-menu"><a href="menu2.jpg">Rooms & Suites</a>
                                               </li>
-                                              <li><a href="about.html">About Us</a></li>
-                                              <li><a href="our-chef.html">Our chefs</a></li>
-                                              <li className="dropdown"><a href="index.html#">Pages</a>
+                                              <li><a href="about.html">Resturant & Lounges</a></li>
+                                              <li><a href="our-chef.html">Special Offers</a></li>
+                                              <li className="dropdown"><a href="index.html#">Inside</a>
                                                   <ul>
                                                       <li><a href="gallery-masonry.html">Photo Gallery</a></li>
                                                       <li><a href="book-table.html">Reservation 1</a></li>
@@ -163,17 +147,11 @@ function Home() {
                                       <li><a href="../Restoria-5-Rollingimages-Hero-Center-Header/index.html">Home 5 - Rolling Images</a></li>
                                   </ul>
                               </li>
-                              <li className="dropdown"><a href="menu-list-1.html">Menus</a>
-                                  <ul>
-                                      <li><a href="menu-list-1.html">Menu List 1</a></li>
-                                      <li><a href="menu-list-2.html">Menu List 2</a></li>
-                                      <li><a href="menu-list-3.html">Menu List 3</a></li>
-                                      <li><a href="menu-list-4.html">Menu List 4</a></li>
-                                  </ul>
+                              <li className="dropdown"><a href="">Rooms & Suites</a>
                               </li>
-                              <li><a href="about.html">About Us</a></li>
-                              <li><a href="our-chef.html">Our chefs</a></li>
-                              <li className="dropdown"><a href="index.html#">Pages</a>
+                              <li><a href="about.html">Resturant & Lounges</a></li>
+                              <li><a href="our-chef.html">Special Offers</a></li>
+                              <li className="dropdown"><a href="index.html#">Inside</a>
                                   <ul>
                                       <li><a href="gallery-masonry.html">Photo Gallery</a></li>
                                       <li><a href="book-table.html">Reservation 1</a></li>
