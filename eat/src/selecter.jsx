@@ -84,54 +84,17 @@ export default function MenuSection() {
                         )}
                         {activeTab === "tab-3" && (
                             <div className="tab active-tab" id="tab-3">
-                                <h3>Desserts</h3>
-                                {/*Tab*/}
-                                <div className="tab active-tab" id="tab-1">
-                                    <div className="row clearfix">
-                                        <div className="menu-col col-lg-6 col-md-12 col-sm-12">
-                                            <div className="inner">
-                                                {/*Block*/}
-                                                <div className="dish-block">
-                                                    <div className="inner-box">
-                                                        <div className="dish-image"><a href="index.html#"><img src="images/resource/menu-image-1.png" alt="image" /></a></div>
-                                                        <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Stuffed Mushrooms</a></h6></div> <span className="menu-list-line"> </span> <div className="price"><span>$25.50</span></div></div>
-                                                        <div className="text desc"><a href="index.html#">flavorful, filled with panko bread crumbs, pine nuts, parsley, sun-dried tomatoes, and cheese.</a></div>
-                                                    </div>
-                                                </div>
-                                                {/*Block*/}
-                                                <div className="dish-block">
-                                                    <div className="inner-box">
-                                                        <div className="dish-image"><a href="index.html#"><img src="images/resource/menu-image-2.png" alt="image" /></a></div>
-                                                        <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Jalapeno Poppers <span className="s-info">New</span></a></h6></div> <span className="menu-list-line"> </span> <div className="price"><span>$40.00</span></div></div>
-                                                        <div className="text desc"><a href="index.html#">Greek yogurt filling instead of a traditional cream cheese one.</a></div>
-                                                    </div>
-                                                </div>
-                                                {/*Block*/}
-                                                <div className="dish-block">
-                                                    <div className="inner-box">
-                                                        <div className="dish-image"><a href="index.html#"><img src="images/resource/menu-image-3.png" alt="image" /></a></div>
-                                                        <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Caprese Skewers</a></h6></div> <span className="menu-list-line"> </span> <div className="price"><span>$10.00</span></div></div>
-                                                        <div className="text desc"><a href="index.html#">Drizzle these colorful skewers with an easy balsamic for a pop of sweet flavor.</a></div>
-                                                    </div>
-                                                </div>
-                                                {/*Block*/}
-                                                <div className="dish-block">
-                                                    <div className="inner-box">
-                                                        <div className="dish-image"><a href="index.html#"><img src="images/resource/menu-image-4.png" alt="image" /></a></div>
-                                                        <div className="title clearfix"><div className="ttl clearfix"><h6><a href="index.html#">Greek Salad</a></h6></div> <span className="menu-list-line"> </span> <div className="price"><span>$10.00</span></div></div>
-                                                        <div className="text desc"><a href="index.html#">Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.</a></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="menu-col img-col col-lg-6 col-md-12 col-sm-12">
-                                            <div className="inner">
-                                                <div className="image"><img src="images/resource/menus-1.jpg" alt="image" /></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/*Tab*/}
+                                <h3>Enjoying living dj</h3>
+
+                                <br></br>
+
+                                <img src="/assets/images/events/dj.jpg" alt="Salsa Night" />
+
+                                <br></br> <br></br>
+                                
+                                <p>
+                                    Experience the electrifying atmosphere of Abuja Continental Hotel with our live DJ nights! Every weekend, we bring you the best beats and rhythms to keep you dancing all night long. Our talented DJs curate an eclectic mix of music, from chart-topping hits to classic favorites, ensuring there's something for everyone. Whether you're celebrating a special occasion or just looking for a fun night out, our live DJ events provide the perfect backdrop for an unforgettable evening. Join us and let the music move you!
+                                </p>
                             </div>
                         )}
                         {activeTab === "tab-4" && (
