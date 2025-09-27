@@ -71,20 +71,8 @@ function Home() {
                                                                   <div className="auto-container">
                                                                       <div className="row clearfix">
                                                                           <div className="menu-block col-lg-3 col-md-6 col-sm-6">
-                                                                              <div className="image"><a href="menu-list-1.html"><img src="/assets/images/resource/menu-1-thumb.jpg" alt="image" /></a></div>
-                                                                              <div className="title"><a href="menu-list-1.html">Menu list 1</a></div>
-                                                                          </div>
-                                                                          <div className="menu-block col-lg-3 col-md-6 col-sm-6">
                                                                               <div className="image"><a href="menu-list-2.html"><img src="/assets/images/resource/menu-2-thumb.jpg" alt="image" /></a></div>
                                                                               <div className="title"><a href="menu-list-2.html">Menu list 2</a></div>
-                                                                          </div>
-                                                                          <div className="menu-block col-lg-3 col-md-6 col-sm-6">
-                                                                              <div className="image"><a href="menu-list-3.html"><img src="/assets/images/resource/menu-3-thumb.jpg" alt="image" /></a></div>
-                                                                              <div className="title"><a href="menu-list-3.html">Menu list 3</a></div>
-                                                                          </div>
-                                                                          <div className="menu-block col-lg-3 col-md-6 col-sm-6">
-                                                                              <div className="image"><a href="menu-list-4.html"><img src="/assets/images/resource/menu-4-thumb.jpg" alt="image" /></a></div>
-                                                                              <div className="title"><a href="menu-list-4.html">Menu list 4</a></div>
                                                                           </div>
                                                                       </div>
                                                                   </div>
@@ -262,7 +250,7 @@ function Home() {
                                   <div className="content-box">
                                       <div className="content">
                                           <div className="inner">
-                                              <div className="subtitle"><span>Serving Since 1995</span></div>
+                                              <div className="subtitle"><span>Serving Since 1990</span></div>
                                               <h1>The Signature of African Hospitality</h1>
                                               <div className="text">
                                                   A taste of perfection in every dish - fine dining with a modern twist.
