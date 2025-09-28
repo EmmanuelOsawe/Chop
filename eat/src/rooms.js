@@ -284,10 +284,9 @@ function Rooms() {
                           {/*Item*/}
                           <div className="offer-block-three col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
                               <div className="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="600ms">
-                                  <div className="image"><a href="menu-list-2.html#"><img src="images/resource/dish3.png" alt="image" /></a></div>
-                                  <h5><a href="menu-list-1.html">Opu Fish</a></h5>
-                                  <div className="text desc text-light">Vegetables, cheeses, ground meats, tomato sauce, red onion, crab.</div>
-                                  <div className="price">$12.00</div>
+                                  <div className="image"><a href="menu-list-2.html#"><img src="images/rooms/E" alt="image" /></a></div>
+                                  <h5><a href="menu-list-1.html">Executive Suite</a></h5>
+                                  <div className="text desc text-light">Discover the perfect blend of privacy, flexibility, and professional amenities in our executive suites.</div>
                               </div>
                           </div>
                           {/*Item*/}
