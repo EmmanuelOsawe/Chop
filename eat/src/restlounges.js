@@ -59,9 +59,9 @@ function Rest() {
                                   <div className="nav-outer clearfix">
                                       <nav className="main-menu">
                                           <ul className="navigation clearfix">
-                                              <li className=""><a href="Home.js">Home</a>
+                                              <li className=""><a href="/">Home</a>
                                               </li>
-                                              <li className="dropdown has-mega-menu"><a href="rooms.js">Rooms & Suites</a>
+                                              <li className="has-mega-menu"><a href="rooms.js">Rooms & Suites</a>
                                               </li>
                                               <li><a href="restlounges.js">Resturant & Lounges</a></li>
                                               <li><a href="about.js">About Us</a></li>
@@ -117,7 +117,7 @@ function Rest() {
                       {/* .Side-menu */}
                       <div className="side-menu">
                           <ul className="navigation clearfix">
-                              <li className="dropdown"><a href="Home.js">Home</a>
+                              <li className="dropdown"><a href="/">Home</a>
                               </li>
                               <li className="current dropdown"><a href="menu-list-1.html">Rooms & Suites</a>
                               </li>

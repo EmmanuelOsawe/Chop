@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
@@ -58,7 +57,7 @@ function Rooms() {
                                   <div className="nav-outer clearfix">
                                       <nav className="main-menu">
                                           <ul className="navigation clearfix">
-                                              <li className=""><a href="Home.js">Home</a>
+                                              <li className=""><a href="/">Home</a>
                                               </li>
                                               <li className="current  has-mega-menu"><a href="rooms.js">Rooms & Suites</a>
                                               </li>
@@ -116,7 +115,7 @@ function Rooms() {
                       {/* .Side-menu */}
                       <div className="side-menu">
                           <ul className="navigation clearfix">
-                              <li className="dropdown"><a href="Home.js">Home</a>
+                              <li className="dropdown"><a href="/">Home</a>
                               </li>
                               <li className="current dropdown"><a href="rooms.js">Rooms & Suites</a>
                               </li>

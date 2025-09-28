@@ -61,7 +61,7 @@ function Contact() {
                                   <div className="nav-outer clearfix">
                                       <nav className="main-menu">
                                           <ul className="navigation clearfix">
-                                              <li className=""><a href="Home.js">Home</a>
+                                              <li className=""><a href="/">Home</a>
                                               </li>
                                               <li className="current  has-mega-menu"><a href="rooms.js">Rooms & Suites</a>
                                               </li>
@@ -119,7 +119,7 @@ function Contact() {
                       {/* .Side-menu */}
                       <div className="side-menu">
                           <ul className="navigation clearfix">
-                              <li className="dropdown"><a href="Home.js">Home</a>
+                              <li className="dropdown"><a href="/">Home</a>
                               </li>
                               <li className="current dropdown"><a href="menu-list-1.html">Rooms & Suites</a>
                               </li>
@@ -137,7 +137,7 @@ function Contact() {
                   <section className="info-bar">
                       <div className="inner-box">
                           <div className="cross-icon"><span className="far fa-close" /></div>
-                          <div className="image-box"><img src="images/resource/sidebar-image.jpg" alt="image" title /></div>
+                          <div className="image-box"><img src="/assets/images/resource/sidebar-image.jpg" alt="image" title /></div>
                           <div className="logo-box"><a href="index.html" title="Abuja Intercontinental"><img src="images/resource/sidebar-logo.png" alt="image" title="Abuja Intercontinental" /></a></div>
                           <h5>Visit Us</h5>
                           <ul className="info">

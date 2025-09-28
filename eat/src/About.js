@@ -57,7 +57,7 @@ function About() {
                                   <div className="nav-outer clearfix">
                                       <nav className="main-menu">
                                           <ul className="navigation clearfix">
-                                              <li><a href="Home.js">Home</a>
+                                              <li><a href="/">Home</a>
                                               </li>
                                               <li className="has-mega-menu"><a href="rooms.js">Rooms & Suites</a>
                                               </li>
@@ -115,7 +115,7 @@ function About() {
                       {/* .Side-menu */}
                       <div className="side-menu">
                           <ul className="navigation clearfix">
-                              <li className=""><a href="Home.js">Home</a>
+                              <li className=""><a href="/">Home</a>
                               </li>
                               <li className=""><a href="rooms.js">Rooms & Suites</a>
                               </li>

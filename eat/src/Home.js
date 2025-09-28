@@ -61,7 +61,7 @@ function Home() {
                                   <div className="nav-outer clearfix">
                                       <nav className="main-menu">
                                           <ul className="navigation clearfix">
-                                              <li><a href="Home.js">Home</a>
+                                              <li><a href="/">Home</a>
                                               </li>
                                               <li className="has-mega-menu"><a href="rooms.js">Rooms & Suites</a>
                                               </li>
@@ -120,7 +120,7 @@ function Home() {
                       {/* .Side-menu */}
                       <div className="side-menu">
                           <ul className="navigation clearfix">
-                              <li className="dropdown"><a href="index.html#">Home</a>
+                              <li className="dropdown"><a href="/">Home</a>
                               </li>
                               <li className="dropdown"><a href="rooms.js">Rooms & Suites</a>
                               </li>
@@ -140,7 +140,7 @@ function Home() {
               <section className="info-bar">
                   <div className="inner-box">
                       <div className="cross-icon"><span className="far fa-close" /></div>
-                      <div className="image-box"><img src="images/resource/sidebar-image.jpg" alt="image" title /></div>
+                      <div className="image-box"><img src="/assets/images/resource/sidebar-image.jpg" alt="image" title /></div>
                       <div className="logo-box"><a href="index.html" title="Restoria - Restaurants HTML Template"><img src="/assets/images/resource/sidebar-logo.png" alt="image" title="Restoria - Restaurants HTML Template" /></a></div>
                       <h5>Visit Us</h5>
                       <ul className="info">
@@ -357,96 +357,21 @@ function Home() {
                   </div>
               </section>
               {/*Fluid Section*/}
-              <section className="fluid-section alternate special-dish-slider">
-                  <div className="outer-container">
-                      <div className="row clearfix">
-                          {/*Col*/}
-                          <div className="image-col col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                              <div className="inner wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="0ms">
-                                  <div className="image-layer" style={{ backgroundImage: 'url(/assets/images/background/image-6.jpg)' }} />
-                                  <div className="image"><img src="/assets/images/background/image-6.jpg" alt="image" /></div>
-                              </div>
-                          </div>
-                          {/*Col*/}
-                          <div className="content-col col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                              <div className="inner clearfix wow fadeInRight" data-wow-duration="1500ms" data-wow-delay="0ms">
-                                  {/* standard title */}
-                                  <div className="title-box centered onlyfor-sm">
-                                      <div className="subtitle"><span>Popular</span></div>
-                                      <h2>Special Dishes</h2>
-                                  </div>
-                                  {/* vertical title */}
-                                  <div className="title-wrapper">
-                                      <div className="title-box special-title">
-                                          <h2>Special Occasions </h2>
-                                      </div>
-                                  </div>
-                                  {/*Special Offer Slider Section*/}
-                                  <div className="special-offer">
-                                      <div className="dish-gallery-slider owl-theme owl-carousel">
-                                          {/*Slide Item*/}
-                                          <div className="offer-block-two">
-                                              <div className="inner-box">
-                                                  <div className="image"><a href="index.html#"><img src="/assets/images/resource/special1.jpg" alt="image" /></a></div>
-                                                  <div className="cat-name">main dish</div>
-                                                  <h5><a href="menu-list-1.html">Greek Salad</a></h5>
-                                                  <div className="text desc">flavorful, filled with panko bread crumbs, pine nuts, parsley, sun-dried tomatoes.</div>
-                                                  <div className="price">$39.00</div>
-                                              </div>
-                                          </div>
-                                          {/*Slide Item*/}
-                                          <div className="offer-block-two margin-top">
-                                              <div className="inner-box">
-                                                  <div className="image"><a href="index.html#"><img src="/assets/images/resource/special2.jpg" alt="image" /></a></div>
-                                                  <div className="cat-name">desserts</div>
-                                                  <h5><a href="menu-list-2.html">Tokusen Wagyu</a></h5>
-                                                  <div className="text desc">Tomatoes, green bell pepper, sliced cucumber onion, olives, avocados with crab meat.</div>
-                                                  <div className="price">$45.00</div>
-                                              </div>
-                                          </div>
-                                          {/*Slide Item*/}
-                                          <div className="offer-block-two">
-                                              <div className="inner-box">
-                                                  <div className="image"><a href="index.html#"><img src="/assets/images/resource/special3.jpg" alt="image" /></a></div>
-                                                  <div className="cat-name">Appetizer</div>
-                                                  <h5><a href="menu-list-3.html">Butternut Pumpkin</a></h5>
-                                                  <div className="text desc">Avocados with crab meat, red onion, crab salad stuffed bell pepper, Vegetables.</div>
-                                                  <div className="price">$15.00</div>
-                                              </div>
-                                          </div>
-                                          {/*Slide Item*/}
-                                          <div className="offer-block-two margin-top">
-                                              <div className="inner-box">
-                                                  <div className="image"><a href="index.html#"><img src="/assets/images/resource/special4.jpg" alt="image" /></a></div>
-                                                  <div className="cat-name">main dish</div>
-                                                  <h5><a href="menu-list-4.html">Opu Fish</a></h5>
-                                                  <div className="text desc">Vegetables, cheeses, ground meats, tomato sauce, Small bites, big flavors.</div>
-                                                  <div className="price">$12.00</div>
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </section>
-              {/*Fluid Section*/}
               <section className="fluid-section chef-bio">
                   <div className="outer-container">
                       <div className="row clearfix">
                           {/*Col*/}
                           <div className="image-col col-xl-6 col-lg-6 col-md-12 col-sm-12">
                               <div className="inner wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="0ms">
-                                  <div className="image-layer" style={{ backgroundImage: 'url(/assets/images/gallery/events.jpg)' }} />
-                                  <div className="image"><img src="/assets/images/gallery/events.jpg" alt="image" /></div>
+                                  <div className="image-layer" style={{ backgroundImage: 'url(/assets/images/gallery/magicland.jpg)' }} />
+                                  <div className="image"><img src="/assets/images/gallery/magicland.jpg" alt="image" /></div>
                               </div>
                           </div>
                           {/*Col*/}
                           <div className="content-col col-xl-6 col-lg-6 col-md-12 col-sm-12">
                               <div className="inner clearfix wow fadeInRight" data-wow-duration="1500ms" data-wow-delay="0ms">
                                   <div className="content-box">
-                                      <div className="chef-thumb"><img src="/assets/images/gallery/gym.jpg" alt="image" /></div>
+                                      <div className="chef-thumb"><img src="/assets/images/events/gym.jpg" alt="image" /></div>
                                       <div className="title-box centered">
                                           <h2>Activities</h2>
                                           <div className="text">
