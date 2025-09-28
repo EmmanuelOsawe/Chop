@@ -37,7 +37,7 @@ function About() {
                               <div className="top-right clearfix">
                                   <ul className="top-info clearfix">
                                       <li><a href="tel:+11234567890"><i className="icon far fa-phone" /> +1 123 456 7890</a></li>
-                                      <li><a href="mailto:booking@restaurant.com"><i className="icon far fa-envelope" /> booking@restaurant.com</a></li>
+                                      <li><a href="mailto:info@abujacontinental.com"><i className="icon far fa-envelope" /> info@abujacontinental.com</a></li>
                                   </ul>
                               </div>
                           </div>
@@ -50,55 +50,20 @@ function About() {
                           <div className="main-box clearfix">
                               {/*Logo*/}
                               <div className="logo-box">
-                                  <div className="logo"><a href="index.html" title="Restoria - Restaurants HTML Template"><img src="images/logo.png" alt="image" title="Restoria - Restaurants HTML Template" /></a></div>
+                                  <div className="logo"><a href="index.html" title="Abuja InterContinental"><img src="/assets/images/logo.png" alt="image" title="Abuja InterContinental" /></a></div>
                               </div>
                               <div className="nav-box clearfix">
                                   {/*Nav Outer*/}
                                   <div className="nav-outer clearfix">
                                       <nav className="main-menu">
                                           <ul className="navigation clearfix">
-                                              <li className="dropdown"><a href="about.html#">Home</a>
-                                                  <ul>
-                                                      <li><a href="../Restoria-1-Minimal-Hero/index.html">Home 1 - Minimal Hero</a></li>
-                                                      <li><a href="index.html">Home 2 - Standard Hero</a></li>
-                                                      <li><a href="../Restoria-3-Video-Hero/index.html">Home 3 - Video Hero</a></li>
-                                                      <li><a href="../Restoria-4-Category-Hero/index.html">Home 4 - Category Hero</a></li>
-                                                      <li><a href="../Restoria-5-Rollingimages-Hero-Center-Header/index.html">Home 5 - Rolling Images</a></li>
-                                                  </ul>
+                                              <li><a href="Home.js">Home</a>
                                               </li>
-                                              <li className="dropdown has-mega-menu"><a href="menu-list-1.html">Menus</a>
-                                                  <ul>
-                                                      <li>
-                                                          <div className="mega-menu">
-                                                              <div className="menu-inner">
-                                                                  <div className="auto-container">
-                                                                      <div className="row clearfix">
-                                                                          <div className="menu-block col-lg-3 col-md-6 col-sm-6">
-                                                                              <div className="image"><a href="menu-list-1.html"><img src="images/resource/menu-1-thumb.jpg" alt="image" /></a></div>
-                                                                              <div className="title"><a href="menu-list-1.html">Menu list 1</a></div>
-                                                                          </div>
-                                                                          <div className="menu-block col-lg-3 col-md-6 col-sm-6">
-                                                                              <div className="image"><a href="menu-list-2.html"><img src="images/resource/menu-2-thumb.jpg" alt="image" /></a></div>
-                                                                              <div className="title"><a href="menu-list-2.html">Menu list 2</a></div>
-                                                                          </div>
-                                                                          <div className="menu-block col-lg-3 col-md-6 col-sm-6">
-                                                                              <div className="image"><a href="menu-list-3.html"><img src="images/resource/menu-3-thumb.jpg" alt="image" /></a></div>
-                                                                              <div className="title"><a href="menu-list-3.html">Menu list 3</a></div>
-                                                                          </div>
-                                                                          <div className="menu-block col-lg-3 col-md-6 col-sm-6">
-                                                                              <div className="image"><a href="menu-list-4.html"><img src="images/resource/menu-4-thumb.jpg" alt="image" /></a></div>
-                                                                              <div className="title"><a href="menu-list-4.html">Menu list 4</a></div>
-                                                                          </div>
-                                                                      </div>
-                                                                  </div>
-                                                              </div>
-                                                          </div>
-                                                      </li>
-                                                  </ul>
+                                              <li className="has-mega-menu"><a href="rooms.js">Rooms & Suites</a>
                                               </li>
-                                              <li className="current"><a href="about.html">About Us</a></li>
-                                              <li><a href="our-chef.html">Our chefs</a></li>
-                                              <li className="dropdown"><a href="about.html#">Pages</a>
+                                              <li><a href="about.html">Resturant & Lounges</a></li>
+                                              <li><a href="About.js">About Us</a></li>
+                                              <li className="dropdown"><a href="index.html#">Inside</a>
                                                   <ul>
                                                       <li><a href="gallery-masonry.html">Photo Gallery</a></li>
                                                       <li><a href="book-table.html">Reservation 1</a></li>
@@ -106,15 +71,6 @@ function About() {
                                                       <li><a href="testimonial.html">Testimonial</a></li>
                                                       <li><a href="blog-list.html">Blog List</a></li>
                                                       <li><a href="blog-single-post.html">Blog Single Post</a></li>
-                                                      <li><a href="about.html#">Dropdown Menu 1</a></li>
-                                                      <li><a href="about.html#">Dropdown Lorem 2</a></li>
-                                                      <li className="dropdown"><a href="about.html#">Dropdown Menu 3</a>
-                                                          <ul>
-                                                              <li><a href="about.html#">Dropdown Menu level 2</a></li>
-                                                              <li><a href="about.html#">Dropdown Menu level 2</a></li>
-                                                              <li><a href="about.html#">Dropdown Menu Level 2</a></li>
-                                                          </ul>
-                                                      </li>
                                                   </ul>
                                               </li>
                                               <li><a href="contact-us.html">Contact</a></li>
@@ -165,18 +121,11 @@ function About() {
                   {/* Hidden Bar Wrapper */}
                   <div className="inner-box">
                       <div className="cross-icon hidden-bar-closer"><span className="far fa-close" /></div>
-                      <div className="logo-box"><a href="index.html" title="Restoria - Restaurants HTML Template"><img src="images/resource/sidebar-logo.png" alt="image" title="Restoria - Restaurants HTML Template" /></a></div>
+                      <div className="logo-box"><a href="index.html" title="Abuja InterContinental"><img src="/assets/images/resource/sidebar-logo.png" alt="image" title="Abuja InterContinental" /></a></div>
                       {/* .Side-menu */}
                       <div className="side-menu">
                           <ul className="navigation clearfix">
-                              <li className="dropdown"><a href="about.html#">Home</a>
-                                  <ul>
-                                      <li><a href="../Restoria-1-Minimal-Hero/index.html">Home 1 - Minimal Hero</a></li>
-                                      <li><a href="index.html">Home 2 - Standard Hero</a></li>
-                                      <li><a href="../Restoria-3-Video-Hero/index.html">Home 3 - Video Hero</a></li>
-                                      <li><a href="../Restoria-4-Category-Hero/index.html">Home 4 - Category Hero</a></li>
-                                      <li><a href="../Restoria-5-Rollingimages-Hero-Center-Header/index.html">Home 5 - Rolling Images</a></li>
-                                  </ul>
+                              <li className=""><a href="Home.js">Home</a>
                               </li>
                               <li className="dropdown"><a href="menu-list-1.html">Menus</a>
                                   <ul>
@@ -219,24 +168,24 @@ function About() {
               <section className="info-bar">
                   <div className="inner-box">
                       <div className="cross-icon"><span className="far fa-close" /></div>
-                      <div className="image-box"><img src="images/resource/sidebar-image.jpg" alt="image" title /></div>
-                      <div className="logo-box"><a href="index.html" title="Restoria - Restaurants HTML Template"><img src="images/resource/sidebar-logo.png" alt="image" title="Restoria - Restaurants HTML Template" /></a></div>
+                      <div className="image-box"><img src="/assets/images/resource/sidebar-image.jpg" alt="image" title /></div>
+                      <div className="logo-box"><a href="index.html" title="Abuja InterContinental"><img src="/assets/images/resource/sidebar-logo.png" alt="image" title="Abuja InterContinental" /></a></div>
                       <h5>Visit Us</h5>
                       <ul className="info">
                           <li>Restoria, Arrondissement, <br /> Paris 9578</li>
                           <li> <span className="ib-ttl"> Lunch Time </span>- 10.00 am – 3:30 pm </li>
                           <li><span className="ib-ttl"> Dinner Time</span> - 08.00 pm – 10:30 pm</li>
-                          <li><a href="mailto:booking@domainame.com">booking@domainame.com</a></li>
+                          <li><a href="mailto:info@abujacontinental.com">info@abujacontinental.com</a></li>
                       </ul>
                       <div className="booking-info">
-                          <div className="bk-no"><a href="tel:+88-123-123456">Booking: +88-123-123456</a></div>
+                          <div className="bk-no"><a href="tel:+8070602727">Booking: +2348070602727</a></div>
                       </div>
                   </div>
               </section>
               {/*End Hidden Bar */}
               {/* Inner Banner Section */}
               <section className="inner-banner">
-                  <div className="image-layer" style={{ backgroundImage: 'url(images/background/banner-image-1.jpg)' }} />
+                  <div className="image-layer" style={{ backgroundImage: 'url(/assets/images/gallery/the-hotel.jpg)' }} />
                   <div className="auto-container">
                       <div className="inner">
                           <h1>About Us</h1>
@@ -250,29 +199,17 @@ function About() {
                   <div className="auto-container">
                       <div className="title-box centered">
                           <div className="subtitle"><span>our story</span></div>
-                          <h2>Where Exquisite Flavors Meet <span className="theme_color">Elegant Ambiance</span> for an <span className="theme_color">Unforgettable Fine Dining </span> Experience!</h2>
+                          <h2>Your Premier 5-Star Destination for Business & Leisure in Abuja</h2>
                       </div>
                       <div className="row clearfix">
                           {/*Col*/}
                           <div className="text-col col-xl-6 col-lg-6 col-md-12 col-sm-12">
                               <div className="inner wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="0ms">
-                                  <div className="text"> Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the industrys standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into.</div>
-                                  <div className="feature-info">
-                                      <div className="feature-info-box">
-                                          <div className="feature-title">
-                                              <img src="images/resource/hygienic.png" alt="image" />
-                                              <h6>Hygienic <br /> Food </h6>
-                                          </div>
-                                          <div className="infotext"> Lorem Ipsum is simply dummy text of the printing and type setting dummy text.</div>
-                                      </div>
-                                      <div className="feature-info-box">
-                                          <div className="feature-title">
-                                              <img src="images/resource/ambiance.png" alt="image" />
-                                              <h6>fresh <br /> Ambience </h6>
-                                          </div>
-                                          <div className="infotext"> Lorem Ipsum is simply dummy text of the printing and type setting dummy text.</div>
-                                      </div>
-                                  </div>
+                                  <div className="text"> Our hotel has 12 floors with 540 rooms and suites, making it the largest landmark, perfect for city views.
+
+                                      The Recreation Center houses adults and kids swimming pools, a steam and sauna, a multipurpose tennis court, squash, aerobics, and a 24/7 operational gym. It also offers five food and beverage outlets that are differentiated to cater to the various unique tastes and cultures of our guests.
+
+                                      The Ladi Kwali Conference Centre has a 3500-square-meter size Grand Ballroom that can accommodate up to 2000 people cocktail style at a time. The Ballroom can also be partitioned into 4 individual halls, with 8 meeting rooms ideal for big conferences, corporate events, exhibitions, fairs, and lavish wedding ceremonies.</div>
                                   <div className="booking-info">
                                       <div className="bk-title">Booking Request : <br />
                                           <a className="bk-no" href="tel:+80-400-123456">+80 (400) 123 4567</a></div>
@@ -291,7 +228,7 @@ function About() {
                           <div className="image-col col-xl-6 col-lg-6 col-md-12 col-sm-12">
                               <div className="inner wow fadeInRight" data-wow-duration="1500ms" data-wow-delay="0ms">
                                   <div className="images parallax-scene-1">
-                                      <div className="image" data-depth="0.15"><img src="images/resource/image-1.jpg" alt="image" /></div>
+                                      <div className="image" data-depth="0.15"><img src="/assets/images/resource/image-1.jpg" alt="image" /></div>
                                   </div>
                               </div>
                           </div>
@@ -300,8 +237,8 @@ function About() {
               </section>
               {/*Intro Section*/}
               <section className="intro-section ">
-                  <div className="intro-anim-image"><img src="images/resource/abt_dish.png" alt="image" /></div>
-                  <div className="image-layer" style={{ backgroundImage: 'url(images/background/video_bg.jpg)' }} />
+                  <div className="intro-anim-image"><img src="/assets/images/resource/abt_dish.png" alt="image" /></div>
+                  <div className="image-layer" style={{ backgroundImage: 'url(/assets/images/gallery/the-hotel.jpg)' }} />
                   <div className="auto-container">
                       <div className="content-box">
                           <div className="play-btn"><a href="https://www.youtube.com/watch?v=dZ9O_l1dIzs" className="lightbox-image theme-btn"><span className="icon fa-sharp-duotone fa-solid fa-play"><i className="ripple" /></span></a></div>
@@ -313,42 +250,42 @@ function About() {
                   <div className="auto-container">
                       <div className="title-box centered">
                           <div className="subtitle"><span>why choose us</span></div>
-                          <h2>Why Dine With Us</h2>
+                          <h2>Why Book With Us</h2>
                       </div>
                       <div className="row clearfix">
                           {/*Block*/}
                           <div className="why-block-two col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12">
                               <div className="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
-                                  <div className="image-box"><img src="images/resource/why1.jpg" alt /></div>
+                                  <div className="image-box"><img src="/assets/images/events/centeral.jpg" alt /></div>
                                   <div className="over-box">
-                                      <h6>skilled chef</h6>
+                                      <h6>Games and Fun</h6>
                                   </div>
                               </div>
                           </div>
                           {/*Block*/}
                           <div className="why-block-two col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12">
                               <div className="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="300ms">
-                                  <div className="image-box"><img src="images/resource/why2.jpg" alt /></div>
+                                  <div className="image-box"><img src="/assets/images/events/lugis.jpg" alt /></div>
                                   <div className="over-box">
-                                      <h6>hygienic food</h6>
+                                      <h6>Food</h6>
                                   </div>
                               </div>
                           </div>
                           {/*Block*/}
                           <div className="why-block-two col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12">
                               <div className="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="600ms">
-                                  <div className="image-box"><img src="images/resource/why3.jpg" alt /></div>
+                                  <div className="image-box"><img src="/assets/images/events/gym.jpg" alt /></div>
                                   <div className="over-box">
-                                      <h6>Fresh ambience</h6>
+                                      <h6>Physical Activities</h6>
                                   </div>
                               </div>
                           </div>
                           {/*Block*/}
                           <div className="why-block-two col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12">
                               <div className="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="900ms">
-                                  <div className="image-box"><img src="images/resource/why4.jpg" alt /></div>
+                                  <div className="image-box"><img src="/assets/images/events/lobby.jpg" alt /></div>
                                   <div className="over-box">
-                                      <h6>secreat recipe</h6>
+                                      <h6>Lobby</h6>
                                   </div>
                               </div>
                           </div>
@@ -357,77 +294,33 @@ function About() {
                           <div className="row clearfix">
                               <div className="fact-block col-lg-3 col-md-6 col-sm-6 col-xs-12">
                                   <div className="inner clearfix">
-                                      <div className="fact-count"><div className="count-box"><span className="count-text" data-stop={60} data-speed={2000}>0</span><i>+</i></div></div>
-                                      <div className="fact-title">monthly visitors</div>
-                                      <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry has been. </p>
+                                      <div className="fact-title">Games</div>
+                                      <p className='text-light'> Modern 5-star hotels offer gaming lounges, sports courts, and indoor entertainment to keep guests engaged and relaxed. Some even include exclusive activities like bowling, VR games, or unique sports such as padel and pickleball. </p>
                                   </div>
                               </div>
                               <div className="fact-block col-lg-3 col-md-6 col-sm-6 col-xs-12">
                                   <div className="inner clearfix">
-                                      <div className="fact-count"><div className="count-box"><span className="count-text" data-stop={22} data-speed={1500}>0</span><i>+</i></div></div>
-                                      <div className="fact-title">positive reviews</div>
-                                      <p> Simply dummy text of the printing and typesetting industry lorem Ipsum has been. </p>
+                                      <div className="fact-title">Our Food</div>
+                                      <p className='text-light'> Dining is a highlight, with multiple restaurants and bars serving both local and international cuisines. Guests enjoy fine dining, buffets, and specialty outlets that cater to different tastes, ensuring a memorable culinary journey. </p>
                                   </div>
                               </div>
                               <div className="fact-block col-lg-3 col-md-6 col-sm-6 col-xs-12">
                                   <div className="inner clearfix">
-                                      <div className="fact-count"><div className="count-box"><span className="count-text" data-stop={135} data-speed={1000}>0</span><i>+</i></div></div>
-                                      <div className="fact-title">secreat recipe</div>
-                                      <p> Simply dummy text of the printing and typesetting lorem Ipsum has been industry. </p>
+                                      <div className="fact-title">Gym</div>
+                                      <p className='text-light'> Equipped with state-of-the-art fitness machines, wellness programs, personal trainers, and sometimes even spa or yoga sessions, the gym in a 5-star hotel helps guests maintain a healthy lifestyle while traveling. </p>
                                   </div>
                               </div>
                               <div className="fact-block col-lg-3 col-md-6 col-sm-6 col-xs-12">
                                   <div className="inner clearfix">
-                                      <div className="fact-count"><div className="count-box"><span className="count-text" data-stop={10} data-speed={1000}>0</span><i>+</i></div></div>
-                                      <div className="fact-title">award &amp; honnors</div>
-                                      <p> Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum. </p>
+                                      <div className="fact-title">Lobby</div>
+                                      <p className='text-light'> The lobby is grand and elegant, often with stylish décor, comfortable seating, and attentive staff. It sets the tone for the entire stay, reflecting the luxury and prestige of the hotel. </p>
                                   </div>
                               </div>
                           </div>
                       </div>
                   </div>
               </section>
-              {/*chef Section 1*/}
-              <section className="chef-section-1 section-kt">
-                  <div className="auto-container">
-                      <div className="row clearfix">
-                          {/*Block*/}
-                          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                              <div className="title-box">
-                                  <div className="subtitle"><span>meet the chef</span></div>
-                                  <h2>Mater Chef Lorenzo</h2>
-                                  <p> A fine dine master chef crafts exquisite cuisine with precision, passion, creativity, and elegance, delivering unforgettable culinary experiences and refined flavors.</p>
-                                  <div className="link-box">
-                                      <a href="about.html" className="theme-btn btn-style-two clearfix">
-                                          <span className="btn-wrap">
-                                              <span className="text-one">meet our team</span>
-                                              <span className="text-two">meet our team</span>
-                                          </span>
-                                      </a>
-                                  </div>
-                              </div>
-                          </div>
-                          {/*Block*/}
-                          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 ">
-                              <div className="chef-image image1 parallax-scene-2 ">
-                                  <img data-depth="0.15" src="images/resource/mainchef1.jpg" alt="image" />
-                              </div>
-                              <div className="round-stamp">
-                                  <img data-depth="0.50" className="stamp_icon" src="images/resource/chefcap.png" alt="image" />
-                              </div>
-                          </div>
-                          {/*Block*/}
-                          <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                              <div className="chef-image image2 parallax-scene-3">
-                                  <img data-depth="0.50" src="images/resource/mainchef2.jpg" alt="image" />
-                              </div>
-                              <div className="chef-image image3 parallax-scene-4">
-                                  <img data-depth="0.50" src="images/resource/mainchef3.jpg" alt="image" />
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </section>
+
               {/*Services Section*/}
               <section className="services-section section-kt">
                   <div className="auto-container">
@@ -440,14 +333,14 @@ function About() {
                               <div className="inner wow fadeInLeft" data-wow-duration="1500ms" data-wow-delay="0ms">
                                   <div className="s-block alternate">
                                       <div className="inner">
-                                          <div className="icon-box"><img src="images/resource/s-icon-1.png" alt="image" title /></div>
+                                          <div className="icon-box"><img src="/assets/images/resource/s-icon-1.png" alt="image" title /></div>
                                           <h6>party &amp; <br /> celebrations</h6>
                                           <div className="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys.</div>
                                       </div>
                                   </div>
                                   <div className="s-block alternate">
                                       <div className="inner">
-                                          <div className="icon-box"><img src="images/resource/s-icon-2.png" alt="image" title /></div>
+                                          <div className="icon-box"><img src="/assets/images/resource/s-icon-2.png" alt="image" title /></div>
                                           <h6>luxury <br /> Fine Dining</h6>
                                           <div className="text">Simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys lorem Ipsum is.</div>
                                       </div>
@@ -458,14 +351,14 @@ function About() {
                               <div className="inner wow fadeInRight" data-wow-duration="1500ms" data-wow-delay="0ms">
                                   <div className="s-block ">
                                       <div className="inner">
-                                          <div className="icon-box"><img src="images/resource/s-icon-3.png" alt="image" title /></div>
+                                          <div className="icon-box"><img src="/assets/images/resource/s-icon-3.png" alt="image" title /></div>
                                           <h6>banquet <br /> hall</h6>
                                           <div className="text">Printing and typeset industry lorem Ipsum has been lorem Ipsum is simply dummy typeset industry lorem Ipsum has been.</div>
                                       </div>
                                   </div>
                                   <div className="s-block ">
                                       <div className="inner">
-                                          <div className="icon-box"><img src="images/resource/s-icon-4.png" alt="image" title /></div>
+                                          <div className="icon-box"><img src="/assets/images/resource/s-icon-4.png" alt="image" title /></div>
                                           <h6>outdoor <br /> catering</h6>
                                           <div className="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys.</div>
                                       </div>
@@ -474,7 +367,7 @@ function About() {
                           </div>
                           <div className="image-col col-lg-4 col-md-12 col-sm-12">
                               <div className="inner wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
-                                  <div className="image-box"><img src="images/resource/service-image.png" alt="image" title /></div>
+                                  <div className="image-box"><img src="/assets/images/resource/service-image.png" alt="image" title /></div>
                               </div>
                           </div>
                       </div>
@@ -495,7 +388,7 @@ function About() {
                                       <div className="rating"><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /></div>
                                       <div className="text">A perfect blend of mouthwatering dishes, warm atmosphere, and outstanding service. Every meal feels like a special occasion worth savoring!</div>
                                       <div className="auth-info">
-                                          <div className="image"><img src="images/resource/author-thumb-4.jpg" alt="image" /></div>
+                                          <div className="image"><img src="/assets/images/resource/author-thumb-4.jpg" alt="image" /></div>
                                           <div className="auth-title">willium joe -<span className="location">New York</span> </div>
                                       </div>
                                   </div>
@@ -506,7 +399,7 @@ function About() {
                                       <div className="rating"><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /></div>
                                       <div className="text">Every visit is a flavorful journey! Delicious food, elegant ambiance, and welcoming staff make this restaurant a true dining destination.</div>
                                       <div className="auth-info">
-                                          <div className="image"><img src="images/resource/author-thumb-5.jpg" alt="image" /></div>
+                                          <div className="image"><img src="/assets/images/resource/author-thumb-5.jpg" alt="image" /></div>
                                           <div className="auth-title">Theresa Tin -<span className="location"> Chicago</span> </div>
                                       </div>
                                   </div>
@@ -517,7 +410,7 @@ function About() {
                                       <div className="rating"><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /></div>
                                       <div className="text">From appetizers to desserts, every bite bursts with perfection. A cozy atmosphere and exceptional service make each visit unforgettable.</div>
                                       <div className="auth-info">
-                                          <div className="image"><img src="images/resource/author-thumb-6.jpg" alt="image" /></div>
+                                          <div className="image"><img src="/assets/images/resource/author-thumb-6.jpg" alt="image" /></div>
                                           <div className="auth-title">Michel Byrd -<span className="location"> New York</span> </div>
                                       </div>
                                   </div>
@@ -528,7 +421,7 @@ function About() {
                                       <div className="rating"><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /></div>
                                       <div className="text">The taste of food was really amazing, Wow ! outstanding dinner made by Mater chef John Rute, I never forget this delicious food experience.</div>
                                       <div className="auth-info">
-                                          <div className="image"><img src="images/resource/author-thumb-4.jpg" alt="image" /></div>
+                                          <div className="image"><img src="/assets/images/resource/author-thumb-4.jpg" alt="image" /></div>
                                           <div className="auth-title">willium joe -<span className="location"> New York</span></div>
                                       </div>
                                   </div>
@@ -539,7 +432,7 @@ function About() {
                                       <div className="rating"><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /></div>
                                       <div className="text">Hygienic food &amp; fresh enviroment, everyone had a wonderful delite experience. It was FABULOUS! great experience at The Italian gourmet.</div>
                                       <div className="auth-info">
-                                          <div className="image"><img src="images/resource/author-thumb-5.jpg" alt="image" /></div>
+                                          <div className="image"><img src="/assets/images/resource/author-thumb-5.jpg" alt="image" /></div>
                                           <div className="auth-title">Theresa Tin -<span className="location"> Chicago</span></div>
                                       </div>
                                   </div>
@@ -550,7 +443,7 @@ function About() {
                                       <div className="rating"><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /></div>
                                       <div className="text">Special treat to dine, It was wow experience food was really delicious! outstanding dinner made by Mater chef, food experience was unfogetable!</div>
                                       <div className="auth-info">
-                                          <div className="image"><img src="images/resource/author-thumb-6.jpg" alt="image" /></div>
+                                          <div className="image"><img src="/assets/images/resource/author-thumb-6.jpg" alt="image" /></div>
                                           <div className="auth-title">Michel Byrd -<span className="location"> Denmark</span></div>
                                       </div>
                                   </div>
@@ -604,7 +497,7 @@ function About() {
                               {/*Footer Col*/}
                               <div className="footer-col footer-map-col col-lg-6 col-md-12 col-sm-12 px-0">
                                   <div className="footer-map">
-                                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d81392.11276571127!2d-74.03116502768826!3d40.70144849986174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1667928043843!5m2!1sen!2sin" width="100%" height={500} style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.998661644971!2d7.481666175010819!3d9.063885088441936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0b5fcf7624d5%3A0x2b03f1d1ef382d7f!2sAbuja%20Continental%20Hotel!5e0!3m2!1sen!2sng!4v1758959024881!5m2!1sen!2sng" width="100%" height={500} style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
                                   </div>
                               </div>
                               {/*Footer Col*/}
@@ -612,16 +505,16 @@ function About() {
                                   <div className="inner wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                       <div className="content">
                                           <div className="footer-image">
-                                              <img src="images/resource/footer-img-1.jpg" alt="image" />
+                                              <img src="/assets//assets/images/resource/footer-img-1.jpg" alt="image" />
                                           </div>
-                                          <div className="logo"><a href="index.html" title="Restoria - Restaurants HTML Template"><img src="images/logo.png" alt="image" title="Restoria - Restaurants HTML Template" /></a></div>
+                                          <div className="logo"><a href="index.html" title="Abuja InterContinental"><img src="/assets/images/logo.png" alt="image" title="Abuja InterContinental" /></a></div>
                                           <div className="info">
                                               <h6>visit us </h6>
                                               <ul>
-                                                  <li>Abuja Continental</li>
+                                                  <li>Abuja Continental 1, Ladi Kwali Street, Wuse Zone 4,</li>
                                                   <li>Daily - 8.00 am to 10.00 pm</li>
-                                                  <li><a href="mailto:booking@domainname.com">booking@gmail.com</a></li>
-                                                  <li><a href="tel:+88-123-123456">Booking Request : +88-123-123456</a></li>
+                                                  <li><a href="mailto:info@abujacontinental.com">info@abujacontinental.com</a></li>
+                                                  <li><a href="tel:+234 70602727">Booking Request : +23408070602727</a></li>
                                               </ul>
                                           </div>
                                       </div>

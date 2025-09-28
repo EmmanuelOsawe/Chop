@@ -187,7 +187,7 @@ function Rest() {
                           <li><a href="mailto:booking@domainame.com">booking@domainame.com</a></li>
                       </ul>
                       <div className="booking-info">
-                          <div className="bk-no"><a href="tel:+88-123-123456">Booking: +88-123-123456</a></div>
+                          <div className="bk-no"><a href="tel:23408070602727">Booking: 23408070602727</a></div>
                       </div>
                   </div>
               </section>
@@ -282,8 +282,8 @@ function Rest() {
                                               <ul>
                                                   <li>Abuja contiental</li>
                                                   <li>Daily - 8.00 am to 10.00 pm</li>
-                                                  <li><a href="mailto:booking@domainname.com">booking@gmail.com</a></li>
-                                                  <li><a href="tel:+88-123-123456">Booking Request : +88-123-123456</a></li>
+                                                  <li><a href="mailto:info@abujacontinental.com">info@abujacontinental.com</a></li>
+                                                  <li><a href="tel:+23408070602727">Booking Request : 23408070602727</a></li>
                                               </ul>
                                           </div>
                                       </div>

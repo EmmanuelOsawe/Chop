@@ -167,7 +167,7 @@ function Home() {
                           <li><a href="mailto:info@abujacontinental.com">info@abujacontinental.com</a></li>
                       </ul>
                       <div className="booking-info">
-                          <div className="bk-no"><a href="tel:+88-123-123456">Booking: +234 (0) 2094612000 / 08070602727</a></div>
+                          <div className="bk-no"><a href="tel:+23408070602727">Booking: +234 (0) 2094612000 / 08070602727</a></div>
                       </div>
                   </div>
               </section>
@@ -188,7 +188,7 @@ function Home() {
                   <div className="banner-call">
                       <span className="line" />
                       <ul className="call-ul">
-                          <li><a href="tel:+88-123-123456">Booking : +234 (0) 2094612000 / 08070602727</a></li>
+                          <li><a href="tel:+23408070602727">Booking : +234 (0) 2094612000 / 08070602727</a></li>
                       </ul>
                       <span className="line" />
                   </div>
@@ -885,7 +885,7 @@ function Home() {
                                                   <li>Abuja Continental 1, Ladi Kwali Street, Wuse Zone 4, </li>
                                                   <li>Daily - 8.00 am to 10.00 pm</li>
                                                   <li><a href="mailto:info@abujacontinental.com">info@abujacontinental.com</a></li>
-                                                  <li><a href="tel:+88-123-123456">Booking Request : +234 (0) 2094612000 / 08070602727</a></li>
+                                                  <li><a href="tel:+23408070602727">Booking Request : +23408070602727</a></li>
                                               </ul>
                                           </div>
                                       </div>
