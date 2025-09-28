@@ -57,17 +57,16 @@ function Home() {
                                   <div className="logo"><a href="index.html" title="Abuja Intercontinental"><img src="/assets/images/logo.png" alt="image" title="Abuja Intercontinental" /></a></div>
                               </div>
                               <div className="nav-box clearfix">
-                                  {/*Nav Outer*/}
                                   <div className="nav-outer clearfix">
                                       <nav className="main-menu">
                                           <ul className="navigation clearfix">
-                                              <li><a href="Home.js">Home</a>
+                                              <li className=""><a href="Home.js">Home</a>
                                               </li>
-                                              <li className="has-mega-menu"><a href="rooms.js">Rooms & Suites</a>
+                                              <li className="current  has-mega-menu"><a href="rooms.js">Rooms & Suites</a>
                                               </li>
-                                              <li><a href="about.html">Resturant & Lounges</a></li>
-                                              <li><a href="About.js">About Us</a></li>
-                                              <li className="dropdown"><a href="index.html#">Inside</a>
+                                              <li><a href="restlounges.js">Resturant & Lounges</a></li>
+                                              <li><a href="our-chef.html">About Us</a></li>
+                                              <li className="dropdown"><a href="menu-list-2.html#">Inside</a>
                                                   <ul>
                                                       <li><a href="gallery-masonry.html">Photo Gallery</a></li>
                                                       <li><a href="book-table.html">Reservation 1</a></li>
@@ -77,7 +76,7 @@ function Home() {
                                                       <li><a href="blog-single-post.html">Blog Single Post</a></li>
                                                   </ul>
                                               </li>
-                                              <li><a href="contact-us.html">Contact</a></li>
+                                              <li><a href="contact.js">Contact</a></li>
                                           </ul>
                                       </nav>
                                       {/* Main Menu End*/}
@@ -134,7 +133,7 @@ function Home() {
                               <li className="dropdown"><a href="rooms.js">Rooms & Suites</a>
                               </li>
                               <li><a href="about.html">Resturant & Lounges</a></li>
-                              <li><a href="About.js">About Us</a></li>
+                              <li><a href="our-chef.html">About Us</a></li>
                               <li className="dropdown"><a href="index.html#">Inside</a>
                                   <ul>
                                       <li><a href="gallery-masonry.html">Photo Gallery</a></li>
@@ -145,7 +144,7 @@ function Home() {
                                       <li><a href="blog-single-post.html">Blog Single Post</a></li>
                                   </ul>
                               </li>
-                              <li><a href="contact-us.html">Contact</a></li>
+                              <li><a href="contact.js">Contact</a></li>
                           </ul>
                       </div>{/* /.Side-menu */}
                   </div>{/* / Hidden Bar Wrapper */}
@@ -167,7 +166,7 @@ function Home() {
                           <li><a href="mailto:info@abujacontinental.com">info@abujacontinental.com</a></li>
                       </ul>
                       <div className="booking-info">
-                          <div className="bk-no"><a href="tel:+23408070602727">Booking: +234 (0) 2094612000 / 08070602727</a></div>
+                          <div className="bk-no"><a href="tel:+88-123-123456">Booking: +234 (0) 2094612000 / 08070602727</a></div>
                       </div>
                   </div>
               </section>
@@ -188,7 +187,7 @@ function Home() {
                   <div className="banner-call">
                       <span className="line" />
                       <ul className="call-ul">
-                          <li><a href="tel:+23408070602727">Booking : +234 (0) 2094612000 / 08070602727</a></li>
+                          <li><a href="tel:+88-123-123456">Booking : +234 (0) 2094612000 / 08070602727</a></li>
                       </ul>
                       <span className="line" />
                   </div>
@@ -885,7 +884,7 @@ function Home() {
                                                   <li>Abuja Continental 1, Ladi Kwali Street, Wuse Zone 4, </li>
                                                   <li>Daily - 8.00 am to 10.00 pm</li>
                                                   <li><a href="mailto:info@abujacontinental.com">info@abujacontinental.com</a></li>
-                                                  <li><a href="tel:+23408070602727">Booking Request : +23408070602727</a></li>
+                                                  <li><a href="tel:+88-123-123456">Booking Request : +234 (0) 2094612000 / 08070602727</a></li>
                                               </ul>
                                           </div>
                                       </div>
