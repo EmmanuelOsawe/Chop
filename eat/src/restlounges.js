@@ -64,7 +64,7 @@ function Rest() {
                                               <li className="dropdown has-mega-menu"><a href="rooms.js">Rooms & Suites</a>
                                               </li>
                                               <li><a href="restlounges.js">Resturant & Lounges</a></li>
-                                              <li><a href="our-chef.html">Special Offers</a></li>
+                                              <li><a href="our-chef.html">About Us</a></li>
                                               <li className="dropdown"><a href="gallery-masonry.html#">Inside</a>
                                                   <ul>
                                                       <li><a href="gallery-masonry.html">Photo Gallery</a></li>
@@ -145,7 +145,7 @@ function Rest() {
                                   </ul>
                               </li>
                               <li><a href="about.html">Resturant & Lounges</a></li>
-                              <li><a href="our-chef.html">Special Offers</a></li>
+                              <li><a href="our-chef.html">About Us</a></li>
                               <li className="dropdown"><a href="gallery-masonry.html#">Pages</a>
                                   <ul>
                                       <li><a href="gallery-masonry.html">Photo Gallery</a></li>
