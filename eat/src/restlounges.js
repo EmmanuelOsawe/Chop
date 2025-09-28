@@ -59,48 +59,13 @@ function Rest() {
                                   <div className="nav-outer clearfix">
                                       <nav className="main-menu">
                                           <ul className="navigation clearfix">
-                                              <li className="dropdown"><a href="gallery-masonry.html#">Home</a>
-                                                  <ul>
-                                                      <li><a href="../Restoria-1-Minimal-Hero/index.html">Home 1 - Minimal Hero</a></li>
-                                                      <li><a href="index.html">Home 2 - Standard Hero</a></li>
-                                                      <li><a href="../Restoria-3-Video-Hero/index.html">Home 3 - Video Hero</a></li>
-                                                      <li><a href="../Restoria-4-Category-Hero/index.html">Home 4 - Category Hero</a></li>
-                                                      <li><a href="../Restoria-5-Rollingimages-Hero-Center-Header/index.html">Home 5 - Rolling Images</a></li>
-                                                  </ul>
+                                              <li className=""><a href="Home.js">Home</a>
                                               </li>
-                                              <li className="dropdown has-mega-menu"><a href="menu-list-1.html">Menus</a>
-                                                  <ul>
-                                                      <li>
-                                                          <div className="mega-menu">
-                                                              <div className="menu-inner">
-                                                                  <div className="auto-container">
-                                                                      <div className="row clearfix">
-                                                                          <div className="menu-block col-lg-3 col-md-6 col-sm-6">
-                                                                              <div className="image"><a href="menu-list-1.html"><img src="images/resource/menu-1-thumb.jpg" alt="image" /></a></div>
-                                                                              <div className="title"><a href="menu-list-1.html">Menu list 1</a></div>
-                                                                          </div>
-                                                                          <div className="menu-block col-lg-3 col-md-6 col-sm-6">
-                                                                              <div className="image"><a href="menu-list-2.html"><img src="images/resource/menu-2-thumb.jpg" alt="image" /></a></div>
-                                                                              <div className="title"><a href="menu-list-2.html">Menu list 2</a></div>
-                                                                          </div>
-                                                                          <div className="menu-block col-lg-3 col-md-6 col-sm-6">
-                                                                              <div className="image"><a href="menu-list-3.html"><img src="images/resource/menu-3-thumb.jpg" alt="image" /></a></div>
-                                                                              <div className="title"><a href="menu-list-3.html">Menu list 3</a></div>
-                                                                          </div>
-                                                                          <div className="menu-block col-lg-3 col-md-6 col-sm-6">
-                                                                              <div className="image"><a href="menu-list-4.html"><img src="images/resource/menu-4-thumb.jpg" alt="image" /></a></div>
-                                                                              <div className="title"><a href="menu-list-4.html">Menu list 4</a></div>
-                                                                          </div>
-                                                                      </div>
-                                                                  </div>
-                                                              </div>
-                                                          </div>
-                                                      </li>
-                                                  </ul>
+                                              <li className="dropdown has-mega-menu"><a href="rooms.js">Rooms & Suites</a>
                                               </li>
-                                              <li><a href="about.html">About Us</a></li>
-                                              <li><a href="our-chef.html">Our chefs</a></li>
-                                              <li className="dropdown"><a href="gallery-masonry.html#">Pages</a>
+                                              <li><a href="restlounges.js">Resturant & Lounges</a></li>
+                                              <li><a href="our-chef.html">Special Offers</a></li>
+                                              <li className="dropdown"><a href="gallery-masonry.html#">Inside</a>
                                                   <ul>
                                                       <li><a href="gallery-masonry.html">Photo Gallery</a></li>
                                                       <li><a href="book-table.html">Reservation 1</a></li>
@@ -108,15 +73,6 @@ function Rest() {
                                                       <li><a href="testimonial.html">Testimonial</a></li>
                                                       <li><a href="blog-list.html">Blog List</a></li>
                                                       <li><a href="blog-single-post.html">Blog Single Post</a></li>
-                                                      <li><a href="gallery-masonry.html#">Dropdown Menu 1</a></li>
-                                                      <li><a href="gallery-masonry.html#">Dropdown Lorem 2</a></li>
-                                                      <li className="dropdown"><a href="gallery-masonry.html#">Dropdown Menu 3</a>
-                                                          <ul>
-                                                              <li><a href="gallery-masonry.html#">Dropdown Menu level 2</a></li>
-                                                              <li><a href="gallery-masonry.html#">Dropdown Menu level 2</a></li>
-                                                              <li><a href="gallery-masonry.html#">Dropdown Menu Level 2</a></li>
-                                                          </ul>
-                                                      </li>
                                                   </ul>
                                               </li>
                                               <li className="current"><a href="contact-us.html">Contact</a></li>
@@ -171,7 +127,7 @@ function Rest() {
                       {/* .Side-menu */}
                       <div className="side-menu">
                           <ul className="navigation clearfix">
-                              <li className="dropdown"><a href="gallery-masonry.html#">Home</a>
+                              <li className="dropdown"><a href="Home.js">Home</a>
                                   <ul>
                                       <li><a href="../Restoria-1-Minimal-Hero/index.html">Home 1 - Minimal Hero</a></li>
                                       <li><a href="index.html">Home 2 - Standard Hero</a></li>
@@ -188,8 +144,8 @@ function Rest() {
                                       <li><a href="menu-list-4.html">Menu List 4</a></li>
                                   </ul>
                               </li>
-                              <li><a href="about.html">About Us</a></li>
-                              <li><a href="our-chef.html">Our chefs</a></li>
+                              <li><a href="about.html">Resturant & Lounges</a></li>
+                              <li><a href="our-chef.html">Special Offers</a></li>
                               <li className="dropdown"><a href="gallery-masonry.html#">Pages</a>
                                   <ul>
                                       <li><a href="gallery-masonry.html">Photo Gallery</a></li>
