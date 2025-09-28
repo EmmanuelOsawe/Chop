@@ -299,15 +299,6 @@ function Rooms() {
                                   <div className="text desc text-light">Experience timeless elegance in our Deluxe Room, featuring a plush king-size bed, cozy seating area, and stunning city or pool views. Enjoy modern comforts with high-speed Wi-Fi, a minibar, and a flat-screen TV, while the spa-inspired bathroom with luxury amenities ensures total relaxation.</div>
                               </div>
                           </div>
-                          {/*Item*/}
-                          <div className="offer-block-three col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                              <div className="inner-box wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
-                                  <div className="image"><a href="menu-list-2.html#"><img src="images/resource/dish5.png" alt="image" /></a></div>
-                                  <h5><a href="menu-list-1.html">Tokusen Wagyu</a></h5>
-                                  <div className="text desc text-light">Tomatoes, green bell pepper, red bell pepper, sliced cucumber onion, olives.</div>
-                                  <div className="price">$45.00</div>
-                              </div>
-                          </div>
                       </div>
                   </div>
               </section>
