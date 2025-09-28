@@ -238,11 +238,11 @@ function Rest() {
               {/*End Hidden Bar */}
               {/* Inner Banner Section */}
               <section className="inner-banner">
-                  <div className="image-layer" style={{ backgroundImage: 'url(images/background/banner-image-4.jpg)' }} />
+                  <div className="image-layer" style={{ backgroundImage: 'url(/assets/images/gallery/rest-loun.jpg)' }} />
                   <div className="auto-container">
                       <div className="inner">
-                          <h1>Gallery - Masonry </h1>
-                          <div className="sub_text"> <p> A taste of perfection in every dish - <span className="primary-color"> fine dining with a modern twist.</span></p> </div>
+                          <h1>Exquisite Restaurants & Vibrant Lounges </h1>
+                          <div className="sub_text"> <p> Savor African, International & Pan-Asian Flavors in Abuja</p> </div>
                       </div>
                   </div>
               </section>
@@ -253,53 +253,48 @@ function Rest() {
                       <div className="row clearfix">
                           <div className="masonry">
                               <div className="masonry-item">
-                                  <a href="images/gallery/pic1.jpg" className="fancybox" data-fancybox="gallery">
-                                      <img src="images/gallery/pic1-thumb.jpg" alt="Gallery Image" />
+                                  <a href="/assets/images/gallery/1.jpg" className="fancybox" data-fancybox="gallery">
+                                      <img src="/assets/images/gallery/1.jpg" alt="Gallery Image" />
                                   </a>
                               </div>
                               <div className="masonry-item">
-                                  <a href="images/gallery/pic4.jpg" className="fancybox" data-fancybox="gallery">
-                                      <img src="images/gallery/pic4-thumb.jpg" alt="Gallery Image" />
+                                  <a href="assets/images/gallery/Blog.jpg" className="fancybox" data-fancybox="gallery">
+                                      <img src="assets/images/gallery/Blog.jpg" alt="Gallery Image" />
                                   </a>
                               </div>
                               <div className="masonry-item">
-                                  <a href="images/gallery/pic3.jpg" className="fancybox" data-fancybox="gallery">
-                                      <img src="images/gallery/pic3-thumb.jpg" alt="Gallery Image" />
+                                  <a href="assets/images/gallery/LobbyBar-Gallery.jpg" className="fancybox" data-fancybox="gallery">
+                                      <img src="assets/images/gallery/LobbyBar-Gallery.jpg" alt="Gallery Image" />
                                   </a>
                               </div>
                               <div className="masonry-item">
-                                  <a href="images/gallery/pic7.jpg" className="fancybox" data-fancybox="gallery">
-                                      <img src="images/gallery/pic7-thumb.jpg" alt="Gallery Image" />
+                                  <a href="assets/images/gallery/meeting.jpg" className="fancybox" data-fancybox="gallery">
+                                      <img src="assets/images/gallery/meeting.jpg" alt="Gallery Image" />
                                   </a>
                               </div>
                               <div className="masonry-item">
-                                  <a href="images/gallery/pic5.jpg" className="fancybox" data-fancybox="gallery">
-                                      <img src="images/gallery/pic5-thumb.jpg" alt="Gallery Image" />
+                                  <a href="assets/images/gallery/rest-loun.jpg" className="fancybox" data-fancybox="gallery">
+                                      <img src="assets/images/gallery/rest-loun.jpg" alt="Gallery Image" />
                                   </a>
                               </div>
                               <div className="masonry-item">
-                                  <a href="images/gallery/pic6.jpg" className="fancybox" data-fancybox="gallery">
-                                      <img src="images/gallery/pic6-thumb.jpg" alt="Gallery Image" />
+                                  <a href="/assets/images/gallery/Tennis-Court.jpg" className="fancybox" data-fancybox="gallery">
+                                      <img src="/assets/images/gallery/Tennis-Court.jpg" alt="Gallery Image" />
                                   </a>
                               </div>
                               <div className="masonry-item">
-                                  <a href="images/gallery/pic2.jpg" className="fancybox" data-fancybox="gallery">
-                                      <img src="images/gallery/pic2-thumb.jpg" alt="Gallery Image" />
+                                  <a href="assets/images/gallery/Testimonal.jpg" className="fancybox" data-fancybox="gallery">
+                                      <img src="assets/images/gallery/Testimonial.jpg" alt="Gallery Image" />
                                   </a>
                               </div>
                               <div className="masonry-item">
-                                  <a href="images/gallery/pic8.jpg" className="fancybox" data-fancybox="gallery">
-                                      <img src="images/gallery/pic8-thumb.jpg" alt="Gallery Image" />
+                                  <a href="assets/images/gallery/Wazobia.jpg" className="fancybox" data-fancybox="gallery">
+                                      <img src="assets/images/gallery/Wazobia.jpg" alt="Gallery Image" />
                                   </a>
                               </div>
                               <div className="masonry-item">
-                                  <a href="images/gallery/pic9.jpg" className="fancybox" data-fancybox="gallery">
-                                      <img src="images/gallery/pic9-thumb.jpg" alt="Gallery Image" />
-                                  </a>
-                              </div>
-                              <div className="masonry-item">
-                                  <a href="images/gallery/pic10.jpg" className="fancybox" data-fancybox="gallery">
-                                      <img src="images/gallery/pic10-thumb.jpg" alt="Gallery Image" />
+                                  <a href="assets/images/gallery/weddings-events-banner.jpg" className="fancybox" data-fancybox="gallery">
+                                      <img src="assets/images/gallery/weddings-events-banner.jpg" alt="Gallery Image" />
                                   </a>
                               </div>
                               {/* Add more items as needed */}
