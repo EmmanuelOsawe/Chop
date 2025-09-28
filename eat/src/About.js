@@ -61,19 +61,9 @@ function About() {
                                               </li>
                                               <li className="has-mega-menu"><a href="rooms.js">Rooms & Suites</a>
                                               </li>
-                                              <li><a href="about.html">Resturant & Lounges</a></li>
+                                              <li><a href="restlounges.js">Resturant & Lounges</a></li>
                                               <li><a href="About.js">About Us</a></li>
-                                              <li className="dropdown"><a href="index.html#">Inside</a>
-                                                  <ul>
-                                                      <li><a href="gallery-masonry.html">Photo Gallery</a></li>
-                                                      <li><a href="book-table.html">Reservation 1</a></li>
-                                                      <li><a href="book-table-option2.html">Reservation 2</a></li>
-                                                      <li><a href="testimonial.html">Testimonial</a></li>
-                                                      <li><a href="blog-list.html">Blog List</a></li>
-                                                      <li><a href="blog-single-post.html">Blog Single Post</a></li>
-                                                  </ul>
-                                              </li>
-                                              <li><a href="contact-us.html">Contact</a></li>
+                                              <li><a href="contact.js">Contact</a></li>
                                           </ul>
                                       </nav>
                                       {/* Main Menu End*/}
@@ -127,36 +117,11 @@ function About() {
                           <ul className="navigation clearfix">
                               <li className=""><a href="Home.js">Home</a>
                               </li>
-                              <li className="dropdown"><a href="menu-list-1.html">Menus</a>
-                                  <ul>
-                                      <li><a href="menu-list-1.html">Menu List 1</a></li>
-                                      <li><a href="menu-list-2.html">Menu List 2</a></li>
-                                      <li><a href="menu-list-3.html">Menu List 3</a></li>
-                                      <li><a href="menu-list-4.html">Menu List 4</a></li>
-                                  </ul>
+                              <li className=""><a href="rooms.js">Rooms & Suites</a>
                               </li>
-                              <li className="current"><a href="about.html">About Us</a></li>
-                              <li><a href="our-chef.html">Our chefs</a></li>
-                              <li className="dropdown"><a href="about.html#">Pages</a>
-                                  <ul>
-                                      <li><a href="gallery-masonry.html">Photo Gallery</a></li>
-                                      <li><a href="book-table.html">Reservation 1</a></li>
-                                      <li><a href="book-table-option2.html">Reservation 2</a></li>
-                                      <li><a href="testimonial.html">Testimonial</a></li>
-                                      <li><a href="blog-list.html">Blog List</a></li>
-                                      <li><a href="blog-single-post.html">Blog Single Post</a></li>
-                                      <li><a href="about.html#">Dropdown Menu 1</a></li>
-                                      <li><a href="about.html#">Dropdown Lorem 2</a></li>
-                                      <li className="dropdown"><a href="about.html#">Dropdown Menu 3</a>
-                                          <ul>
-                                              <li><a href="about.html#">Dropdown Menu level 2</a></li>
-                                              <li><a href="about.html#">Dropdown Menu level 2</a></li>
-                                              <li><a href="about.html#">Dropdown Menu Level 2</a></li>
-                                          </ul>
-                                      </li>
-                                  </ul>
-                              </li>
-                              <li><a href="contact-us.html">Contact</a></li>
+                              <li className="about.js"><a href="about.js">About Us</a></li>
+                              <li><a href="restlounges.js">Resturant & Lounges</a></li>
+                              <li><a href="contact.js">Contact</a></li>
                           </ul>
                       </div>{/* /.Side-menu */}
                   </div>{/* / Hidden Bar Wrapper */}

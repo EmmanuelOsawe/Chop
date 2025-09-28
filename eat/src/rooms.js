@@ -63,18 +63,8 @@ function Rooms() {
                                               <li className="current  has-mega-menu"><a href="rooms.js">Rooms & Suites</a>
                                               </li>
                                               <li><a href="restlounges.js">Resturant & Lounges</a></li>
-                                              <li><a href="our-chef.html">About Us</a></li>
-                                              <li className="dropdown"><a href="menu-list-2.html#">Inside</a>
-                                                  <ul>
-                                                      <li><a href="gallery-masonry.html">Photo Gallery</a></li>
-                                                      <li><a href="book-table.html">Reservation 1</a></li>
-                                                      <li><a href="book-table-option2.html">Reservation 2</a></li>
-                                                      <li><a href="testimonial.html">Testimonial</a></li>
-                                                      <li><a href="blog-list.html">Blog List</a></li>
-                                                      <li><a href="blog-single-post.html">Blog Single Post</a></li>
-                                                  </ul>
-                                              </li>
-                                              <li><a href="contact-us.html">Contact</a></li>
+                                              <li><a href="about.js">About Us</a></li>
+                                              <li><a href="contact.js">Contact</a></li>
                                           </ul>
                                       </nav>
                                       {/* Main Menu End*/}
@@ -128,21 +118,11 @@ function Rooms() {
                           <ul className="navigation clearfix">
                               <li className="dropdown"><a href="Home.js">Home</a>
                               </li>
-                              <li className="current dropdown"><a href="menu-list-1.html">Rooms & Suites</a>
+                              <li className="current dropdown"><a href="rooms.js">Rooms & Suites</a>
                               </li>
                               <li><a href="restlounges.js">Resturant & Lounges</a></li>
-                              <li><a href="our-chef.html">About Us</a></li>
-                              <li className="dropdown"><a href="menu-list-2.html#">Inside</a>
-                                  <ul>
-                                      <li><a href="gallery-masonry.html">Photo Gallery</a></li>
-                                      <li><a href="book-table.html">Reservation 1</a></li>
-                                      <li><a href="book-table-option2.html">Reservation 2</a></li>
-                                      <li><a href="testimonial.html">Testimonial</a></li>
-                                      <li><a href="blog-list.html">Blog List</a></li>
-                                      <li><a href="blog-single-post.html">Blog Single Post</a></li>
-                                  </ul>
-                              </li>
-                              <li><a href="contact-us.html">Contact</a></li>
+                              <li><a href="about.js">About Us</a></li>
+                              <li><a href="contact.js">Contact</a></li>
                           </ul>
                       </div>{/* /.Side-menu */}
                   </div>{/* / Hidden Bar Wrapper */}

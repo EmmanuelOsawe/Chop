@@ -61,31 +61,13 @@ function Home() {
                                   <div className="nav-outer clearfix">
                                       <nav className="main-menu">
                                           <ul className="navigation clearfix">
-                                              <li><a href="index.html#">Home</a>
+                                              <li><a href="Home.js">Home</a>
                                               </li>
                                               <li className="has-mega-menu"><a href="rooms.js">Rooms & Suites</a>
                                               </li>
-                                              <li><a href="about.html">Resturant & Lounges</a></li>
-                                              <li><a href="our-chef.html">Special Offers</a></li>
-                                              <li className="dropdown"><a href="index.html#">Inside</a>
-                                                  <ul>
-                                                      <li><a href="gallery-masonry.html">Photo Gallery</a></li>
-                                                      <li><a href="book-table.html">Reservation 1</a></li>
-                                                      <li><a href="book-table-option2.html">Reservation 2</a></li>
-                                                      <li><a href="testimonial.html">Testimonial</a></li>
-                                                      <li><a href="blog-list.html">Blog List</a></li>
-                                                      <li><a href="blog-single-post.html">Blog Single Post</a></li>
-                                                      <li><a href="index.html#">Dropdown Menu 1</a></li>
-                                                      <li><a href="index.html#">Dropdown Lorem 2</a></li>
-                                                      <li className="dropdown"><a href="index.html#">Dropdown Menu 3</a>
-                                                          <ul>
-                                                              <li><a href="index.html#">Dropdown Menu level 2</a></li>
-                                                              <li><a href="index.html#">Dropdown Menu level 2</a></li>
-                                                              <li><a href="index.html#">Dropdown Menu Level 2</a></li>
-                                                          </ul>
-                                                      </li>
-                                                  </ul>
-                                              </li>
+                                              <li><a href="restlounges.js">Resturant & Lounges</a></li>
+                                              <li className="current"><a href="about.js">About Us</a></li>
+
                                               <li><a href="contact.js">Contact</a></li>
                                           </ul>
                                       </nav>
@@ -139,37 +121,13 @@ function Home() {
                       <div className="side-menu">
                           <ul className="navigation clearfix">
                               <li className="dropdown"><a href="index.html#">Home</a>
-                                  <ul>
-                                      <li><a href="../Restoria-1-Minimal-Hero/index.html">Home 1 - Minimal Hero</a></li>
-                                      <li><a href="index.html">Home 2 - Standard Hero</a></li>
-                                      <li><a href="../Restoria-3-Video-Hero/index.html">Home 3 - Video Hero</a></li>
-                                      <li><a href="../Restoria-4-Category-Hero/index.html">Home 4 - Category Hero</a></li>
-                                      <li><a href="../Restoria-5-Rollingimages-Hero-Center-Header/index.html">Home 5 - Rolling Images</a></li>
-                                  </ul>
                               </li>
                               <li className="dropdown"><a href="rooms.js">Rooms & Suites</a>
                               </li>
+                              <li className="current"><a href="about.js">About Us</a></li>
+
                               <li><a href="about.html">Resturant & Lounges</a></li>
                               <li><a href="our-chef.html">Special Offers</a></li>
-                              <li className="dropdown"><a href="index.html#">Inside</a>
-                                  <ul>
-                                      <li><a href="gallery-masonry.html">Photo Gallery</a></li>
-                                      <li><a href="book-table.html">Reservation 1</a></li>
-                                      <li><a href="book-table-option2.html">Reservation 2</a></li>
-                                      <li><a href="testimonial.html">Testimonial</a></li>
-                                      <li><a href="blog-list.html">Blog List</a></li>
-                                      <li><a href="blog-single-post.html">Blog Single Post</a></li>
-                                      <li><a href="index.html#">Dropdown Menu 1</a></li>
-                                      <li><a href="index.html#">Dropdown Lorem 2</a></li>
-                                      <li className="dropdown"><a href="index.html#">Dropdown Menu 3</a>
-                                          <ul>
-                                              <li><a href="index.html#">Dropdown Menu level 2</a></li>
-                                              <li><a href="index.html#">Dropdown Menu level 2</a></li>
-                                              <li><a href="index.html#">Dropdown Menu Level 2</a></li>
-                                          </ul>
-                                      </li>
-                                  </ul>
-                              </li>
                               <li><a href="contact.js">Contact</a></li>
                           </ul>
                       </div>{/* /.Side-menu */}
