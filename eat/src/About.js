@@ -241,7 +241,18 @@ function About() {
                   <div className="image-layer" style={{ backgroundImage: 'url(/assets/images/gallery/the-hotel.jpg)' }} />
                   <div className="auto-container">
                       <div className="content-box">
-                          <div className="play-btn"><a href="https://www.youtube.com/watch?v=dZ9O_l1dIzs" className="lightbox-image theme-btn"><span className="icon fa-sharp-duotone fa-solid fa-play"><i className="ripple" /></span></a></div>
+                          <div className="play-btn">
+                              <video
+                                  src="/assets/rename (2).mp4"
+                                  controls
+                                  width="1000"
+                                  height="450"
+                              >
+                              </video>
+                              <span className="icon fa-sharp-duotone fa-solid fa-play">
+                                  <i className="ripple" />
+                              </span>
+                          </div>
                       </div>
                   </div>
               </section>
@@ -389,7 +400,7 @@ function About() {
                                   <div className="inner wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                       <div className="content">
                                           <div className="footer-image">
-                                              <img src="/assets//assets/images/resource/footer-img-1.jpg" alt="image" />
+                                              <img src="/assets/images/resource/footer-img-1.jpg" alt="image" />
                                           </div>
                                           <div className="logo"><a href="index.html" title="Abuja InterContinental"><img src="/assets/images/logo.png" alt="image" title="Abuja InterContinental" /></a></div>
                                           <div className="info">
