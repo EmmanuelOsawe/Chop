@@ -76,7 +76,7 @@ function Home() {
                                   {/*Nav Outer End*/}
                                   <div className="links-box clearfix">
                                       <div className="link link-btn">
-                                          <a href="book-table.html" className="theme-btn btn-style-one clearfix">
+                                          <a href="contact.js" className="theme-btn btn-style-one clearfix">
                                               <span className="btn-wrap">
                                                   <span className="text-one">book a table</span>
                                                   <span className="text-two">book a table</span>
@@ -242,7 +242,7 @@ function Home() {
                           </div>
                       </SwiperSlide>
                   </Swiper>                  
-                   <a href="book-table.html" className="explore-menu-btn">
+                   <a href="contact.js" className="explore-menu-btn">
                       <span className="icon"> <img src="/assets/images/resource/menu-badge-arrow.png" alt="image" title="image" /> </span>
                   </a>
                   {/* Curve at bottom */}

@@ -71,7 +71,7 @@ function Rooms() {
                                   {/*Nav Outer End*/}
                                   <div className="links-box clearfix">
                                       <div className="link link-btn">
-                                          <a href="book-table.html" className="theme-btn btn-style-one clearfix">
+                                          <a href="contact.js" className="theme-btn btn-style-one clearfix">
                                               <span className="btn-wrap">
                                                   <span className="text-one">find a table</span>
                                                   <span className="text-two">find a table</span>

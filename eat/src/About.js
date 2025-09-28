@@ -71,7 +71,7 @@ function About() {
                                   {/*Nav Outer End*/}
                                   <div className="links-box clearfix">
                                       <div className="link link-btn">
-                                          <a href="book-table.html" className="theme-btn btn-style-one clearfix">
+                                          <a href="contact.js" className="theme-btn btn-style-one clearfix">
                                               <span className="btn-wrap">
                                                   <span className="text-one">Book a table</span>
                                                   <span className="text-two">Book a table</span>
