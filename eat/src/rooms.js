@@ -397,8 +397,8 @@ function Rooms() {
                                               <ul>
                                                   <li>Abuja Intercontiental 1, Ladi Kwali Street, Wuse Zone 4,</li>
                                                   <li>Daily - 8.00 am to 10.00 pm</li>
-                                                  <li><a href="mailto:booking@domainname.com">info@abujacontinental.com</a></li>
-                                                  <li><a href="tel:+234 (0) 2094612000 / 08070602727">Booking Request : +234 (0) 2094612000 / 08070602727</a></li>
+                                                  <li><a href="mailto:info@abujacontinental.com">info@abujacontinental.com</a></li>
+                                                  <li><a href="tel:+08070602727">Booking Request : +234 (0) 2094612000 / 08070602727</a></li>
                                               </ul>
                                           </div>
                                       </div>

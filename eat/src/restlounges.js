@@ -32,14 +32,14 @@ function Rest() {
                           <div className="inner clearfix">
                               <div className="top-left clearfix">
                                   <ul className="top-info clearfix">
-                                      <li><i className="icon far fa-map-marker-alt" /> Restoria, Arrondissement, Paris 9578</li>
+                                      <li><i className="icon far fa-map-marker-alt" /> Abuja Continental 1, Ladi Kwali Street, Wuse Zone 4,</li>
                                       <li><i className="icon far fa-clock" /> Daily : 8.00 am to 10.00 pm</li>
                                   </ul>
                               </div>
                               <div className="top-right clearfix">
                                   <ul className="top-info clearfix">
-                                      <li><a href="tel:+11234567890"><i className="icon far fa-phone" /> +1 123 456 7890</a></li>
-                                      <li><a href="mailto:booking@restaurant.com"><i className="icon far fa-envelope" /> booking@restaurant.com</a></li>
+                                      <li><a href="tel:+8070602727"><i className="icon far fa-phone" /> +234 (0) 2094612000 / 08070602727</a></li>
+                                      <li><a href="mailto:info@abujacontinental.com"><i className="icon far fa-envelope" /> info@abujacontinental.com</a></li>
                                   </ul>
                               </div>
                           </div>
@@ -52,7 +52,7 @@ function Rest() {
                           <div className="main-box clearfix">
                               {/*Logo*/}
                               <div className="logo-box">
-                                  <div className="logo"><a href="index.html" title="Restoria - Restaurants HTML Template"><img src="images/logo.png" alt="image" title="Restoria - Restaurants HTML Template" /></a></div>
+                                  <div className="logo"><a href="index.html" title="Abuja Intercontinenal"><img src="/assets/images/logo.png" alt="image" title="Abuja Intercontinenal" /></a></div>
                               </div>
                               <div className="nav-box clearfix">
                                   {/*Nav Outer*/}
@@ -167,7 +167,7 @@ function Rest() {
                   {/* Hidden Bar Wrapper */}
                   <div className="inner-box">
                       <div className="cross-icon hidden-bar-closer"><span className="far fa-close" /></div>
-                      <div className="logo-box"><a href="index.html" title="Restoria - Restaurants HTML Template"><img src="images/resource/sidebar-logo.png" alt="image" title="Restoria - Restaurants HTML Template" /></a></div>
+                      <div className="logo-box"><a href="index.html" title="Abuja Intercontinenal"><img src="assets/images/rooms/logo.png" alt="image" title="Abuja Intercontinenal" /></a></div>
                       {/* .Side-menu */}
                       <div className="side-menu">
                           <ul className="navigation clearfix">
@@ -222,7 +222,7 @@ function Rest() {
                   <div className="inner-box">
                       <div className="cross-icon"><span className="far fa-close" /></div>
                       <div className="image-box"><img src="images/resource/sidebar-image.jpg" alt="image" title /></div>
-                      <div className="logo-box"><a href="index.html" title="Restoria - Restaurants HTML Template"><img src="images/resource/sidebar-logo.png" alt="image" title="Restoria - Restaurants HTML Template" /></a></div>
+                      <div className="logo-box"><a href="index.html" title="Abuja Intercontinenal"><img src="/assets/images/logo.png" alt="image" title="Abuja Intercontinenal" /></a></div>
                       <h5>Visit Us</h5>
                       <ul className="info">
                           <li>Restoria, Arrondissement,<br />Paris 9578</li>
@@ -315,7 +315,7 @@ function Rest() {
                               {/*Footer Col*/}
                               <div className="footer-col footer-map-col col-lg-6 col-md-12 col-sm-12 px-0">
                                   <div className="footer-map">
-                                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d81392.11276571127!2d-74.03116502768826!3d40.70144849986174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1667928043843!5m2!1sen!2sin" width="100%" height={500} style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.998661644971!2d7.481666175010819!3d9.063885088441936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0b5fcf7624d5%3A0x2b03f1d1ef382d7f!2sAbuja%20Continental%20Hotel!5e0!3m2!1sen!2sng!4v1758959024881!5m2!1sen!2sng" width="100%" height={500} style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
                                   </div>
                               </div>
                               {/*Footer Col*/}
@@ -323,13 +323,13 @@ function Rest() {
                                   <div className="inner wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                       <div className="content">
                                           <div className="footer-image">
-                                              <img src="images/resource/footer-img-1.jpg" alt="image" />
+                                              <img src="/assets/images/resource/footer-img-1.jpg" alt="image" />
                                           </div>
-                                          <div className="logo"><a href="index.html" title="Restoria - Restaurants HTML Template"><img src="images/logo.png" alt="image" title="Restoria - Restaurants HTML Template" /></a></div>
+                                          <div className="logo"><a href="index.html" title="Abuja Intercontinenal"><img src="/assets/images/logo.png" alt="image" title="Abuja Intercontinenal" /></a></div>
                                           <div className="info">
                                               <h6>visit us </h6>
                                               <ul>
-                                                  <li>Restoria, Arrondissement, Paris 9578</li>
+                                                  <li>Abuja contiental</li>
                                                   <li>Daily - 8.00 am to 10.00 pm</li>
                                                   <li><a href="mailto:booking@domainname.com">booking@gmail.com</a></li>
                                                   <li><a href="tel:+88-123-123456">Booking Request : +88-123-123456</a></li>
