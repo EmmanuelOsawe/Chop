@@ -237,7 +237,7 @@ function About() {
               </section>
               {/*Intro Section*/}
               <section className="intro-section ">
-                  <div className="intro-anim-image"><img src="/assets/images/resource/abt_dish.png" alt="image" /></div>
+                  <div className="intro-anim-image"><img src="/assets/images/gallery/zuma-rock.jpg" alt="image" /></div>
                   <div className="image-layer" style={{ backgroundImage: 'url(/assets/images/gallery/the-hotel.jpg)' }} />
                   <div className="auto-container">
                       <div className="content-box">
@@ -335,14 +335,14 @@ function About() {
                                       <div className="inner">
                                           <div className="icon-box"><img src="/assets/images/resource/s-icon-1.png" alt="image" title /></div>
                                           <h6>party &amp; <br /> celebrations</h6>
-                                          <div className="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys.</div>
+                                          <div className="text-light">A 5-star hotel provides the perfect venue for birthdays, weddings, anniversaries, and corporate gatherings with personalized themes, décor, and entertainment, making every event memorable.</div>
                                       </div>
                                   </div>
                                   <div className="s-block alternate">
                                       <div className="inner">
                                           <div className="icon-box"><img src="/assets/images/resource/s-icon-2.png" alt="image" title /></div>
                                           <h6>luxury <br /> Fine Dining</h6>
-                                          <div className="text">Simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys lorem Ipsum is.</div>
+                                          <div className="text-light">Guests enjoy world-class cuisine prepared by expert chefs, with exquisite presentation and a refined atmosphere that combines comfort with elegance.</div>
                                       </div>
                                   </div>
                               </div>
@@ -353,14 +353,14 @@ function About() {
                                       <div className="inner">
                                           <div className="icon-box"><img src="/assets/images/resource/s-icon-3.png" alt="image" title /></div>
                                           <h6>banquet <br /> hall</h6>
-                                          <div className="text">Printing and typeset industry lorem Ipsum has been lorem Ipsum is simply dummy typeset industry lorem Ipsum has been.</div>
+                                          <div className="text-light">Spacious, elegant, and fully equipped with modern audio-visual systems, banquet halls offer a premium setting for large-scale events, conferences, and grand functions.</div>
                                       </div>
                                   </div>
                                   <div className="s-block ">
                                       <div className="inner">
                                           <div className="icon-box"><img src="/assets/images/resource/s-icon-4.png" alt="image" title /></div>
                                           <h6>outdoor <br /> catering</h6>
-                                          <div className="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys.</div>
+                                          <div className="text-light">Beyond the hotel premises, 5-star hotels extend their culinary excellence through outdoor catering, ensuring high-quality food and service for private events, no matter the location.</div>
                                       </div>
                                   </div>
                               </div>
@@ -368,122 +368,6 @@ function About() {
                           <div className="image-col col-lg-4 col-md-12 col-sm-12">
                               <div className="inner wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="0ms">
                                   <div className="image-box"><img src="/assets/images/resource/service-image.png" alt="image" title /></div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </section>
-              {/*Testimonials Section*/}
-              <section className="testimonials-two section-kt">
-                  <div className="auto-container">
-                      <div className="title-box centered">
-                          <div className="subtitle"><span>testimonials</span></div>
-                          <h2>What People Are Saying</h2>
-                      </div>
-                      <div className="carousel-box">
-                          <div className="testimonial-slider owl-theme owl-carousel">
-                              {/*Slide Item*/}
-                              <div className="testi-block">
-                                  <div className="inner-box">
-                                      <div className="rating"><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /></div>
-                                      <div className="text">A perfect blend of mouthwatering dishes, warm atmosphere, and outstanding service. Every meal feels like a special occasion worth savoring!</div>
-                                      <div className="auth-info">
-                                          <div className="image"><img src="/assets/images/resource/author-thumb-4.jpg" alt="image" /></div>
-                                          <div className="auth-title">willium joe -<span className="location">New York</span> </div>
-                                      </div>
-                                  </div>
-                              </div>
-                              {/*Slide Item*/}
-                              <div className="testi-block">
-                                  <div className="inner-box">
-                                      <div className="rating"><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /></div>
-                                      <div className="text">Every visit is a flavorful journey! Delicious food, elegant ambiance, and welcoming staff make this restaurant a true dining destination.</div>
-                                      <div className="auth-info">
-                                          <div className="image"><img src="/assets/images/resource/author-thumb-5.jpg" alt="image" /></div>
-                                          <div className="auth-title">Theresa Tin -<span className="location"> Chicago</span> </div>
-                                      </div>
-                                  </div>
-                              </div>
-                              {/*Slide Item*/}
-                              <div className="testi-block">
-                                  <div className="inner-box">
-                                      <div className="rating"><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /></div>
-                                      <div className="text">From appetizers to desserts, every bite bursts with perfection. A cozy atmosphere and exceptional service make each visit unforgettable.</div>
-                                      <div className="auth-info">
-                                          <div className="image"><img src="/assets/images/resource/author-thumb-6.jpg" alt="image" /></div>
-                                          <div className="auth-title">Michel Byrd -<span className="location"> New York</span> </div>
-                                      </div>
-                                  </div>
-                              </div>
-                              {/*Slide Item*/}
-                              <div className="testi-block">
-                                  <div className="inner-box">
-                                      <div className="rating"><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /></div>
-                                      <div className="text">The taste of food was really amazing, Wow ! outstanding dinner made by Mater chef John Rute, I never forget this delicious food experience.</div>
-                                      <div className="auth-info">
-                                          <div className="image"><img src="/assets/images/resource/author-thumb-4.jpg" alt="image" /></div>
-                                          <div className="auth-title">willium joe -<span className="location"> New York</span></div>
-                                      </div>
-                                  </div>
-                              </div>
-                              {/*Slide Item*/}
-                              <div className="testi-block">
-                                  <div className="inner-box">
-                                      <div className="rating"><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /></div>
-                                      <div className="text">Hygienic food &amp; fresh enviroment, everyone had a wonderful delite experience. It was FABULOUS! great experience at The Italian gourmet.</div>
-                                      <div className="auth-info">
-                                          <div className="image"><img src="/assets/images/resource/author-thumb-5.jpg" alt="image" /></div>
-                                          <div className="auth-title">Theresa Tin -<span className="location"> Chicago</span></div>
-                                      </div>
-                                  </div>
-                              </div>
-                              {/*Slide Item*/}
-                              <div className="testi-block">
-                                  <div className="inner-box">
-                                      <div className="rating"><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /><span className="fa fa-star" /></div>
-                                      <div className="text">Special treat to dine, It was wow experience food was really delicious! outstanding dinner made by Mater chef, food experience was unfogetable!</div>
-                                      <div className="auth-info">
-                                          <div className="image"><img src="/assets/images/resource/author-thumb-6.jpg" alt="image" /></div>
-                                          <div className="auth-title">Michel Byrd -<span className="location"> Denmark</span></div>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </section>
-              {/*Gallery Section*/}
-              <section className="image-gallery section-kt">
-                  <div className="carousel-box">
-                      <div className="auto-container">
-                          <div className="title-box centered">
-                              <div className="subtitle"><span>Gallery</span></div>
-                              <h2>Restoria Gallery</h2>
-                          </div>
-                          <div className="image-gallery-slider owl-theme owl-carousel">
-                              {/*Slide Item*/}
-                              <div className="gallery-block">
-                                  <div className="image"><a href="images/gallery/gallery-1-big.jpg" className="lightbox-image" data-fancybox="gallery"><img src="images/gallery/gallery-1-sm.jpg" alt="image" /></a></div>
-                              </div>
-                              {/*Slide Item*/}
-                              <div className="gallery-block">
-                                  <div className="image"><a href="images/gallery/gallery-2-big.jpg" className="lightbox-image" data-fancybox="gallery"><img src="images/gallery/gallery-2-sm.jpg" alt="image" /></a></div>
-                              </div>
-                              {/*Slide Item*/}
-                              <div className="gallery-block">
-                                  <div className="image"><a href="images/gallery/gallery-3-big.jpg" className="lightbox-image" data-fancybox="gallery"><img src="images/gallery/gallery-3-sm.jpg" alt="image" /></a></div>
-                              </div>
-                              {/*Slide Item*/}
-                              <div className="gallery-block">
-                                  <div className="image"><a href="images/gallery/gallery-4-big.jpg" className="lightbox-image" data-fancybox="gallery"><img src="images/gallery/gallery-4-sm.jpg" alt="image" /></a></div>
-                              </div>
-                              {/*Slide Item*/}
-                              <div className="gallery-block">
-                                  <div className="image"><a href="images/gallery/gallery-1-big.jpg" className="lightbox-image" data-fancybox="gallery"><img src="images/gallery/gallery-1-sm.jpg" alt="image" /></a></div>
-                              </div>
-                              {/*Slide Item*/}
-                              <div className="gallery-block">
-                                  <div className="image"><a href="images/gallery/gallery-2-big.jpg" className="lightbox-image" data-fancybox="gallery"><img src="images/gallery/gallery-2-sm.jpg" alt="image" /></a></div>
                               </div>
                           </div>
                       </div>
