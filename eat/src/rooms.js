@@ -51,55 +51,20 @@ function Rooms() {
                           <div className="main-box clearfix">
                               {/*Logo*/}
                               <div className="logo-box">
-                                  <div className="logo"><a href="index.html" title="Restoria - Restaurants HTML Template"><img src="images/logo.png" alt="image" title="Restoria - Restaurants HTML Template" /></a></div>
+                                  <div className="logo"><a href="index.html" title="Abuja Intercontinental Hotel"><img src="assets/images/logo.png" alt="image" title="Abuja Intercontinental Hotel" /></a></div>
                               </div>
                               <div className="nav-box clearfix">
                                   {/*Nav Outer*/}
                                   <div className="nav-outer clearfix">
                                       <nav className="main-menu">
                                           <ul className="navigation clearfix">
-                                              <li className="dropdown"><a href="menu-list-2.html#">Home</a>
-                                                  <ul>
-                                                      <li><a href="../Restoria-1-Minimal-Hero/index.html">Home 1 - Minimal Hero</a></li>
-                                                      <li><a href="index.html">Home 2 - Standard Hero</a></li>
-                                                      <li><a href="../Restoria-3-Video-Hero/index.html">Home 3 - Video Hero</a></li>
-                                                      <li><a href="../Restoria-4-Category-Hero/index.html">Home 4 - Category Hero</a></li>
-                                                      <li><a href="../Restoria-5-Rollingimages-Hero-Center-Header/index.html">Home 5 - Rolling Images</a></li>
-                                                  </ul>
+                                              <li className=""><a href="Home.js">Home</a>
                                               </li>
-                                              <li className="current dropdown has-mega-menu"><a href="menu-list-1.html">Menus</a>
-                                                  <ul>
-                                                      <li>
-                                                          <div className="mega-menu">
-                                                              <div className="menu-inner">
-                                                                  <div className="auto-container">
-                                                                      <div className="row clearfix">
-                                                                          <div className="menu-block col-lg-3 col-md-6 col-sm-6">
-                                                                              <div className="image"><a href="menu-list-1.html"><img src="images/resource/menu-1-thumb.jpg" alt="image" /></a></div>
-                                                                              <div className="title"><a href="menu-list-1.html">Menu list 1</a></div>
-                                                                          </div>
-                                                                          <div className="menu-block col-lg-3 col-md-6 col-sm-6">
-                                                                              <div className="image"><a href="menu-list-2.html"><img src="images/resource/menu-2-thumb.jpg" alt="image" /></a></div>
-                                                                              <div className="title"><a href="menu-list-2.html">Menu list 2</a></div>
-                                                                          </div>
-                                                                          <div className="menu-block col-lg-3 col-md-6 col-sm-6">
-                                                                              <div className="image"><a href="menu-list-3.html"><img src="images/resource/menu-3-thumb.jpg" alt="image" /></a></div>
-                                                                              <div className="title"><a href="menu-list-3.html">Menu list 3</a></div>
-                                                                          </div>
-                                                                          <div className="menu-block col-lg-3 col-md-6 col-sm-6">
-                                                                              <div className="image"><a href="menu-list-4.html"><img src="images/resource/menu-4-thumb.jpg" alt="image" /></a></div>
-                                                                              <div className="title"><a href="menu-list-4.html">Menu list 4</a></div>
-                                                                          </div>
-                                                                      </div>
-                                                                  </div>
-                                                              </div>
-                                                          </div>
-                                                      </li>
-                                                  </ul>
+                                              <li className="current  has-mega-menu"><a href="rooms.js">Rooms & Suites</a>
                                               </li>
-                                              <li><a href="about.html">About Us</a></li>
-                                              <li><a href="our-chef.html">Our chefs</a></li>
-                                              <li className="dropdown"><a href="menu-list-2.html#">Pages</a>
+                                              <li><a href="about.html">REsturant & Lounges</a></li>
+                                              <li><a href="our-chef.html">Special Offers</a></li>
+                                              <li className="dropdown"><a href="menu-list-2.html#">Inside</a>
                                                   <ul>
                                                       <li><a href="gallery-masonry.html">Photo Gallery</a></li>
                                                       <li><a href="book-table.html">Reservation 1</a></li>
@@ -107,15 +72,6 @@ function Rooms() {
                                                       <li><a href="testimonial.html">Testimonial</a></li>
                                                       <li><a href="blog-list.html">Blog List</a></li>
                                                       <li><a href="blog-single-post.html">Blog Single Post</a></li>
-                                                      <li><a href="menu-list-2.html#">Dropdown Menu 1</a></li>
-                                                      <li><a href="menu-list-2.html#">Dropdown Lorem 2</a></li>
-                                                      <li className="dropdown"><a href="menu-list-2.html#">Dropdown Menu 3</a>
-                                                          <ul>
-                                                              <li><a href="menu-list-2.html#">Dropdown Menu level 2</a></li>
-                                                              <li><a href="menu-list-2.html#">Dropdown Menu level 2</a></li>
-                                                              <li><a href="menu-list-2.html#">Dropdown Menu Level 2</a></li>
-                                                          </ul>
-                                                      </li>
                                                   </ul>
                                               </li>
                                               <li><a href="contact-us.html">Contact</a></li>
@@ -166,30 +122,17 @@ function Rooms() {
                   {/* Hidden Bar Wrapper */}
                   <div className="inner-box">
                       <div className="cross-icon hidden-bar-closer"><span className="far fa-close" /></div>
-                      <div className="logo-box"><a href="index.html" title="Restoria - Restaurants HTML Template"><img src="images/resource/sidebar-logo.png" alt="image" title="Restoria - Restaurants HTML Template" /></a></div>
+                      <div className="logo-box"><a href="index.html" title="Abuja Intercontinental Hotel"><img src="images/resource/sidebar-logo.png" alt="image" title="Abuja Intercontinental Hotel" /></a></div>
                       {/* .Side-menu */}
                       <div className="side-menu">
                           <ul className="navigation clearfix">
-                              <li className="dropdown"><a href="menu-list-2.html#">Home</a>
-                                  <ul>
-                                      <li><a href="../Restoria-1-Minimal-Hero/index.html">Home 1 - Minimal Hero</a></li>
-                                      <li><a href="index.html">Home 2 - Standard Hero</a></li>
-                                      <li><a href="../Restoria-3-Video-Hero/index.html">Home 3 - Video Hero</a></li>
-                                      <li><a href="../Restoria-4-Category-Hero/index.html">Home 4 - Category Hero</a></li>
-                                      <li><a href="../Restoria-5-Rollingimages-Hero-Center-Header/index.html">Home 5 - Rolling Images</a></li>
-                                  </ul>
+                              <li className="dropdown"><a href="Home.js">Home</a>
                               </li>
-                              <li className="current dropdown"><a href="menu-list-1.html">Menus</a>
-                                  <ul>
-                                      <li><a href="menu-list-1.html">Menu List 1</a></li>
-                                      <li><a href="menu-list-2.html">Menu List 2</a></li>
-                                      <li><a href="menu-list-3.html">Menu List 3</a></li>
-                                      <li><a href="menu-list-4.html">Menu List 4</a></li>
-                                  </ul>
+                              <li className="current dropdown"><a href="menu-list-1.html">Rooms & Suites</a>
                               </li>
                               <li><a href="about.html">About Us</a></li>
                               <li><a href="our-chef.html">Our chefs</a></li>
-                              <li className="dropdown"><a href="menu-list-2.html#">Pages</a>
+                              <li className="dropdown"><a href="menu-list-2.html#">Inside</a>
                                   <ul>
                                       <li><a href="gallery-masonry.html">Photo Gallery</a></li>
                                       <li><a href="book-table.html">Reservation 1</a></li>
@@ -197,15 +140,6 @@ function Rooms() {
                                       <li><a href="testimonial.html">Testimonial</a></li>
                                       <li><a href="blog-list.html">Blog List</a></li>
                                       <li><a href="blog-single-post.html">Blog Single Post</a></li>
-                                      <li><a href="menu-list-2.html#">Dropdown Menu 1</a></li>
-                                      <li><a href="menu-list-2.html#">Dropdown Lorem 2</a></li>
-                                      <li className="dropdown"><a href="menu-list-2.html#">Dropdown Menu 3</a>
-                                          <ul>
-                                              <li><a href="menu-list-2.html#">Dropdown Menu level 2</a></li>
-                                              <li><a href="menu-list-2.html#">Dropdown Menu level 2</a></li>
-                                              <li><a href="menu-list-2.html#">Dropdown Menu Level 2</a></li>
-                                          </ul>
-                                      </li>
                                   </ul>
                               </li>
                               <li><a href="contact-us.html">Contact</a></li>
@@ -221,7 +155,7 @@ function Rooms() {
                   <div className="inner-box">
                       <div className="cross-icon"><span className="far fa-close" /></div>
                       <div className="image-box"><img src="images/resource/sidebar-image.jpg" alt="image" title /></div>
-                      <div className="logo-box"><a href="index.html" title="Restoria - Restaurants HTML Template"><img src="images/resource/sidebar-logo.png" alt="image" title="Restoria - Restaurants HTML Template" /></a></div>
+                      <div className="logo-box"><a href="index.html" title="Abuja Intercontinental Hotel"><img src="images/resource/sidebar-logo.png" alt="image" title="Abuja Intercontinental Hotel" /></a></div>
                       <h5>Visit Us</h5>
                       <ul className="info">
                           <li>Abuja Intercontiental, <br /> Wuze Zone 4</li>
@@ -237,11 +171,10 @@ function Rooms() {
               {/*End Hidden Bar */}
               {/* Inner Banner Section */}
               <section className="inner-banner">
-                  <div className="image-layer" style={{ backgroundImage: 'url(images/background/banner-image-2.jpg)' }} />
+                  <div className="image-layer" style={{ backgroundImage: 'url(assets/images/rooms/general.jpg)' }} />
                   <div className="auto-container">
                       <div className="inner">
-                          <h1>Menu Style 2</h1>
-                          <div className="sub_text"> <p> A taste of perfection in every dish - <span className="primary-color"> fine dining with a modern twist.</span></p> </div>
+                          <h1>Luxurious, Exclusive & Comfortable Rooms</h1>
                       </div>
                   </div>
               </section>
@@ -458,7 +391,7 @@ function Rooms() {
                                           <div className="footer-image">
                                               <img src="/assets/images/resource/footer-img-1.jpg" alt="image" />
                                           </div>
-                                          <div className="logo"><a href="index.html" title="Restoria - Restaurants HTML Template"><img src="/assets/images/logo.png" alt="image" title="Restoria - Restaurants HTML Template" /></a></div>
+                                          <div className="logo"><a href="index.html" title="Abuja Intercontinental Hotel"><img src="/assets/images/logo.png" alt="image" title="Abuja Intercontinental Hotel" /></a></div>
                                           <div className="info">
                                               <h6>visit us </h6>
                                               <ul>
