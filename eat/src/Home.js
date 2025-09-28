@@ -54,19 +54,20 @@ function Home() {
                           <div className="main-box clearfix">
                               {/*Logo*/}
                               <div className="logo-box">
-                                  <div className="logo"><a href="index.html" title="Abuja Intercontinental"><img src="/assets/images/logo.png" alt="image" title="Abuja Intercontinental" /></a></div>
+                                  <div className="logo"><a href="index.html" title="Restoria - Restaurants HTML Template"><img src="/assets/images/logo.png" alt="image" title="Restoria - Restaurants HTML Template" /></a></div>
                               </div>
                               <div className="nav-box clearfix">
+                                  {/*Nav Outer*/}
                                   <div className="nav-outer clearfix">
                                       <nav className="main-menu">
                                           <ul className="navigation clearfix">
-                                              <li className=""><a href="Home.js">Home</a>
+                                              <li><a href="index.html#">Home</a>
                                               </li>
-                                              <li className="current  has-mega-menu"><a href="rooms.js">Rooms & Suites</a>
+                                              <li className="has-mega-menu"><a href="rooms.js">Rooms & Suites</a>
                                               </li>
-                                              <li><a href="restlounges.js">Resturant & Lounges</a></li>
-                                              <li><a href="our-chef.html">About Us</a></li>
-                                              <li className="dropdown"><a href="menu-list-2.html#">Inside</a>
+                                              <li><a href="about.html">Resturant & Lounges</a></li>
+                                              <li><a href="our-chef.html">Special Offers</a></li>
+                                              <li className="dropdown"><a href="index.html#">Inside</a>
                                                   <ul>
                                                       <li><a href="gallery-masonry.html">Photo Gallery</a></li>
                                                       <li><a href="book-table.html">Reservation 1</a></li>
@@ -74,6 +75,15 @@ function Home() {
                                                       <li><a href="testimonial.html">Testimonial</a></li>
                                                       <li><a href="blog-list.html">Blog List</a></li>
                                                       <li><a href="blog-single-post.html">Blog Single Post</a></li>
+                                                      <li><a href="index.html#">Dropdown Menu 1</a></li>
+                                                      <li><a href="index.html#">Dropdown Lorem 2</a></li>
+                                                      <li className="dropdown"><a href="index.html#">Dropdown Menu 3</a>
+                                                          <ul>
+                                                              <li><a href="index.html#">Dropdown Menu level 2</a></li>
+                                                              <li><a href="index.html#">Dropdown Menu level 2</a></li>
+                                                              <li><a href="index.html#">Dropdown Menu Level 2</a></li>
+                                                          </ul>
+                                                      </li>
                                                   </ul>
                                               </li>
                                               <li><a href="contact.js">Contact</a></li>
@@ -124,16 +134,23 @@ function Home() {
                   {/* Hidden Bar Wrapper */}
                   <div className="inner-box">
                       <div className="cross-icon hidden-bar-closer"><span className="far fa-close" /></div>
-                      <div className="logo-box"><a href="index.html" title="Abuja Intercontinental"><img src="/assets/images/resource/sidebar-logo.png" alt="image" title="Abuja Intercontinental" /></a></div>
+                      <div className="logo-box"><a href="index.html" title="Restoria - Restaurants HTML Template"><img src="/assets/images/resource/sidebar-logo.png" alt="image" title="Restoria - Restaurants HTML Template" /></a></div>
                       {/* .Side-menu */}
                       <div className="side-menu">
                           <ul className="navigation clearfix">
-                              <li className=""><a href="Home.js">Home</a>
+                              <li className="dropdown"><a href="index.html#">Home</a>
+                                  <ul>
+                                      <li><a href="../Restoria-1-Minimal-Hero/index.html">Home 1 - Minimal Hero</a></li>
+                                      <li><a href="index.html">Home 2 - Standard Hero</a></li>
+                                      <li><a href="../Restoria-3-Video-Hero/index.html">Home 3 - Video Hero</a></li>
+                                      <li><a href="../Restoria-4-Category-Hero/index.html">Home 4 - Category Hero</a></li>
+                                      <li><a href="../Restoria-5-Rollingimages-Hero-Center-Header/index.html">Home 5 - Rolling Images</a></li>
+                                  </ul>
                               </li>
                               <li className="dropdown"><a href="rooms.js">Rooms & Suites</a>
                               </li>
                               <li><a href="about.html">Resturant & Lounges</a></li>
-                              <li><a href="our-chef.html">About Us</a></li>
+                              <li><a href="our-chef.html">Special Offers</a></li>
                               <li className="dropdown"><a href="index.html#">Inside</a>
                                   <ul>
                                       <li><a href="gallery-masonry.html">Photo Gallery</a></li>
@@ -142,6 +159,15 @@ function Home() {
                                       <li><a href="testimonial.html">Testimonial</a></li>
                                       <li><a href="blog-list.html">Blog List</a></li>
                                       <li><a href="blog-single-post.html">Blog Single Post</a></li>
+                                      <li><a href="index.html#">Dropdown Menu 1</a></li>
+                                      <li><a href="index.html#">Dropdown Lorem 2</a></li>
+                                      <li className="dropdown"><a href="index.html#">Dropdown Menu 3</a>
+                                          <ul>
+                                              <li><a href="index.html#">Dropdown Menu level 2</a></li>
+                                              <li><a href="index.html#">Dropdown Menu level 2</a></li>
+                                              <li><a href="index.html#">Dropdown Menu Level 2</a></li>
+                                          </ul>
+                                      </li>
                                   </ul>
                               </li>
                               <li><a href="contact.js">Contact</a></li>
@@ -157,7 +183,7 @@ function Home() {
                   <div className="inner-box">
                       <div className="cross-icon"><span className="far fa-close" /></div>
                       <div className="image-box"><img src="images/resource/sidebar-image.jpg" alt="image" title /></div>
-                      <div className="logo-box"><a href="index.html" title="Abuja Intercontinental"><img src="/assets/images/resource/sidebar-logo.png" alt="image" title="Abuja Intercontinental" /></a></div>
+                      <div className="logo-box"><a href="index.html" title="Restoria - Restaurants HTML Template"><img src="/assets/images/resource/sidebar-logo.png" alt="image" title="Restoria - Restaurants HTML Template" /></a></div>
                       <h5>Visit Us</h5>
                       <ul className="info">
                           <li>Abuja Continental <br /> 1 Ladi Kwali Street, Wuse Zone 4, </li>
@@ -775,12 +801,12 @@ function Home() {
                                               <div className="row clearfix">
                                                   <div className="form-group col-lg-6 col-md-6 col-sm-12">
                                                       <div className="field-inner">
-                                                          <input type="text" name="fieldname" defaultValue placeholder="Your Name" required />
+                                                          <input type="text" name="fieldname" defaultValue="" placeholder="Your Name" required />
                                                       </div>
                                                   </div>
                                                   <div className="form-group col-lg-6 col-md-6 col-sm-12">
                                                       <div className="field-inner">
-                                                          <input type="text" name="fieldname" defaultValue placeholder="Phone Number" required />
+                                                          <input type="text" name="fieldname" defaultValue="" placeholder="Phone Number" required />
                                                       </div>
                                                   </div>
                                                   <div className="form-group col-lg-4 col-md-6 col-sm-12">
@@ -801,7 +827,7 @@ function Home() {
                                                   <div className="form-group col-lg-4 col-md-6 col-sm-12">
                                                       <div className="field-inner">
                                                           <span className="alt-icon far fa-calendar" />
-                                                          <input className="l-icon datepicker" type="text" name="fieldname" defaultValue placeholder="DD-MM-YYYY" required readOnly />
+                                                          <input className="l-icon datepicker" type="text" name="fieldname" defaultValue="" placeholder="DD-MM-YYYY" required readOnly />
                                                           <span className="arrow-icon far fa-angle-down" />
                                                       </div>
                                                   </div>
@@ -877,7 +903,7 @@ function Home() {
                                           <div className="footer-image">
                                               <img src="/assets/images/resource/footer-img-1.jpg" alt="image" />
                                           </div>
-                                          <div className="logo"><a href="index.html" title="Abuja Intercontinental"><img src="/assets/images/logo.png" alt="image" title="Abuja Intercontinental" /></a></div>
+                                          <div className="logo"><a href="index.html" title="Restoria - Restaurants HTML Template"><img src="/assets/images/logo.png" alt="image" title="Restoria - Restaurants HTML Template" /></a></div>
                                           <div className="info">
                                               <h6>visit us </h6>
                                               <ul>

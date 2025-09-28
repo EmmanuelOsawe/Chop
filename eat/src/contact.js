@@ -174,7 +174,7 @@ function Contact() {
                   {/*End Hidden Bar */}
                   {/* Inner Banner Section */}
                   <section className="inner-banner">
-                      <div className="image-layer" style={{ backgroundImage: 'url(images/background/banner-image-4.jpg)' }} />
+                      <div className="image-layer" style={{ backgroundImage: 'url(assets/images/gallery/the-hotel.jpg)' }} />
                       <div className="auto-container">
                           <div className="inner">
                               <h1>Contact Us</h1>
@@ -192,7 +192,7 @@ function Contact() {
                                   {/*form image Section*/}
                                   <div className="loc-block info-block col-lg-5 col-md-12 col-sm-12">
                                       <div className="contact-image">
-                                          <img src="images/resource/restaurant.jpg" alt="image" />
+                                          <img src="/assets/images/resource/restaurant.jpg" alt="image" />
                                       </div>
                                       <h5> visit us </h5>
                                       <div className="text">
@@ -223,17 +223,17 @@ function Contact() {
                                                   <div className="clearfix">
                                                       <div className="form-group">
                                                           <div className="field-inner">
-                                                              <input type="text" name="fieldname" defaultValue placeholder="Your Name" required />
+                                                              <input type="text" name="fieldname" defaultValue="" placeholder="Your Name" required />
                                                           </div>
                                                       </div>
                                                       <div className="form-group">
                                                           <div className="field-inner">
-                                                              <input type="text" name="fieldname" defaultValue placeholder="Your Email" required />
+                                                              <input type="text" name="fieldname" defaultValue="" placeholder="Your Email" required />
                                                           </div>
                                                       </div>
                                                       <div className="form-group ">
                                                           <div className="field-inner">
-                                                              <input type="text" name="fieldname" defaultValue placeholder="Phone Number" required />
+                                                              <input type="text" name="fieldname" defaultValue="" placeholder="Phone Number" required />
                                                           </div>
                                                       </div>
                                                       <div className="form-group ">
@@ -274,7 +274,7 @@ function Contact() {
                                       <div className="inner wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                                           <div className="content">
                                               <div className="footer-image">
-                                                  <img src="images/resource/footer-img-1.jpg" alt="image" />
+                                                  <img src="/assets/images/resource/footer-img-1.jpg" alt="image" />
                                               </div>
                                               <div className="logo"><a href="index.html" title="Abuja Intercontinental"><img src="/assets/images/logo.png" alt="image" title="Abuja Intercontinental" /></a></div>
                                               <div className="info">
