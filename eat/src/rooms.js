@@ -62,7 +62,7 @@ function Rooms() {
                                               </li>
                                               <li className="current  has-mega-menu"><a href="rooms.js">Rooms & Suites</a>
                                               </li>
-                                              <li><a href="about.html">REsturant & Lounges</a></li>
+                                              <li><a href="about.html">Resturant & Lounges</a></li>
                                               <li><a href="our-chef.html">Special Offers</a></li>
                                               <li className="dropdown"><a href="menu-list-2.html#">Inside</a>
                                                   <ul>
@@ -130,8 +130,8 @@ function Rooms() {
                               </li>
                               <li className="current dropdown"><a href="menu-list-1.html">Rooms & Suites</a>
                               </li>
-                              <li><a href="about.html">About Us</a></li>
-                              <li><a href="our-chef.html">Our chefs</a></li>
+                              <li><a href="about.html">Resturant & Lounges</a></li>
+                              <li><a href="our-chef.html">Special Offers</a></li>
                               <li className="dropdown"><a href="menu-list-2.html#">Inside</a>
                                   <ul>
                                       <li><a href="gallery-masonry.html">Photo Gallery</a></li>

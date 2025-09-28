@@ -75,15 +75,6 @@ function Home() {
                                                       <li><a href="testimonial.html">Testimonial</a></li>
                                                       <li><a href="blog-list.html">Blog List</a></li>
                                                       <li><a href="blog-single-post.html">Blog Single Post</a></li>
-                                                      <li><a href="index.html#">Dropdown Menu 1</a></li>
-                                                      <li><a href="index.html#">Dropdown Lorem 2</a></li>
-                                                      <li className="dropdown"><a href="index.html#">Dropdown Menu 3</a>
-                                                          <ul>
-                                                              <li><a href="index.html#">Dropdown Menu level 2</a></li>
-                                                              <li><a href="index.html#">Dropdown Menu level 2</a></li>
-                                                              <li><a href="index.html#">Dropdown Menu Level 2</a></li>
-                                                          </ul>
-                                                      </li>
                                                   </ul>
                                               </li>
                                               <li><a href="contact-us.html">Contact</a></li>
@@ -138,7 +129,7 @@ function Home() {
                       {/* .Side-menu */}
                       <div className="side-menu">
                           <ul className="navigation clearfix">
-                              <li className="dropdown"><a href="Home.js">Home</a>
+                              <li className=""><a href="Home.js">Home</a>
                               </li>
                               <li className="dropdown"><a href="rooms.js">Rooms & Suites</a>
                               </li>
