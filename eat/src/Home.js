@@ -66,7 +66,7 @@ function Home() {
                                               <li className="has-mega-menu"><a href="rooms.js">Rooms & Suites</a>
                                               </li>
                                               <li><a href="about.html">Resturant & Lounges</a></li>
-                                              <li><a href="our-chef.html">About Us</a></li>
+                                              <li><a href="About.js">About Us</a></li>
                                               <li className="dropdown"><a href="index.html#">Inside</a>
                                                   <ul>
                                                       <li><a href="gallery-masonry.html">Photo Gallery</a></li>
@@ -134,7 +134,7 @@ function Home() {
                               <li className="dropdown"><a href="rooms.js">Rooms & Suites</a>
                               </li>
                               <li><a href="about.html">Resturant & Lounges</a></li>
-                              <li><a href="our-chef.html">About Us</a></li>
+                              <li><a href="About.js">About Us</a></li>
                               <li className="dropdown"><a href="index.html#">Inside</a>
                                   <ul>
                                       <li><a href="gallery-masonry.html">Photo Gallery</a></li>

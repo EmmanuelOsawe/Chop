@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Home';
 import Rooms from './rooms';
 import Rest from './restlounges';
+import About from './About';
 
 
 function App() {
