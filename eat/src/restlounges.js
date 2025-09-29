@@ -1,10 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import Particles from './Particles';
+import HamburgerMenu from './Hamburger';
+import ScrollToTop from "./ScrollToTop";
 
 function Rest() {
   return (
@@ -80,26 +80,9 @@ function Rest() {
                                               </span>
                                           </a>
                                       </div>
-                                      <div className="link info-toggler">
-                                          <button className="info-btn">
-                                              <span className="hamburger">
-                                                  <span className="top-bun" />
-                                                  <span className="meat" />
-                                                  <span className="bottom-bun" />
-                                              </span>
-                                          </button>
-                                      </div>
+                                      <HamburgerMenu/>
                                   </div>
-                                  {/* Hidden Nav Toggler */}
-                                  <div className="nav-toggler">
-                                      <button className="hidden-bar-opener">
-                                          <span className="hamburger">
-                                              <span className="top-bun" />
-                                              <span className="meat" />
-                                              <span className="bottom-bun" />
-                                          </span>
-                                      </button>
-                                  </div>
+                                  
                               </div>
                           </div>
                       </div>
@@ -278,8 +261,7 @@ function Rest() {
               </footer>
               {/*End pagewrapper*/}
               {/*Scroll to top*/}
-              <div className="scroll-to-top scroll-to-target" data-target="html"><span className="icon fa fa-angle-up" /></div>
-              {/*[if lt IE 9]><![endif]*/}
+              <ScrollToTop />
           </div>
       </div>
 

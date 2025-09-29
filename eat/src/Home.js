@@ -6,6 +6,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 import Particles from './Particles';
 import MenuSection from './selecter';
+import HamburgerMenu from './Hamburger';
+import ScrollToTop from "./ScrollToTop";
 
 function Home() {
   return (
@@ -54,7 +56,7 @@ function Home() {
                           <div className="main-box clearfix">
                               {/*Logo*/}
                               <div className="logo-box">
-                                  <div className="logo"><a href="index.html" title="Restoria - Restaurants HTML Template"><img src="/assets/images/logo.png" alt="image" title="Restoria - Restaurants HTML Template" /></a></div>
+                                  <div className="logo"><a href="index.html" title="Abuja InterContinental"><img src="/assets/images/logo.png" alt="image" title="Abuja InterContinental" /></a></div>
                               </div>
                               <div className="nav-box clearfix">
                                   {/*Nav Outer*/}
@@ -76,33 +78,16 @@ function Home() {
                                   {/*Nav Outer End*/}
                                   <div className="links-box clearfix">
                                       <div className="link link-btn">
-                                          <a href="contact.js" className="theme-btn btn-style-one clearfix">
+                                          <a href="book-table.html" className="theme-btn btn-style-one clearfix">
                                               <span className="btn-wrap">
                                                   <span className="text-one">book a table</span>
                                                   <span className="text-two">book a table</span>
                                               </span>
                                           </a>
                                       </div>
-                                      <div className="link info-toggler">
-                                          <button className="info-btn">
-                                              <span className="hamburger">
-                                                  <span className="top-bun" />
-                                                  <span className="meat" />
-                                                  <span className="bottom-bun" />
-                                              </span>
-                                          </button>
-                                      </div>
+                                     <HamburgerMenu/>
                                   </div>
-                                  {/* Hidden Nav Toggler */}
-                                  <div className="nav-toggler">
-                                      <button className="hidden-bar-opener">
-                                          <span className="hamburger">
-                                              <span className="top-bun" />
-                                              <span className="meat" />
-                                              <span className="bottom-bun" />
-                                          </span>
-                                      </button>
-                                  </div>
+                                  
                               </div>
                           </div>
                       </div>
@@ -116,7 +101,7 @@ function Home() {
                   {/* Hidden Bar Wrapper */}
                   <div className="inner-box">
                       <div className="cross-icon hidden-bar-closer"><span className="far fa-close" /></div>
-                      <div className="logo-box"><a href="index.html" title="Restoria - Restaurants HTML Template"><img src="/assets/images/resource/sidebar-logo.png" alt="image" title="Restoria - Restaurants HTML Template" /></a></div>
+                      <div className="logo-box"><a href="index.html" title="Abuja InterContinental"><img src="/assets/images/resource/sidebar-logo.png" alt="image" title="Abuja InterContinental" /></a></div>
                       {/* .Side-menu */}
                       <div className="side-menu">
                           <ul className="navigation clearfix">
@@ -141,7 +126,7 @@ function Home() {
                   <div className="inner-box">
                       <div className="cross-icon"><span className="far fa-close" /></div>
                       <div className="image-box"><img src="/assets/images/resource/sidebar-image.jpg" alt="image" title /></div>
-                      <div className="logo-box"><a href="index.html" title="Restoria - Restaurants HTML Template"><img src="/assets/images/resource/sidebar-logo.png" alt="image" title="Restoria - Restaurants HTML Template" /></a></div>
+                      <div className="logo-box"><a href="index.html" title="Abuja InterContinental"><img src="/assets/images/resource/sidebar-logo.png" alt="image" title="Abuja InterContinental" /></a></div>
                       <h5>Visit Us</h5>
                       <ul className="info">
                           <li>Abuja Continental <br /> 1 Ladi Kwali Street, Wuse Zone 4, </li>
@@ -242,7 +227,7 @@ function Home() {
                           </div>
                       </SwiperSlide>
                   </Swiper>                  
-                   <a href="contact.js" className="explore-menu-btn">
+                   <a href="book-table.html" className="explore-menu-btn">
                       <span className="icon"> <img src="/assets/images/resource/menu-badge-arrow.png" alt="image" title="image" /> </span>
                   </a>
                   {/* Curve at bottom */}
@@ -786,7 +771,7 @@ function Home() {
                                           <div className="footer-image">
                                               <img src="/assets/images/resource/footer-img-1.jpg" alt="image" />
                                           </div>
-                                          <div className="logo"><a href="index.html" title="Restoria - Restaurants HTML Template"><img src="/assets/images/logo.png" alt="image" title="Restoria - Restaurants HTML Template" /></a></div>
+                                          <div className="logo"><a href="index.html" title="Abuja InterContinental"><img src="/assets/images/logo.png" alt="image" title="Abuja InterContinental" /></a></div>
                                           <div className="info">
                                               <h6>visit us </h6>
                                               <ul>
@@ -831,8 +816,8 @@ function Home() {
               {/*End pagewrapper*/}
               {/*Scroll to top*/}
 
-              <div className="scroll-to-top scroll-to-target"  data-target="html" ><span className="icon fa fa-angle-up" /></div>
-              {/*[if lt IE 9]><![endif]*/}
+
+                <ScrollToTop />
 
         </div>
        
