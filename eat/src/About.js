@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
 import "swiper/css";
 import "swiper/css/pagination";
 import Particles from './Particles';

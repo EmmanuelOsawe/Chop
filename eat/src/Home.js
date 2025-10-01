@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
