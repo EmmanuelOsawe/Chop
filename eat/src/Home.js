@@ -7,6 +7,10 @@ import MenuSection from './selecter';
 import HamburgerMenu from './Hamburger';
 import ScrollToTop from "./ScrollToTop";
 import Demo from "./pages/Demo";
+import { TextGenerateEffectDemo } from "./pages/TextGenerateEffectDemo";
+import { TextGenerateEffectDemotw } from "./pages/TextGenerateEffectDemo(2)";
+import { TextGenerateEffectDemoth } from "./pages/TextGenerateEffectDemo(3)";
+import { TextGenerateEffectDemofr } from "./pages/TextGenerateEffectDemo(4)";
 
 function Home() {
   return (
@@ -429,25 +433,25 @@ function Home() {
                               <div className="fact-block col-lg-3 col-md-6 col-sm-6 col-xs-12">
                                   <div className="inner clearfix">
                                       <div className="fact-title">Games</div>
-                                      <p className='text-light'> Modern 5-star hotels offer gaming lounges, sports courts, and indoor entertainment to keep guests engaged and relaxed. Some even include exclusive activities like bowling, VR games, or unique sports such as padel and pickleball. </p>
+                                      <TextGenerateEffectDemo />
                                   </div>
                               </div>
                               <div className="fact-block col-lg-3 col-md-6 col-sm-6 col-xs-12">
                                   <div className="inner clearfix">
                                       <div className="fact-title">Our Food</div>
-                                      <p className='text-light'> Dining is a highlight, with multiple restaurants and bars serving both local and international cuisines. Guests enjoy fine dining, buffets, and specialty outlets that cater to different tastes, ensuring a memorable culinary journey. </p>
+                                       <TextGenerateEffectDemotw /> 
                                   </div>
                               </div>
                               <div className="fact-block col-lg-3 col-md-6 col-sm-6 col-xs-12">
                                   <div className="inner clearfix">
                                       <div className="fact-title">Gym</div>
-                                      <p className='text-light'> Equipped with state-of-the-art fitness machines, wellness programs, personal trainers, and sometimes even spa or yoga sessions, the gym in a 5-star hotel helps guests maintain a healthy lifestyle while traveling. </p>
+                                       <TextGenerateEffectDemoth /> 
                                   </div>
                               </div>
                               <div className="fact-block col-lg-3 col-md-6 col-sm-6 col-xs-12">
                                   <div className="inner clearfix">
                                       <div className="fact-title">Lobby</div>
-                                      <p className='text-light'> The lobby is grand and elegant, often with stylish décor, comfortable seating, and attentive staff. It sets the tone for the entire stay, reflecting the luxury and prestige of the hotel. </p>
+                                       <TextGenerateEffectDemofr /> 
                                   </div>
                               </div>
                           </div>
