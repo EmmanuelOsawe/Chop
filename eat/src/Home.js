@@ -6,6 +6,7 @@ import Particles from './Particles';
 import MenuSection from './selecter';
 import HamburgerMenu from './Hamburger';
 import ScrollToTop from "./ScrollToTop";
+import Demo from "./pages/Demo";
 
 function Home() {
   return (
@@ -350,6 +351,8 @@ function Home() {
                                   <div className="image"><img src="/assets/images/gallery/magicland.jpg" alt="image" /></div>
                               </div>
                           </div>
+
+                         
                           {/*Col*/}
                           <div className="content-col col-xl-6 col-lg-6 col-md-12 col-sm-12">
                               <div className="inner clearfix wow fadeInRight" data-wow-duration="1500ms" data-wow-delay="0ms">
@@ -357,10 +360,7 @@ function Home() {
                                       <div className="chef-thumb"><img src="/assets/images/events/gym.jpg" alt="image" /></div>
                                       <div className="title-box centered">
                                           <h2>Activities</h2>
-                                          <div className="text">
-                                            Our gym provides top-class equipment and unique facilities, including Nigeria’s first hotel padel and pickleball courts, ensuring a complete fitness experience in Abuja. With five diverse dining outlets—from local flavors to international cuisine at Papillon, Obudu Grill, Soho, Pool Bar, and Lobby Bar—we cater to every taste. We also offer versatile spaces perfect for hosting memorable occasions and events.
-
-                                          </div>
+                                          <Demo/>
                                       </div>
                                       <div className="link-box">
                                           <a href="our-chef.html" className="theme-btn btn-style-two clearfix">

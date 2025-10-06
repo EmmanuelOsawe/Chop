@@ -44,3 +44,33 @@
 
 
 
+.shiny-text {
+  color: hsl(0, 0%, 71%); /* fallback text color */
+  background: linear-gradient(
+    120deg,
+    lightgreen 40%,
+    #f6f6f6 50%,
+    orange 60%
+  );
+  
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; /* makes gradient visible */
+  display: inline-block;
+  animation: shine 5s linear infinite;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: -100%;
+  }
+}
+
+.shiny-text.disabled {
+  animation: none;
+  opacity: 0.6; /* visually show it's disabled */
+}
